@@ -1,0 +1,81 @@
+import type { Metadata } from "next";
+import LeadForm from "@/components/LeadForm";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import { SITE } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "Get Your Cash Offer",
+  description:
+    "Start your no-obligation cash offer. Answer four quick questions and a local buyer for your zip code will call you back — usually within the hour.",
+  alternates: { canonical: "/get-offer" },
+};
+
+const reassurance = [
+  {
+    title: "No obligation, ever",
+    body: "The walkthrough and offer are free. Decline it and you'll never hear from us again — we don't do follow-up call campaigns.",
+  },
+  {
+    title: "Your info stays here",
+    body: "One local buying team receives your request. We never sell or share leads with other investors.",
+  },
+  {
+    title: "Three-day review window",
+    body: "Even after signing, you have three business days to cancel in writing for any reason.",
+  },
+];
+
+export default function GetOfferPage() {
+  return (
+    <>
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 pt-8">
+        <Breadcrumbs items={[{ name: "Get an Offer", url: "/get-offer" }]} />
+      </div>
+
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 pt-8 pb-16">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <h1 className="font-display text-4xl leading-[1.1] text-pine-950">
+              Four questions. One transparent offer.
+            </h1>
+            <p className="mt-5 text-lg text-pine-800/85 leading-relaxed">
+              Tell us where the property is, what shape it&apos;s in, and
+              what&apos;s prompting the sale. The team that covers your zip
+              code will call to schedule a single walkthrough — and you&apos;ll
+              have a written offer within about 48 hours of the visit.
+            </p>
+            <div className="mt-8 space-y-4">
+              {reassurance.map((r) => (
+                <div key={r.title} className="flex gap-4">
+                  <span
+                    aria-hidden
+                    className="mt-0.5 grid place-items-center shrink-0 w-8 h-8 rounded-full bg-pine-100 text-pine-700 font-bold"
+                  >
+                    ✓
+                  </span>
+                  <div>
+                    <p className="font-semibold text-pine-950">{r.title}</p>
+                    <p className="text-sm text-pine-800/80 leading-relaxed">
+                      {r.body}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="mt-8 text-sm text-pine-700">
+              Rather talk to a person first? Call{" "}
+              <a
+                href={`tel:${SITE.phone}`}
+                className="font-semibold text-pine-800 underline underline-offset-4"
+              >
+                {SITE.phoneDisplay}
+              </a>{" "}
+              and we&apos;ll route you to your local team.
+            </p>
+          </div>
+          <LeadForm />
+        </div>
+      </section>
+    </>
+  );
+}

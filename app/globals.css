@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  /* Deep evergreen + warm sand editorial palette */
+  --color-pine-50: #f2f7f4;
+  --color-pine-100: #dfece4;
+  --color-pine-200: #c1d9cc;
+  --color-pine-300: #96bda9;
+  --color-pine-400: #679c82;
+  --color-pine-500: #467f66;
+  --color-pine-600: #336550;
+  --color-pine-700: #285141;
+  --color-pine-800: #224135;
+  --color-pine-900: #1d362d;
+  --color-pine-950: #0e1f19;
+
+  --color-sand-50: #fbf8f1;
+  --color-sand-100: #f5eede;
+  --color-sand-200: #eadbbc;
+  --color-sand-300: #dcc292;
+  --color-sand-400: #cda667;
+  --color-sand-500: #c3924b;
+  --color-sand-600: #b57d3f;
+  --color-sand-700: #966336;
+  --color-sand-800: #7a5031;
+  --color-sand-900: #63422b;
+
+  --color-clay-500: #c96f4a;
+  --color-clay-600: #b45a38;
+
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+    "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-sand-50);
+  color: var(--color-pine-950);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background-color: var(--color-sand-200);
+}
