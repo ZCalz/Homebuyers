@@ -90,6 +90,18 @@ export default function Footer() {
             Nothing on this site is legal, tax, or financial advice; consult a
             licensed professional about your situation.
           </p>
+          <p className="mt-3">
+            Site designed by{" "}
+            <a
+              href="https://daszy.studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sand-300 hover:text-sand-200 underline underline-offset-2"
+            >
+              Daszy Studio
+            </a>
+            .
+          </p>
         </div>
       </div>
     </footer>
