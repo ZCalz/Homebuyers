@@ -29,6 +29,21 @@ interface LeadFormProps {
   compact?: boolean;
 }
 
+function phoneDigitsOnly(value: string): string {
+  return value.replace(/\D/g, "").slice(0, 10);
+}
+
+function formatPhoneDisplay(digits: string): string {
+  if (digits.length === 0) return "";
+  if (digits.length <= 3) return `(${digits}`;
+  if (digits.length <= 6) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+  return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+}
+
+function isValidPhone(digits: string): boolean {
+  return /^\d{10}$/.test(digits);
+}
+
 export default function LeadForm({ defaultZip = "", territory, compact }: LeadFormProps) {
   const [step, setStep] = useState<Step>("zip");
   const [zip, setZip] = useState(defaultZip);
@@ -56,8 +71,12 @@ export default function LeadForm({ defaultZip = "", territory, compact }: LeadFo
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
-    if (!name.trim() || !/^[\d\s()+.-]{7,}$/.test(phone)) {
-      setError("Please add your name and a valid phone number.");
+    if (!name.trim()) {
+      setError("Please add your name.");
+      return;
+    }
+    if (!isValidPhone(phone)) {
+      setError("Please enter a valid 10-digit phone number.");
       return;
     }
     setError("");
@@ -213,10 +232,11 @@ export default function LeadForm({ defaultZip = "", territory, compact }: LeadFo
               aria-label="Phone number"
               required
               type="tel"
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-              placeholder="Phone"
+              inputMode="numeric"
               autoComplete="tel"
+              value={formatPhoneDisplay(phone)}
+              onChange={(e) => setPhone(phoneDigitsOnly(e.target.value))}
+              placeholder="(555) 555-0100"
               className="w-full rounded-lg border border-pine-900/20 bg-sand-50 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-clay-500"
             />
             <input
