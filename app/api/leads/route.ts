@@ -23,9 +23,15 @@ export async function POST(req: Request) {
   const zip = typeof body.zip === "string" ? body.zip.trim() : "";
   const name = typeof body.name === "string" ? body.name.trim() : "";
   const phone = typeof body.phone === "string" ? body.phone.trim() : "";
+  const address = typeof body.address === "string" ? body.address.trim() : "";
+  const howDidYouFindUs =
+    typeof body.howDidYouFindUs === "string" ? body.howDidYouFindUs.trim() : "";
 
   if (!/^\d{5}$/.test(zip)) {
     return NextResponse.json({ error: "A valid 5-digit zip code is required." }, { status: 400 });
+  }
+  if (!address) {
+    return NextResponse.json({ error: "A property address is required." }, { status: 400 });
   }
   if (!name || !phone) {
     return NextResponse.json({ error: "Name and phone are required." }, { status: 400 });
@@ -45,6 +51,8 @@ export async function POST(req: Request) {
   // Demo stand-in for CRM webhook + SMS dispatch.
   console.log("[lead:routed]", {
     zip,
+    address,
+    howDidYouFindUs,
     territory,
     priority,
     reason,

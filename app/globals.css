@@ -1,32 +1,32 @@
 @import "tailwindcss";
 
 @theme {
-  /* Deep evergreen + warm sand editorial palette */
-  --color-pine-50: #f2f7f4;
-  --color-pine-100: #dfece4;
-  --color-pine-200: #c1d9cc;
-  --color-pine-300: #96bda9;
-  --color-pine-400: #679c82;
-  --color-pine-500: #467f66;
-  --color-pine-600: #336550;
-  --color-pine-700: #285141;
-  --color-pine-800: #224135;
-  --color-pine-900: #1d362d;
-  --color-pine-950: #0e1f19;
+  /* Americana palette pulled from the ushomebuy.com logo: navy, cream, flag red */
+  --color-pine-50: #eef1f8;
+  --color-pine-100: #dde3f2;
+  --color-pine-200: #b9c7e4;
+  --color-pine-300: #93a7d1;
+  --color-pine-400: #6683ba;
+  --color-pine-500: #45639f;
+  --color-pine-600: #324c81;
+  --color-pine-700: #263c67;
+  --color-pine-800: #1e2f52;
+  --color-pine-900: #17264d;
+  --color-pine-950: #0c1428;
 
-  --color-sand-50: #fbf8f1;
-  --color-sand-100: #f5eede;
-  --color-sand-200: #eadbbc;
-  --color-sand-300: #dcc292;
-  --color-sand-400: #cda667;
-  --color-sand-500: #c3924b;
-  --color-sand-600: #b57d3f;
-  --color-sand-700: #966336;
-  --color-sand-800: #7a5031;
-  --color-sand-900: #63422b;
+  --color-sand-50: #fbfaf6;
+  --color-sand-100: #f4f0e7;
+  --color-sand-200: #e7e0cd;
+  --color-sand-300: #d5c9a9;
+  --color-sand-400: #bfac7e;
+  --color-sand-500: #a68f5c;
+  --color-sand-600: #8a744a;
+  --color-sand-700: #705d3c;
+  --color-sand-800: #5b4b32;
+  --color-sand-900: #4a3d29;
 
-  --color-clay-500: #c96f4a;
-  --color-clay-600: #b45a38;
+  --color-clay-500: #b7333f;
+  --color-clay-600: #9c2733;
 
   --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
     "Times New Roman", serif;

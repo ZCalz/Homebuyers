@@ -55,34 +55,28 @@ export default function HomePage() {
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--color-pine-100),_transparent_55%)]"
         />
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 pt-14 pb-16 sm:pt-20 sm:pb-24">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-[420px_1fr] gap-10 items-start">
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-pine-600 font-semibold">
                 Serving DC · Maryland · Virginia · Delaware
               </p>
               <h1 className="mt-4 font-display text-4xl sm:text-5xl leading-[1.08] text-pine-950">
-                Sell the house as it stands. Keep your timeline, skip the
-                repairs.
+                Sell your house as-is — on your timeline.
               </h1>
-              <p className="mt-5 text-lg text-pine-800/85 leading-relaxed max-w-xl">
-                We&apos;re direct buyers with local teams across the DMV and
-                Delaware. No commissions, no showings, no lender delays — just a
-                transparent as-is offer and a settlement date you pick.
-              </p>
-              <ul className="mt-6 space-y-2 text-sm text-pine-800">
-                {[
-                  "Offers with the math shown: comps, repair costs, our margin",
-                  "We handle TOPA, probate, ground rent, and tenant situations",
-                  "Close in as little as two weeks — or months later if you need",
-                ].map((li) => (
-                  <li key={li} className="flex gap-2.5">
-                    <span aria-hidden className="text-sand-600 font-bold">—</span>
-                    {li}
-                  </li>
-                ))}
-              </ul>
+              <div className="mt-6 flex flex-wrap gap-2">
+                {["No repairs", "No commissions", "You pick the closing date"].map(
+                  (tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full bg-pine-100 px-3.5 py-1.5 text-xs font-semibold text-pine-800"
+                    >
+                      {tag}
+                    </span>
+                  )
+                )}
+              </div>
             </div>
-            <div className="lg:pl-6">
+            <div>
               <LeadForm />
             </div>
           </div>

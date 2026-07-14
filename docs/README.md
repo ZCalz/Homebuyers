@@ -1,6 +1,6 @@
 # Documentation Index
 
-Strategy and implementation docs for the Chesapeake Home Buyers regional lead-generation site.
+Strategy and implementation docs for the USHomeBuy regional lead-generation site.
 
 | Doc | Covers |
 | --- | --- |

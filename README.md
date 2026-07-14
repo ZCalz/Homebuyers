@@ -1,4 +1,4 @@
-# Chesapeake Home Buyers — Localized Lead-Gen Funnel
+# USHomeBuy — Localized Lead-Gen Funnel
 
 A Next.js demonstration of a regional cash-home-buyer lead-generation site covering **Washington DC, Maryland, Virginia, and Delaware**, built around programmatic local SEO and a low-friction multi-step conversion funnel.
 

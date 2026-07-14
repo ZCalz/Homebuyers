@@ -8,7 +8,7 @@ The reference site's approach and this one solve the same conversion problem wit
 
 | Dimension | Category norm | This site |
 | --- | --- | --- |
-| Palette | High-saturation primaries, red CTAs | Deep evergreen (`pine`), warm paper (`sand`), terracotta accent (`clay`) |
+| Palette | High-saturation primaries, red CTAs | Editorial navy (`pine`), warm paper (`sand`), flag-red accent (`clay`) — drawn from the ushomebuy.com brand mark |
 | Typography | Bold geometric sans everywhere | Serif display (Iowan/Palatino system stack) + system sans body |
 | Tone | Urgency, exclamation points | Candor: "we'll tell you when listing is better" |
 | Trust device | Badges and press logos | Showing the offer math; naming local regulations |
@@ -18,9 +18,9 @@ The reference site's approach and this one solve the same conversion problem wit
 
 Defined in `app/globals.css` via Tailwind v4's `@theme`:
 
-- **`pine` scale (50–950):** brand green. `pine-950` is body text, `pine-900` is the dark band/footer surface, `pine-100` tints callout boxes.
+- **`pine` scale (50–950):** brand navy, matched to the logo mark. `pine-950` is body text, `pine-900` is the dark band/footer surface, `pine-100` tints callout boxes.
 - **`sand` scale (50–900):** warm neutrals. `sand-50` is the page background (warmer than white, reads "paper" not "SaaS"), `sand-500/600` for accent numerals and eyebrow text.
-- **`clay-500/600`:** terracotta, reserved **exclusively for conversion actions** (form CTAs, "Get My Offer"). Because nothing else on the site is orange, the eye finds the conversion path instantly on every page.
+- **`clay-500/600`:** the logo's flag red, reserved **exclusively for conversion actions** (form CTAs, "Get My Offer"). Because nothing else on the site is red, the eye finds the conversion path instantly on every page.
 - **Type:** display serif via a system font stack (Iowan Old Style → Palatino → Georgia) — zero webfont bytes, distinct character. Body stays system sans for legibility at small sizes.
 
 ## Recurring patterns

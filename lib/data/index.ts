@@ -85,10 +85,10 @@ export function routeZip(
 }
 
 export const SITE = {
-  name: "Chesapeake Home Buyers",
+  name: "USHomeBuy",
   tagline: "Sell your house as-is across DC, Maryland, Virginia & Delaware",
-  url: "https://www.chesapeakehomebuyers.example.com",
+  url: "https://www.ushomebuy.com",
   phone: "+18445550190",
   phoneDisplay: "(844) 555-0190",
-  email: "offers@chesapeakehomebuyers.example.com",
+  email: "offers@ushomebuy.com",
 };

@@ -2,7 +2,7 @@
 
 ## What this site is
 
-A regional cash-home-buyer lead-generation funnel covering Washington DC, Maryland, Virginia, and Delaware. It borrows the *structural* playbook of large national buyers (programmatic local landing pages, zip-based lead routing, distress-situation content) but is written, designed, and organized as an independent regional brand ("Chesapeake Home Buyers") with entirely original copy and a distinct visual identity.
+A regional cash-home-buyer lead-generation funnel covering Washington DC, Maryland, Virginia, and Delaware. It borrows the *structural* playbook of large national buyers (programmatic local landing pages, zip-based lead routing, distress-situation content) but is written, designed, and organized as an independent regional brand ("USHomeBuy") with entirely original copy and a distinct visual identity.
 
 ## Stack
 
