@@ -4,8 +4,8 @@ export const maryland: StateData = {
   slug: "maryland",
   name: "Maryland",
   abbr: "MD",
-  phone: "+14105550164",
-  phoneDisplay: "(410) 555-0164",
+  phone: "+15712760986",
+  phoneDisplay: "(571) 276-0986",
   image: "/images/region-maryland.png",
   imageAlt: "Brick and painted rowhomes along a Baltimore street at sunset",
   heroBlurb:

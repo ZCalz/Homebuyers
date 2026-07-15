@@ -25,7 +25,8 @@ export default function TermsAndConditionsPage() {
         <p className="mt-6 text-lg text-pine-800/85 leading-relaxed">
           These Terms and Conditions (&ldquo;Terms&rdquo;) govern your use
           of {SITE.url.replace("https://", "")} (the &ldquo;Site&rdquo;),
-          operated by {SITE.name} (&ldquo;{SITE.name}
+          operated by {SITE.legalEntity}, doing business as {SITE.name}{" "}
+          (&ldquo;{SITE.legalEntity}
           ,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
           By visiting the Site or submitting a form, you agree to these
           Terms. If you do not agree, please do not use the Site.
@@ -35,11 +36,12 @@ export default function TermsAndConditionsPage() {
           Who We Are
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          {SITE.name} is a direct home-buying company with local
-          acquisition teams serving Washington DC, Maryland, Virginia, and
-          Delaware. We evaluate properties and, when a fit makes sense,
-          purchase them directly with our own funds. We are not a real
-          estate brokerage and do not list properties on your behalf.
+          {SITE.legalEntity}, doing business as {SITE.name}, is a direct
+          home-buying company with local acquisition teams serving
+          Washington DC, Maryland, Virginia, and Delaware. We evaluate
+          properties and, when a fit makes sense, purchase them directly
+          with our own funds. We are not a real estate brokerage and do
+          not list properties on your behalf.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
@@ -105,7 +107,7 @@ export default function TermsAndConditionsPage() {
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
           The Site&apos;s text, design, logos, and other content are owned
-          by {SITE.name} or its licensors and are protected by
+          by {SITE.legalEntity} or its licensors and are protected by
           intellectual property laws. You may view and use the Site for
           your own personal, non-commercial purpose of evaluating a sale,
           but you may not reproduce, distribute, or create derivative
@@ -120,7 +122,7 @@ export default function TermsAndConditionsPage() {
           any kind, express or implied. We do not guarantee that the Site
           will be uninterrupted, error-free, or that any estimate shown
           will match a final written offer. To the fullest extent
-          permitted by law, {SITE.name} is not liable for any indirect,
+          permitted by law, {SITE.legalEntity} is not liable for any indirect,
           incidental, or consequential damages arising from your use of
           the Site or reliance on information it contains.
         </p>

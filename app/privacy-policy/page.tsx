@@ -23,8 +23,9 @@ export default function PrivacyPolicyPage() {
         <p className="mt-3 text-sm text-pine-700/70">Last updated: {LAST_UPDATED}</p>
 
         <p className="mt-6 text-lg text-pine-800/85 leading-relaxed">
-          This Privacy Policy explains how {SITE.name} (&ldquo;{SITE.name}
-          ,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;)
+          This Privacy Policy explains how {SITE.legalEntity}, doing
+          business as {SITE.name} (&ldquo;{SITE.legalEntity}
+          ,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;),
           collects, uses, shares, and protects information when you visit{" "}
           {SITE.url.replace("https://", "")} (the &ldquo;Site&rdquo;) or
           submit a request for a cash offer on your property. By using the
@@ -89,8 +90,9 @@ export default function PrivacyPolicyPage() {
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
           If you check the consent box on our lead form, you agree to join
-          our email list and receive SMS messages from {SITE.name} about
-          your request and our latest offers and services. Message and
+          our email list and receive SMS messages from {SITE.legalEntity}{" "}
+          (doing business as {SITE.name}) about your request and our
+          latest offers and services. Message and
           data rates may apply, and message frequency varies. Consent to
           receive marketing messages is never a condition of getting an
           offer or purchasing our services. You can opt out of SMS at any

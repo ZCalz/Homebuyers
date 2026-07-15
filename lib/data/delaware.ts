@@ -4,8 +4,8 @@ export const delaware: StateData = {
   slug: "delaware",
   name: "Delaware",
   abbr: "DE",
-  phone: "+13025550172",
-  phoneDisplay: "(302) 555-0172",
+  phone: "+15712760986",
+  phoneDisplay: "(571) 276-0986",
   image: "/images/region-delaware.png",
   imageAlt: "A sandy beach-town street lined with shingled cottages leading down to the Delaware shore",
   heroBlurb:

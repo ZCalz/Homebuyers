@@ -88,7 +88,9 @@ export const SITE = {
   name: "USHomeBuy",
   tagline: "Sell your house as-is across DC, Maryland, Virginia & Delaware",
   url: "https://www.ushomebuy.com",
-  phone: "+18445550190",
-  phoneDisplay: "(844) 555-0190",
+  phone: "+15712760986",
+  phoneDisplay: "(571) 276-0986",
   email: "offers@ushomebuy.com",
+  /** Registered legal entity operating the SITE.name brand — used on legal pages. */
+  legalEntity: "Your Skyline LLC",
 };

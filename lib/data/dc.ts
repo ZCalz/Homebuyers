@@ -4,8 +4,8 @@ export const dc: StateData = {
   slug: "washington-dc",
   name: "Washington, DC",
   abbr: "DC",
-  phone: "+12025550137",
-  phoneDisplay: "(202) 555-0137",
+  phone: "+15712760986",
+  phoneDisplay: "(571) 276-0986",
   image: "/images/region-dc.png",
   imageAlt: "A row of colorful historic rowhouses on a tree-lined DC street with the Capitol dome visible in the distance",
   heroBlurb:

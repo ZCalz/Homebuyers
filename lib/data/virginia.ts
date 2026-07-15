@@ -4,8 +4,8 @@ export const virginia: StateData = {
   slug: "virginia",
   name: "Virginia",
   abbr: "VA",
-  phone: "+17035550119",
-  phoneDisplay: "(703) 555-0119",
+  phone: "+15712760986",
+  phoneDisplay: "(571) 276-0986",
   image: "/images/region-virginia.png",
   imageAlt: "A brick colonial-style suburban home on a leafy Northern Virginia street",
   heroBlurb:

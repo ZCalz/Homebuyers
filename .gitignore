@@ -23,4 +23,4 @@ npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 
-__refs
+_refs
