@@ -82,7 +82,15 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-sand-100/10 text-xs leading-relaxed text-sand-100/50">
-          <p>
+          <p className="flex flex-wrap gap-x-4 gap-y-1 text-sand-300">
+            <Link href="/privacy-policy" className="hover:text-sand-100 underline underline-offset-2">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-and-conditions" className="hover:text-sand-100 underline underline-offset-2">
+              Terms and Conditions
+            </Link>
+          </p>
+          <p className="mt-3">
             © {new Date().getFullYear()} {SITE.name}. Demonstration project —
             phone numbers, testimonials, and company details are fictional.
             Offers described on this site are typically below full retail

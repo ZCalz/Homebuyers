@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import LeadForm from "@/components/LeadForm";
+import GoogleReviews from "@/components/GoogleReviews";
 import ProcessSteps from "@/components/ProcessSteps";
 import TrustBar from "@/components/TrustBar";
 import CtaBand from "@/components/CtaBand";
@@ -106,6 +107,16 @@ export default function HomePage() {
             </p>
           </figcaption>
         </figure>
+      </section>
+
+      {/* Google reviews */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-14">
+        <h2 className="font-display text-3xl text-pine-950 text-center">
+          What sellers are saying
+        </h2>
+        <div className="mt-8">
+          <GoogleReviews />
+        </div>
       </section>
 
       {/* Process */}

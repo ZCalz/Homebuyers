@@ -1,6 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useId, useRef, useState } from "react";
+import { SITE } from "@/lib/data";
 
 type Step = "zip" | "condition" | "reason" | "contact" | "done";
 
@@ -134,6 +136,7 @@ export default function LeadForm({ defaultZip = "", territory, compact }: LeadFo
   const addressListId = useId();
   const [source, setSource] = useState("");
   const [sourceOther, setSourceOther] = useState("");
+  const [consent, setConsent] = useState(false);
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [routedTo, setRoutedTo] = useState("");
@@ -164,6 +167,10 @@ export default function LeadForm({ defaultZip = "", territory, compact }: LeadFo
       setError("Please enter a valid 10-digit phone number.");
       return;
     }
+    if (!consent) {
+      setError("Please agree to the consent terms to continue.");
+      return;
+    }
     setError("");
     setSubmitting(true);
     const howDidYouFindUs =
@@ -183,6 +190,7 @@ export default function LeadForm({ defaultZip = "", territory, compact }: LeadFo
           email,
           address,
           howDidYouFindUs,
+          smsEmailConsent: consent,
           territory,
           submittedAt: new Date().toISOString(),
         }),
@@ -405,6 +413,39 @@ export default function LeadForm({ defaultZip = "", territory, compact }: LeadFo
               />
             )}
           </div>
+          <label className="flex items-start gap-2.5 text-xs text-pine-700/80 leading-relaxed">
+            <input
+              type="checkbox"
+              required
+              checked={consent}
+              onChange={(e) => setConsent(e.target.checked)}
+              aria-label="Consent to receive email and SMS communications"
+              className="mt-0.5 h-4 w-4 shrink-0 rounded border-pine-900/30 text-clay-500 focus:outline-none focus:ring-2 focus:ring-clay-500"
+            />
+            <span>
+              By clicking &ldquo;Get My Cash Offer&rdquo;, I consent to join
+              the email list and receive SMS from {SITE.name} with access to
+              our latest offers and services. Message and data rates may
+              apply. Message frequency varies. More details on this are in
+              our{" "}
+              <Link
+                href="/privacy-policy"
+                target="_blank"
+                className="underline underline-offset-2 hover:text-pine-900"
+              >
+                Privacy Policy
+              </Link>{" "}
+              and{" "}
+              <Link
+                href="/terms-and-conditions"
+                target="_blank"
+                className="underline underline-offset-2 hover:text-pine-900"
+              >
+                Terms and Conditions
+              </Link>
+              . Text &ldquo;STOP&rdquo; to cancel.
+            </span>
+          </label>
           <button
             type="submit"
             disabled={submitting}

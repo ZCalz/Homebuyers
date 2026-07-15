@@ -26,6 +26,7 @@ export async function POST(req: Request) {
   const address = typeof body.address === "string" ? body.address.trim() : "";
   const howDidYouFindUs =
     typeof body.howDidYouFindUs === "string" ? body.howDidYouFindUs.trim() : "";
+  const smsEmailConsent = body.smsEmailConsent === true;
 
   if (!/^\d{5}$/.test(zip)) {
     return NextResponse.json({ error: "A valid 5-digit zip code is required." }, { status: 400 });
@@ -35,6 +36,12 @@ export async function POST(req: Request) {
   }
   if (!name || !phone) {
     return NextResponse.json({ error: "Name and phone are required." }, { status: 400 });
+  }
+  if (!smsEmailConsent) {
+    return NextResponse.json(
+      { error: "Consent to email/SMS communications is required." },
+      { status: 400 }
+    );
   }
 
   const route = routeZip(zip);
@@ -53,6 +60,7 @@ export async function POST(req: Request) {
     zip,
     address,
     howDidYouFindUs,
+    smsEmailConsent,
     territory,
     priority,
     reason,
