@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description:
-    "Local cash home buyers serving Washington DC, Maryland, Virginia, and Delaware. Fair as-is offers, no repairs, no commissions, closings on your schedule.",
+    "USHomeBuy — also known as US Home Buy — is a US home buying company serving Washington DC, Maryland, Virginia, and Delaware. Fair as-is offers, no repairs, no commissions, closings on your schedule.",
 };
 
 export default function RootLayout({

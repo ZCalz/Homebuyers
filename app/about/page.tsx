@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaBand from "@/components/CtaBand";
-import { states } from "@/lib/data";
+import { states, SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "About Us — Regional Buyers, Local Teams",
+  title: `About Us — Regional Buyers, Local Teams | ${SITE.name}`,
   description:
-    "We're a direct home-buying company built for the DMV and Delaware, with one dedicated acquisition team per state and a transparent-offer policy.",
+    "USHomeBuy (US Home Buy) is a direct US home buying company built for the DMV and Delaware, with one dedicated acquisition team per state and a transparent-offer policy.",
   alternates: { canonical: "/about" },
 };
 

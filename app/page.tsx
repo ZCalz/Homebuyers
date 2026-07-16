@@ -14,7 +14,7 @@ import { situations } from "@/lib/data/situations";
 export const metadata: Metadata = {
   title: `Sell Your House Fast in DC, Maryland, Virginia & Delaware | ${SITE.name}`,
   description:
-    "Local cash home buyers for the DMV and Delaware. Sell as-is with no repairs, no commissions, and a closing date you choose. Get a no-obligation offer today.",
+    "USHomeBuy (US Home Buy) is your local US home buying company for the DMV and Delaware. Sell as-is with no repairs, no commissions, and a closing date you choose. Get a no-obligation offer today.",
 };
 
 const regionalTestimonials = [
