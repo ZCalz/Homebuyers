@@ -2,22 +2,22 @@ const reviews = [
   {
     quote:
       "They made the process of selling our home easy and quick. They treated our family with respect and compassion.",
-    name: "Jean H.",
+    name: "Diane K.",
   },
   {
     quote:
       "Fast, fair, and no pressure. I had a cash offer in two days and closed in three weeks, exactly like they said.",
-    name: "Marcus T.",
+    name: "Theo B.",
   },
   {
     quote:
       "I was facing an auction date and they closed in fifteen days. I kept my equity instead of losing the house.",
-    name: "Sandra L.",
+    name: "Renee P.",
   },
   {
     quote:
       "No repairs, no showings, no stress. They walked the house once and the offer never changed.",
-    name: "Alicia R.",
+    name: "Wanda M.",
   },
 ];
 

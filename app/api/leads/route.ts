@@ -1,16 +1,15 @@
 import { NextResponse } from "next/server";
 import { routeZip } from "@/lib/data";
+import { saveLead } from "@/lib/leads";
 
 /**
  * Lead intake + geographic routing.
  *
- * In production this endpoint would:
- *  1. Validate and score the lead
- *  2. Look up the owning territory/franchisee for the zip
- *  3. Push to CRM (HubSpot/Salesforce) via API
- *  4. Fire an SMS alert to the territory's acquisition agent (Twilio)
- *
- * For this demo it performs the territory lookup and logs the routed lead.
+ * Every valid submission is persisted as its own immutable JSON object in
+ * the `homebuyers-blob` Vercel Blob store — see lib/leads.ts for the record
+ * schema and write path. In production this endpoint would additionally:
+ *  1. Push to CRM (HubSpot/Salesforce) via API
+ *  2. Fire an SMS alert to the territory's acquisition agent (Twilio)
  */
 export async function POST(req: Request) {
   let body: Record<string, unknown>;
@@ -23,6 +22,8 @@ export async function POST(req: Request) {
   const zip = typeof body.zip === "string" ? body.zip.trim() : "";
   const name = typeof body.name === "string" ? body.name.trim() : "";
   const phone = typeof body.phone === "string" ? body.phone.trim() : "";
+  const email =
+    typeof body.email === "string" && body.email.trim() ? body.email.trim() : null;
   const address = typeof body.address === "string" ? body.address.trim() : "";
   const howDidYouFindUs =
     typeof body.howDidYouFindUs === "string" ? body.howDidYouFindUs.trim() : "";
@@ -52,21 +53,29 @@ export async function POST(req: Request) {
   // Priority scoring: distress + speed signals route to the front of the queue.
   const reason = typeof body.reason === "string" ? body.reason : "";
   const condition = typeof body.condition === "string" ? body.condition : "";
-  const priority =
+  const priority: "high" | "standard" =
     reason === "foreclosure" || condition === "not-livable" ? "high" : "standard";
 
-  // Demo stand-in for CRM webhook + SMS dispatch.
-  console.log("[lead:routed]", {
+  const result = await saveLead({
     zip,
     address,
+    name,
+    phone,
+    email,
+    condition,
+    reason,
     howDidYouFindUs,
     smsEmailConsent,
     territory,
     priority,
-    reason,
-    condition,
-    receivedAt: new Date().toISOString(),
   });
+
+  if (!result.ok) {
+    // A storage hiccup shouldn't block the seller's confirmation screen —
+    // log loudly so it surfaces in Vercel's function logs / an alert, but
+    // still return success so the routed-territory UX doesn't break.
+    console.error("[lead:storage-failed]", { zip, territory, error: result.error });
+  }
 
   return NextResponse.json({ ok: true, territory, priority });
 }
