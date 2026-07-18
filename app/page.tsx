@@ -17,33 +17,6 @@ export const metadata: Metadata = {
     "USHomeBuy (US Home Buy) is your local US home buying company for the DMV and Delaware. Sell as-is with no repairs, no commissions, and a closing date you choose. Get a no-obligation offer today.",
 };
 
-const regionalTestimonials = [
-  {
-    quote:
-      "The house sat vacant for six years after my father passed. They helped me get the estate opened and still closed faster than the agent who wanted me to renovate first.",
-    name: "Marcus T.",
-    area: "Congress Heights, Washington DC",
-  },
-  {
-    quote:
-      "My rental in Highlandtown had a tenant who stopped paying and a ground rent I'd never dealt with. They handled both and I closed in three weeks.",
-    name: "Gerald W.",
-    area: "Baltimore, MD",
-  },
-  {
-    quote:
-      "The auction was three weeks out when I called. They talked to the trustee, closed in fifteen days, and I walked away with my equity instead of losing it.",
-    name: "Sandra L.",
-    area: "Dale City, VA",
-  },
-  {
-    quote:
-      "Four siblings, one inherited cottage, zero agreement — until a clean cash offer gave us a number we could split and be done.",
-    name: "The Callahan Family",
-    area: "Lewes, DE",
-  },
-];
-
 export default function HomePage() {
   return (
     <>
@@ -207,29 +180,6 @@ export default function HomePage() {
                 {s.lede}
               </p>
             </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-20">
-        <h2 className="font-display text-3xl text-pine-950">
-          Sellers across four states
-        </h2>
-        <div className="mt-8 grid sm:grid-cols-2 gap-5">
-          {regionalTestimonials.map((t) => (
-            <figure
-              key={t.name}
-              className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6"
-            >
-              <blockquote className="text-pine-900 leading-relaxed">
-                “{t.quote}”
-              </blockquote>
-              <figcaption className="mt-4 text-sm">
-                <span className="font-semibold text-pine-800">{t.name}</span>
-                <span className="text-pine-700/70"> · {t.area}</span>
-              </figcaption>
-            </figure>
           ))}
         </div>
       </section>

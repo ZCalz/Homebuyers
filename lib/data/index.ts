@@ -90,7 +90,7 @@ export const SITE = {
   url: "https://www.ushomebuy.com",
   phone: "+15712760986",
   phoneDisplay: "(571) 276-0986",
-  email: "offers@ushomebuy.com",
+  email: "kirillYSC@gmail.com",
   /** Registered legal entity operating the SITE.name brand — used on legal pages. */
   legalEntity: "Your Skyline LLC",
 };

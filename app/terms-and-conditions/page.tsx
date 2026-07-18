@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/terms-and-conditions" },
 };
 
-const LAST_UPDATED = "July 14, 2026";
+const EFFECTIVE_DATE = "July 18, 2026";
+const LAST_UPDATED = "July 18, 2026";
 
 export default function TermsAndConditionsPage() {
   return (
@@ -20,151 +21,172 @@ export default function TermsAndConditionsPage() {
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-8 pb-20">
         <h1 className="font-display text-4xl text-pine-950">Terms and Conditions</h1>
-        <p className="mt-3 text-sm text-pine-700/70">Last updated: {LAST_UPDATED}</p>
+        <p className="mt-3 text-sm text-pine-700/70">
+          Effective date: {EFFECTIVE_DATE} · Last updated: {LAST_UPDATED}
+        </p>
 
         <p className="mt-6 text-lg text-pine-800/85 leading-relaxed">
-          These Terms and Conditions (&ldquo;Terms&rdquo;) govern your use
-          of {SITE.url.replace("https://", "")} (the &ldquo;Site&rdquo;),
-          operated by {SITE.legalEntity}, doing business as {SITE.name}{" "}
-          (&ldquo;{SITE.legalEntity}
-          ,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
-          By visiting the Site or submitting a form, you agree to these
-          Terms. If you do not agree, please do not use the Site.
+          These Terms and Conditions (&ldquo;Terms&rdquo;) govern your
+          access to and use of the {SITE.name} website{" "}
+          {SITE.url.replace("https://", "")} (the &ldquo;Site&rdquo;) and
+          any services offered by {SITE.legalEntity}, doing business as{" "}
+          {SITE.name} (&ldquo;{SITE.name},&rdquo; &ldquo;we,&rdquo;
+          &ldquo;us,&rdquo; or &ldquo;our&rdquo;). By accessing the Site
+          or submitting a form, you agree to be bound by these Terms. If
+          you do not agree, please do not use the Site.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Who We Are
+          1. Who We Are
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          {SITE.legalEntity}, doing business as {SITE.name}, is a direct
-          home-buying company with local acquisition teams serving
-          Washington DC, Maryland, Virginia, and Delaware. We evaluate
-          properties and, when a fit makes sense, purchase them directly
-          with our own funds. We are not a real estate brokerage and do
-          not list properties on your behalf.
+          {SITE.name} is a real estate investment company that purchases
+          residential properties directly from homeowners. We are not a
+          real estate brokerage, and we do not list properties on behalf
+          of sellers. Any cash offer we provide reflects our own interest
+          in purchasing your property directly, not a market listing
+          valuation.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Requesting an Offer Is Not a Purchase Agreement
+          2. No Obligation
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          Submitting a form, receiving a call, or receiving a preliminary
-          or verbal offer through the Site does not create a binding
-          obligation for either party to buy or sell any property. A sale
-          is only binding once both parties sign a written purchase and
-          sale agreement. Any figures, timelines, or offer ranges shown or
-          discussed before that point are estimates and subject to change
-          based on a property walkthrough, title review, and other
-          diligence.
+          Submitting a form, requesting a cash offer, or speaking with a{" "}
+          {SITE.name} representative does not obligate you to sell your
+          property, and does not obligate us to purchase it. Any offer we
+          extend is non-binding until both parties execute a written
+          purchase agreement.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Using the Site
+          3. Consent to Contact
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          You agree to provide accurate information about yourself and the
-          property when using our forms, to use the Site only for
-          legitimate purposes related to evaluating a potential sale, and
-          not to interfere with the Site&apos;s operation, probe it for
-          vulnerabilities, or scrape its content. We may refuse service,
-          decline to make an offer, or terminate access to the Site at our
-          discretion.
+          By submitting your information through the Site, you expressly
+          consent to be contacted by {SITE.name}, its agents, and assigns
+          by phone, text message (SMS), and email at the number(s) and
+          address(es) provided, including through the use of an automatic
+          telephone dialing system or prerecorded/artificial voice
+          messages, for purposes related to your inquiry and our
+          services. Message and data rates may apply. You may revoke this
+          consent at any time by replying &ldquo;STOP&rdquo; to a text
+          message or contacting us directly (see Section 11).
+        </p>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          Your submission of contact information constitutes your
+          electronic signature and express written consent under
+          applicable telemarketing and consumer protection laws,
+          including the Telephone Consumer Protection Act (TCPA).
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Communications Consent
+          4. Accuracy of Information
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          If you opt in on our lead form, you consent to receive email and
-          SMS messages from us about your request and our services,
-          consistent with our{" "}
-          <Link
-            href="/privacy-policy"
-            className="underline underline-offset-2 hover:text-pine-950"
-          >
-            Privacy Policy
-          </Link>
-          . Message and data rates may apply, message frequency varies,
-          and consent is never a condition of any purchase. Reply
-          &ldquo;STOP&rdquo; to any text message to opt out of SMS at any
-          time.
+          Any cash offer provided through the Site is preliminary and
+          based solely on the information you provide and publicly
+          available data. Final offers are subject to an in-person or
+          virtual property evaluation. You represent that any
+          information you submit is accurate and that you are the legal
+          owner of the property in question, or are authorized to act on
+          the owner&apos;s behalf.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          No Professional Advice
+          5. No Professional Advice
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          Content on the Site — including information about local
-          regulations, timelines, or the general process of selling a
-          house — is provided for general informational purposes only and
-          is not legal, tax, financial, or real estate advice. Please
-          consult a licensed professional about your specific situation
-          before making a decision.
+          Nothing on the Site constitutes legal, financial, tax, or real
+          estate advice. We encourage you to consult with a licensed
+          attorney, financial advisor, or real estate professional before
+          making decisions about selling your property.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Intellectual Property
+          6. Intellectual Property
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          The Site&apos;s text, design, logos, and other content are owned
-          by {SITE.legalEntity} or its licensors and are protected by
-          intellectual property laws. You may view and use the Site for
-          your own personal, non-commercial purpose of evaluating a sale,
-          but you may not reproduce, distribute, or create derivative
-          works from Site content without our permission.
+          All content on the Site, including text, graphics, logos, and
+          images, is the property of {SITE.legalEntity} or its licensors
+          and is protected by applicable copyright and trademark laws.
+          You may not reproduce, distribute, or create derivative works
+          from Site content without our prior written consent.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Disclaimers &amp; Limitation of Liability
+          7. Third-Party Links
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          The Site is provided &ldquo;as is&rdquo; without warranties of
-          any kind, express or implied. We do not guarantee that the Site
-          will be uninterrupted, error-free, or that any estimate shown
-          will match a final written offer. To the fullest extent
-          permitted by law, {SITE.legalEntity} is not liable for any indirect,
-          incidental, or consequential damages arising from your use of
-          the Site or reliance on information it contains.
+          The Site may contain links to third-party websites for your
+          convenience. We do not control and are not responsible for the
+          content, accuracy, or practices of any linked third-party site.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Governing Law
+          8. Disclaimer of Warranties
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          These Terms are governed by the laws of the state in which the
-          relevant property is located, without regard to conflict-of-law
-          principles, except where federal law applies.
+          The Site and all content, offers, and information provided
+          through it are offered &ldquo;as is&rdquo; and &ldquo;as
+          available,&rdquo; without warranties of any kind, express or
+          implied, including but not limited to warranties of
+          merchantability, fitness for a particular purpose, or
+          non-infringement. We do not warrant that the Site will be
+          uninterrupted, error-free, or secure.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Changes to These Terms
+          9. Limitation of Liability
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          We may update these Terms from time to time. We will post the
-          revised version on this page with an updated &ldquo;Last
-          updated&rdquo; date. Continued use of the Site after a change
-          means you accept the revised Terms.
+          To the fullest extent permitted by law, {SITE.legalEntity} and
+          its officers, employees, and agents shall not be liable for any
+          indirect, incidental, special, consequential, or punitive
+          damages arising out of or relating to your use of the Site or
+          any transaction contemplated through it. Our total liability
+          for any claim arising from your use of the Site shall not
+          exceed the amount, if any, you paid to us in connection with
+          the claim.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Contact Us
+          10. Governing Law and Disputes
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          Questions about these Terms? Reach us at{" "}
-          <a
-            href={`mailto:${SITE.email}`}
-            className="underline underline-offset-2 hover:text-pine-950"
-          >
-            {SITE.email}
-          </a>{" "}
-          or{" "}
+          These Terms are governed by the laws of the Commonwealth of
+          Virginia, without regard to conflict-of-law principles. Any
+          dispute arising out of or relating to these Terms or the Site
+          shall be resolved in the state or federal courts located in
+          Virginia, and you consent to the personal jurisdiction of such
+          courts.
+        </p>
+
+        <h2 className="mt-10 font-display text-2xl text-pine-950">
+          11. Contact Us
+        </h2>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          Questions about these Terms can be directed to:
+        </p>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          <span className="font-semibold text-pine-900">{SITE.name}</span>
+          <br />
           <a
             href={`tel:${SITE.phone}`}
             className="underline underline-offset-2 hover:text-pine-950"
           >
             {SITE.phoneDisplay}
           </a>
-          . See also our{" "}
+          <br />
+          <a
+            href={`mailto:${SITE.email}`}
+            className="underline underline-offset-2 hover:text-pine-950"
+          >
+            {SITE.email}
+          </a>
+        </p>
+        <p className="mt-4 text-pine-800/85 leading-relaxed">
+          See also our{" "}
           <Link
             href="/privacy-policy"
             className="underline underline-offset-2 hover:text-pine-950"
@@ -174,10 +196,14 @@ export default function TermsAndConditionsPage() {
           .
         </p>
 
-        <p className="mt-10 text-xs text-pine-700/60 leading-relaxed border-t border-pine-900/10 pt-6">
-          Demonstration project: these terms are sample content for a
-          portfolio site and have not been reviewed by an attorney. Do not
-          rely on them as actual terms of service for a live business.
+        <h2 className="mt-10 font-display text-2xl text-pine-950">
+          12. Changes to These Terms
+        </h2>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          We may revise these Terms at any time by updating this page.
+          Your continued use of the Site after changes are posted
+          constitutes your acceptance of the revised Terms. We encourage
+          you to review this page periodically.
         </p>
       </section>
     </>

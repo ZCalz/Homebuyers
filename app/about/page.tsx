@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaBand from "@/components/CtaBand";
-import { states, SITE } from "@/lib/data";
+import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: `About Us — Regional Buyers, Local Teams | ${SITE.name}`,
@@ -67,26 +67,6 @@ export default function AboutPage() {
             <div key={v.title} className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
               <h3 className="font-display text-xl text-pine-950">{v.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-pine-800/80">{v.body}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-14">
-        <h2 className="font-display text-3xl text-pine-950">Our teams</h2>
-        <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {states.map((st) => (
-            <div key={st.slug} className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
-              <h3 className="font-display text-lg text-pine-950">{st.name}</h3>
-              <p className="mt-1 text-xs text-pine-600">
-                {st.cities.length} active markets
-              </p>
-              <a
-                href={`tel:${st.phone}`}
-                className="mt-3 inline-block text-sm font-semibold text-pine-700 hover:text-pine-600"
-              >
-                {st.phoneDisplay}
-              </a>
             </div>
           ))}
         </div>

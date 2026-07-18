@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy-policy" },
 };
 
-const LAST_UPDATED = "July 14, 2026";
+const EFFECTIVE_DATE = "July 18, 2026";
+const LAST_UPDATED = "July 18, 2026";
 
 export default function PrivacyPolicyPage() {
   return (
@@ -20,192 +21,218 @@ export default function PrivacyPolicyPage() {
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-8 pb-20">
         <h1 className="font-display text-4xl text-pine-950">Privacy Policy</h1>
-        <p className="mt-3 text-sm text-pine-700/70">Last updated: {LAST_UPDATED}</p>
+        <p className="mt-3 text-sm text-pine-700/70">
+          Effective date: {EFFECTIVE_DATE} · Last updated: {LAST_UPDATED}
+        </p>
 
         <p className="mt-6 text-lg text-pine-800/85 leading-relaxed">
-          This Privacy Policy explains how {SITE.legalEntity}, doing
-          business as {SITE.name} (&ldquo;{SITE.legalEntity}
-          ,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;),
-          collects, uses, shares, and protects information when you visit{" "}
-          {SITE.url.replace("https://", "")} (the &ldquo;Site&rdquo;) or
-          submit a request for a cash offer on your property. By using the
-          Site or submitting a form, you agree to the practices described
-          here.
+          {SITE.legalEntity}, doing business as {SITE.name} (&ldquo;
+          {SITE.name},&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
+          &ldquo;our&rdquo;), respects your privacy. This Privacy Policy
+          explains how we collect, use, disclose, and protect information
+          when you visit {SITE.url.replace("https://", "")}, submit a form,
+          call us, text us, or otherwise communicate with us (collectively,
+          the &ldquo;Site&rdquo;).
+        </p>
+        <p className="mt-4 text-pine-800/85 leading-relaxed">
+          By accessing or using the Site, or by submitting your information
+          to us, you agree to the terms of this Privacy Policy.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Information We Collect
+          1. Information We Collect
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          We collect information in three ways: what you give us directly,
-          what your device sends us automatically, and what a third-party
-          service provides while assisting our forms.
+          <span className="font-semibold text-pine-900">
+            Information you provide directly.
+          </span>{" "}
+          When you fill out a form, request a cash offer, or contact us, we
+          may collect:
         </p>
-        <ul className="mt-4 space-y-2 text-pine-800/85 leading-relaxed list-disc pl-5">
+        <ul className="mt-3 space-y-1.5 text-pine-800/85 leading-relaxed list-disc pl-5">
+          <li>Name, email address, mailing address, and phone number</li>
           <li>
-            <span className="font-semibold text-pine-900">
-              Information you provide:
-            </span>{" "}
-            your name, phone number, email address, property address, zip
-            code, property condition, reason for selling, how you heard
-            about us, and any other details you choose to share when you
-            request an offer, call us, or email us.
+            Property address and details (condition, square footage,
+            occupancy status, etc.)
           </li>
           <li>
-            <span className="font-semibold text-pine-900">
-              Information collected automatically:
-            </span>{" "}
-            IP address, browser and device type, pages visited, referring
-            page, and general usage data, typically gathered through
-            standard web server logs and analytics cookies.
+            Mortgage, lien, tax, repair, or other property-related
+            information you voluntarily share
           </li>
-          <li>
-            <span className="font-semibold text-pine-900">
-              Third-party address lookup:
-            </span>{" "}
-            as you type a property address into our form, we send that
-            partial text to OpenStreetMap&apos;s Nominatim geocoding
-            service to suggest matching addresses. That service receives
-            only the text you&apos;ve typed, not your name or contact
-            details, and operates under its own privacy practices.
-          </li>
-        </ul>
-
-        <h2 className="mt-10 font-display text-2xl text-pine-950">
-          How We Use Your Information
-        </h2>
-        <p className="mt-3 text-pine-800/85 leading-relaxed">
-          We use the information we collect to route your request to the
-          local acquisition team covering your zip code, prepare and
-          communicate a cash offer, respond to your questions, schedule a
-          walkthrough, service any resulting purchase, improve the Site and
-          our offer process, and meet legal and accounting obligations. We
-          do not use your property or contact information to make
-          decisions about you outside the scope of evaluating and
-          purchasing your property.
-        </p>
-
-        <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Email &amp; SMS Communications
-        </h2>
-        <p className="mt-3 text-pine-800/85 leading-relaxed">
-          If you check the consent box on our lead form, you agree to join
-          our email list and receive SMS messages from {SITE.legalEntity}{" "}
-          (doing business as {SITE.name}) about your request and our
-          latest offers and services. Message and
-          data rates may apply, and message frequency varies. Consent to
-          receive marketing messages is never a condition of getting an
-          offer or purchasing our services. You can opt out of SMS at any
-          time by replying &ldquo;STOP&rdquo; to any message, and opt out
-          of email by using the unsubscribe link in any message or by
-          contacting us directly. We may still contact you by phone or
-          email regarding an active offer or transaction even if you opt
-          out of marketing messages.
-        </p>
-
-        <h2 className="mt-10 font-display text-2xl text-pine-950">
-          How We Share Information
-        </h2>
-        <p className="mt-3 text-pine-800/85 leading-relaxed">
-          We share information with the local {SITE.name} acquisition team
-          responsible for your zip code, and with service providers who
-          help us operate the Site and our business — including hosting,
-          customer relationship management, email/SMS delivery, and the
-          address-lookup provider described above. These providers are
-          only permitted to use your information to perform services on
-          our behalf. We may also disclose information if required by
-          law, to protect our rights, or in connection with a merger,
-          financing, or sale of business assets. We do not sell your
-          personal information to third parties for their own marketing
-          purposes.
-        </p>
-
-        <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Cookies &amp; Tracking
-        </h2>
-        <p className="mt-3 text-pine-800/85 leading-relaxed">
-          The Site uses basic cookies and similar technologies to remember
-          your progress through our lead form and to understand how
-          visitors use the Site. You can control or disable cookies through
-          your browser settings; doing so may affect some Site
-          functionality, such as multi-step form progress.
-        </p>
-
-        <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Data Retention
-        </h2>
-        <p className="mt-3 text-pine-800/85 leading-relaxed">
-          We retain the information you submit for as long as needed to
-          respond to your request, service any resulting transaction, and
-          meet our legal, accounting, and record-keeping obligations. If
-          you ask us to delete your information and we have no legal
-          obligation to keep it, we will do so.
-        </p>
-
-        <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Your Rights &amp; Choices
-        </h2>
-        <ul className="mt-4 space-y-2 text-pine-800/85 leading-relaxed list-disc pl-5">
-          <li>Ask what personal information we hold about you and request a copy.</li>
-          <li>Ask us to correct inaccurate information.</li>
-          <li>Ask us to delete your information, subject to legal and record-keeping exceptions.</li>
-          <li>Opt out of email and SMS marketing at any time, as described above.</li>
-          <li>Depending on your state of residence, you may have additional rights under laws such as the California Consumer Privacy Act.</li>
+          <li>Any other information you choose to provide in communications with us</li>
         </ul>
         <p className="mt-4 text-pine-800/85 leading-relaxed">
-          To exercise any of these rights, contact us using the details
-          below. We will respond within a reasonable time.
+          <span className="font-semibold text-pine-900">
+            Information collected automatically.
+          </span>{" "}
+          When you visit the Site, we may automatically collect:
+        </p>
+        <ul className="mt-3 space-y-1.5 text-pine-800/85 leading-relaxed list-disc pl-5">
+          <li>IP address, browser type, device type, and operating system</li>
+          <li>Pages visited, referring pages, and time spent on the Site</li>
+          <li>Cookies and similar tracking technologies (see Section 5)</li>
+        </ul>
+        <p className="mt-4 text-pine-800/85 leading-relaxed">
+          <span className="font-semibold text-pine-900">
+            Third-party address lookup.
+          </span>{" "}
+          As you type a property address into our form, we send that
+          partial text to OpenStreetMap&apos;s Nominatim geocoding service
+          to suggest matching addresses. That service receives only the
+          text you&apos;ve typed, not your name or contact details, and
+          operates under its own privacy practices.
+        </p>
+        <p className="mt-4 text-pine-800/85 leading-relaxed">
+          You may browse the Site anonymously; providing personal
+          information is only required if you request a cash offer or
+          contact us directly.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Children&apos;s Privacy
+          2. How We Use Your Information
+        </h2>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">We use the information we collect to:</p>
+        <ul className="mt-3 space-y-1.5 text-pine-800/85 leading-relaxed list-disc pl-5">
+          <li>Evaluate your property and prepare a cash offer</li>
+          <li>Communicate with you by phone, email, or text message about your inquiry or offer</li>
+          <li>Improve and maintain the Site</li>
+          <li>Comply with legal obligations and enforce our Terms and Conditions</li>
+          <li>Send you marketing communications about our services, where permitted (see Section 3)</li>
+        </ul>
+
+        <h2 className="mt-10 font-display text-2xl text-pine-950">
+          3. SMS / Text Message Consent
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          The Site is intended for adults evaluating the sale of real
-          property. We do not knowingly collect personal information from
-          anyone under 18. If you believe a minor has provided us
-          information, contact us and we will delete it.
+          By submitting a form on the Site, you consent to receive SMS
+          text messages from {SITE.name} related to your inquiry and our
+          services. Message and data rates may apply. Message frequency
+          varies. You may opt out at any time by replying
+          &ldquo;STOP&rdquo; to any text message. Reply &ldquo;HELP&rdquo;
+          for assistance. Consent to receive text messages is not a
+          condition of any purchase or service.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Data Security
+          4. Do We Sell or Share Your Information?
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          We use reasonable administrative and technical safeguards to
-          protect the information you share with us. No method of
-          transmission or storage is completely secure, and we cannot
-          guarantee absolute security.
+          We do not sell, trade, or rent your personally identifiable
+          information to third parties for their independent marketing
+          purposes.
+        </p>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">We may share your information with:</p>
+        <ul className="mt-3 space-y-1.5 text-pine-800/85 leading-relaxed list-disc pl-5">
+          <li>
+            Trusted third-party service providers who help us operate the
+            Site, process your request, or facilitate a transaction (e.g.,
+            title companies, closing attorneys, contractors performing
+            inspections), who are required to keep your information
+            confidential
+          </li>
+          <li>Parties involved in a property transaction you have engaged with us on</li>
+          <li>Law enforcement or regulators, if required by law, subpoena, or legal process</li>
+          <li>
+            A successor entity, in the event {SITE.legalEntity} is
+            acquired by, merged with, or sells substantially all of its
+            assets to another company — you will be notified of any such
+            change and how it affects your information
+          </li>
+        </ul>
+
+        <h2 className="mt-10 font-display text-2xl text-pine-950">
+          5. Cookies and Tracking Technologies
+        </h2>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          The Site may use cookies and similar technologies, including
+          analytics and remarketing tools such as Google Analytics, Google
+          Ads, and Meta/Facebook Pixel, if enabled, to understand Site
+          usage and to show relevant ads on other websites based on your
+          visit to our Site. These third parties may use their own
+          cookies to serve ads based on your prior visits to the Site.
+          You can control cookies through your browser settings, and you
+          can opt out of Google&apos;s use of cookies for ad
+          personalization by visiting Google&apos;s Ads Settings.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Changes to This Policy
+          6. Your Privacy Rights
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          We may update this Privacy Policy from time to time. We will
-          post the revised version on this page with an updated
-          &ldquo;Last updated&rdquo; date. Continued use of the Site after
-          a change means you accept the revised policy.
+          Depending on your state of residence, you may have rights under
+          state privacy laws (such as those in California, Colorado,
+          Connecticut, Virginia, Utah, and others), which may include the
+          right to:
+        </p>
+        <ul className="mt-3 space-y-1.5 text-pine-800/85 leading-relaxed list-disc pl-5">
+          <li>Know what personal information we have collected about you</li>
+          <li>Request deletion of your personal information</li>
+          <li>Correct inaccurate personal information</li>
+          <li>Opt out of the sale or sharing of personal information, or targeted advertising</li>
+          <li>Not be discriminated against for exercising these rights</li>
+        </ul>
+        <p className="mt-4 text-pine-800/85 leading-relaxed">
+          To exercise any of these rights, contact us using the
+          information in Section 10. We will verify your request and
+          respond within the timeframe required by applicable law.
         </p>
 
         <h2 className="mt-10 font-display text-2xl text-pine-950">
-          Contact Us
+          7. Children&apos;s Privacy
         </h2>
         <p className="mt-3 text-pine-800/85 leading-relaxed">
-          Questions about this policy or your information? Reach us at{" "}
-          <a
-            href={`mailto:${SITE.email}`}
-            className="underline underline-offset-2 hover:text-pine-950"
-          >
-            {SITE.email}
-          </a>{" "}
-          or{" "}
+          The Site is not directed to individuals under the age of 18, and
+          we do not knowingly collect personal information from children.
+          If we learn that we have collected personal information from a
+          child without parental consent, we will delete it.
+        </p>
+
+        <h2 className="mt-10 font-display text-2xl text-pine-950">
+          8. Third-Party Links
+        </h2>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          The Site may contain links to third-party websites. We are not
+          responsible for the privacy practices or content of those
+          websites. We encourage you to review the privacy policy of any
+          third-party site you visit.
+        </p>
+
+        <h2 className="mt-10 font-display text-2xl text-pine-950">
+          9. Data Security
+        </h2>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          We implement reasonable administrative, technical, and physical
+          safeguards designed to protect your personal information.
+          However, no method of transmission or storage is 100% secure,
+          and we cannot guarantee absolute security.
+        </p>
+
+        <h2 className="mt-10 font-display text-2xl text-pine-950">
+          10. Contact Us
+        </h2>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          If you have questions about this Privacy Policy or wish to
+          exercise your privacy rights, contact us at:
+        </p>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          <span className="font-semibold text-pine-900">{SITE.name}</span>
+          <br />
           <a
             href={`tel:${SITE.phone}`}
             className="underline underline-offset-2 hover:text-pine-950"
           >
             {SITE.phoneDisplay}
           </a>
-          . See also our{" "}
+          <br />
+          <a
+            href={`mailto:${SITE.email}`}
+            className="underline underline-offset-2 hover:text-pine-950"
+          >
+            {SITE.email}
+          </a>
+        </p>
+        <p className="mt-4 text-pine-800/85 leading-relaxed">
+          See also our{" "}
           <Link
             href="/terms-and-conditions"
             className="underline underline-offset-2 hover:text-pine-950"
@@ -215,10 +242,14 @@ export default function PrivacyPolicyPage() {
           .
         </p>
 
-        <p className="mt-10 text-xs text-pine-700/60 leading-relaxed border-t border-pine-900/10 pt-6">
-          Demonstration project: this policy is sample content for a
-          portfolio site and has not been reviewed by an attorney. Do not
-          rely on it as an actual privacy policy for a live business.
+        <h2 className="mt-10 font-display text-2xl text-pine-950">
+          11. Changes to This Policy
+        </h2>
+        <p className="mt-3 text-pine-800/85 leading-relaxed">
+          We may update this Privacy Policy from time to time. The
+          &ldquo;Last updated&rdquo; date at the top of this page reflects
+          the most recent revision. Continued use of the Site after
+          changes are posted constitutes acceptance of the revised policy.
         </p>
       </section>
     </>

@@ -33,18 +33,12 @@ export default function LocationsPage() {
       <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-12 space-y-12">
         {states.map((st) => (
           <div key={st.slug}>
-            <div className="flex flex-wrap items-baseline justify-between gap-3 border-b border-pine-900/10 pb-3">
+            <div className="border-b border-pine-900/10 pb-3">
               <h2 className="font-display text-2xl text-pine-950">
                 <Link href={`/${st.slug}`} className="hover:text-pine-700">
                   {st.name}
                 </Link>
               </h2>
-              <a
-                href={`tel:${st.phone}`}
-                className="text-sm font-semibold text-pine-700 hover:text-pine-600"
-              >
-                {st.abbr} team: {st.phoneDisplay}
-              </a>
             </div>
             <div className="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {st.cities.map((c) => (

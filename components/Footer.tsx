@@ -28,7 +28,6 @@ export default function Footer() {
             </p>
             <ul className="space-y-2 text-sm">
               <li><Link href="/how-it-works" className="hover:text-sand-200">How It Works</Link></li>
-              <li><Link href="/reviews" className="hover:text-sand-200">Reviews</Link></li>
               <li><Link href="/about" className="hover:text-sand-200">About Us</Link></li>
               <li><Link href="/faq" className="hover:text-sand-200">FAQ</Link></li>
               <li><Link href="/get-offer" className="hover:text-sand-200">Get an Offer</Link></li>
@@ -91,11 +90,10 @@ export default function Footer() {
             </Link>
           </p>
           <p className="mt-3">
-            © {new Date().getFullYear()} {SITE.name}. Demonstration project —
-            phone numbers, testimonials, and company details are fictional.
-            Offers described on this site are typically below full retail
-            market value in exchange for speed, certainty, and as-is condition.
-            Nothing on this site is legal, tax, or financial advice; consult a
+            © {new Date().getFullYear()} {SITE.name}. Offers described on
+            this site are typically below full retail market value in
+            exchange for speed, certainty, and as-is condition. Nothing on
+            this site is legal, tax, or financial advice; consult a
             licensed professional about your situation.
           </p>
           <p className="mt-3">
