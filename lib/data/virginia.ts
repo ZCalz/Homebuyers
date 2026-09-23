@@ -8,8 +8,12 @@ export const virginia: StateData = {
   phoneDisplay: "(571) 276-0986",
   image: "/images/region-virginia.png",
   imageAlt: "A brick colonial-style suburban home on a leafy Northern Virginia street",
+  targetKeyword: "sell my house fast virginia",
+  metaTitle: "Sell My House Fast Virginia | Cash As-Is",
+  metaDescription:
+    "Sell your house fast in Virginia. We buy houses cash as-is across Richmond, Virginia Beach, Arlington & Norfolk. Stop foreclosure fast. Get fair cash offer.",
   heroBlurb:
-    "From NoVA townhouses to Richmond four-squares, our Virginia buyers move at the speed of the Commonwealth's fast, non-judicial foreclosure clock — so you don't have to.",
+    "From NoVA townhouses to Richmond four-squares and Virginia Beach coastal homes, our Virginia cash buyers move at the speed of the Commonwealth's fast non-judicial foreclosure clock.",
   intro:
     "Virginia is a non-judicial foreclosure state, which means a lender can move from missed payments to auction in a matter of weeks — far faster than in Maryland or DC. That speed is exactly why homeowners here need a buyer who can close in days, not months. We buy houses across Northern Virginia, Richmond, and Hampton Roads: inherited properties, military relocations, tenant headaches, and houses that simply need too much work to list.",
   regulationNote: {
@@ -28,6 +32,10 @@ export const virginia: StateData = {
       lat: 38.8816,
       lng: -77.091,
       medianDaysToClose: 22,
+      targetKeyword: "sell my house fast arlington va",
+      metaTitle: "Sell My House Fast in Arlington VA | Cash",
+      metaDescription:
+        "Sell your house fast in Arlington, VA. We buy houses cash as-is in Clarendon, Columbia Pike & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Arlington land is worth more than most of the houses sitting on it, which means a dated Columbia Pike rambler or an original-condition brick colonial near Clarendon can be worth serious money without a single repair. We make cash offers on Arlington properties as-is — including teardowns, estate homes, and condos with special-assessment problems.",
       localAngle:
@@ -51,6 +59,10 @@ export const virginia: StateData = {
       lat: 38.8462,
       lng: -77.3064,
       medianDaysToClose: 23,
+      targetKeyword: "sell my house fast fairfax va",
+      metaTitle: "Sell My House Fast in Fairfax VA | Cash Offer",
+      metaDescription:
+        "Sell your house fast in Fairfax, VA. We buy houses cash as-is in Annandale, Burke & Centreville. Zero repairs, no agent fees, fast closing. Call today.",
       intro:
         "Fairfax County's 1970s and 80s subdivisions are hitting the age where everything fails at once — roofs, HVAC, siding, and the original windows. If your Burke or Annandale home needs a top-to-bottom refresh you'd rather not fund, we'll buy it in current condition, with no contractor quotes and no punch lists.",
       localAngle:
@@ -74,6 +86,10 @@ export const virginia: StateData = {
       lat: 37.5407,
       lng: -77.436,
       medianDaysToClose: 19,
+      targetKeyword: "sell my house fast richmond va",
+      metaTitle: "Sell My House Fast in Richmond VA | Cash",
+      metaDescription:
+        "Sell your house fast in Richmond, VA. We buy houses cash as-is in Church Hill, Northside & nearby. Zero repairs, no agent fees, fast closing dates.",
       intro:
         "Richmond's Church Hill and Northside blocks are full of hundred-year-old four-squares and Italianate rowhouses — gorgeous bones, brutal repair costs. We buy Richmond houses in every condition: fire-damaged shells in Fulton, tenant-occupied doubles on the Northside, and inherited family homes that have sat vacant since probate opened.",
       localAngle:
@@ -84,7 +100,34 @@ export const virginia: StateData = {
         name: "Tamika J.",
         area: "Church Hill",
       },
-      nearby: ["norfolk", "fairfax"],
+      nearby: ["virginia-beach", "norfolk", "fairfax"],
+    },
+    {
+      slug: "virginia-beach",
+      name: "Virginia Beach",
+      county: "Virginia Beach City",
+      stateSlug: "virginia",
+      neighborhoods: ["Kempsville", "Oceanfront", "Pembroke", "Chic's Beach", "Bayside"],
+      landmark: "Mount Trashmore Park",
+      zips: ["23451", "23452", "23454", "23456", "23462", "23464"],
+      lat: 36.8529,
+      lng: -75.978,
+      medianDaysToClose: 18,
+      targetKeyword: "sell my house fast virginia beach",
+      metaTitle: "Sell My House Fast in Virginia Beach VA | Cash",
+      metaDescription:
+        "Sell your house fast in Virginia Beach, VA. We buy houses cash as-is in Kempsville & Oceanfront. Zero repairs, no agent fees, fast closing dates. Call now.",
+      intro:
+        "From Oceanfront properties facing coastal wear to Kempsville ranches needing complete modernization, we buy Virginia Beach homes in as-is condition for cash. When you need to sell your house fast in Virginia Beach without open houses, inspection contingencies, or lender delays, our local acquisition specialists provide fair cash offers within 24 hours.",
+      localAngle:
+        "Coastal humidity, aging roofing, and rising flood insurance requirements frequently cause conventional Virginia Beach home sales to fall through. Because we buy with private capital, there are no bank appraisals or mandatory flood certifications required before closing.",
+      testimonial: {
+        quote:
+          "Our Kempsville house had storm damage and an older roof that buyers kept objecting to. USHomeBuy made a firm cash offer and closed in sixteen days.",
+        name: "Marcus & Elena T.",
+        area: "Kempsville",
+      },
+      nearby: ["norfolk", "richmond"],
     },
     {
       slug: "norfolk",
@@ -97,6 +140,10 @@ export const virginia: StateData = {
       lat: 36.8508,
       lng: -76.2859,
       medianDaysToClose: 20,
+      targetKeyword: "sell my house fast norfolk va",
+      metaTitle: "Sell My House Fast in Norfolk VA | Cash Offer",
+      metaDescription:
+        "Sell your house fast in Norfolk, VA. We buy houses cash as-is in Ocean View, Park Place & nearby. Zero repairs, no agent fees, fast closing dates.",
       intro:
         "Norfolk is a Navy town, and Navy timelines don't wait for the spring market. Between PCS moves, deployment schedules, and coastal properties with rising insurance costs, Hampton Roads homeowners often need certainty more than they need top dollar from a six-month listing. We buy Norfolk houses as-is with closings timed to your orders.",
       localAngle:
@@ -107,7 +154,7 @@ export const virginia: StateData = {
         name: "PO1 D. Whitfield",
         area: "Ocean View",
       },
-      nearby: ["richmond", "woodbridge"],
+      nearby: ["virginia-beach", "richmond", "woodbridge"],
     },
     {
       slug: "woodbridge",
@@ -120,6 +167,10 @@ export const virginia: StateData = {
       lat: 38.6582,
       lng: -77.2497,
       medianDaysToClose: 21,
+      targetKeyword: "sell my house fast woodbridge va",
+      metaTitle: "Sell My House Fast in Woodbridge VA | Cash",
+      metaDescription:
+        "Sell your house fast in Woodbridge, VA. We buy houses cash as-is in Lake Ridge, Dale City & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Prince William County was hit harder than almost anywhere in the region during the last downturn, and some Dale City and Lake Ridge homeowners are still carrying loans and repairs from that era. Whether you're underwater on payments, splitting assets in a divorce, or done being a long-distance landlord, we buy Woodbridge houses for cash on your timeline.",
       localAngle:

@@ -29,11 +29,13 @@ export async function generateMetadata({
   const state = getState(stateSlug);
   if (!state) return {};
   return {
-    title: `We Buy Houses in ${state.name} — Sell Fast for Cash`,
-    description: `Sell your ${state.name} house as-is for cash. Local buyers in ${state.cities
-      .map((c) => c.name)
-      .slice(0, 3)
-      .join(", ")} and beyond. No repairs, no commissions. Call ${state.phoneDisplay}.`,
+    title: state.metaTitle || `Sell My House Fast in ${state.name} | Cash`,
+    description:
+      state.metaDescription ||
+      `Sell your house fast in ${state.name}. We buy houses cash as-is across ${state.cities
+        .slice(0, 2)
+        .map((c) => c.name)
+        .join(", ")}. Zero repairs, no fees, fast closing dates.`,
     alternates: { canonical: `/${state.slug}` },
   };
 }

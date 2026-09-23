@@ -29,11 +29,27 @@ export async function generateMetadata({
   const match = getCity(stateSlug, citySlug);
   if (!match) return {};
   const { state, city } = match;
+
+  const defaultTitle = `Sell My House Fast in ${city.name} ${state.abbr} | Cash`;
+  const calibratedTitle =
+    city.metaTitle ||
+    (defaultTitle.length + 12 < 50
+      ? `Sell My House Fast in ${city.name} ${state.abbr} | Cash Offer`
+      : defaultTitle);
+
+  const hoods = city.neighborhoods.slice(0, 2).join(", ");
+  const baseDesc = `Sell your house fast in ${city.name}, ${state.abbr}. We buy houses cash as-is in ${hoods} & nearby.`;
+  let defaultDesc = `${baseDesc} Zero repairs, no fees, fast closing dates.`;
+  if (defaultDesc.length < 140) {
+    defaultDesc = `${baseDesc} Zero repairs, no agent fees, and fast closing dates. Call now.`;
+  }
+  if (defaultDesc.length > 158) {
+    defaultDesc = `Sell your house fast in ${city.name}, ${state.abbr}. We buy houses cash as-is in ${hoods}. Zero repairs, no fees, fast closing. Call today.`;
+  }
+
   return {
-    title: `Sell My House Fast in ${city.name}, ${state.abbr} — Cash Offer in 48 Hours`,
-    description: `We buy houses in ${city.name}, ${state.abbr} as-is: ${city.neighborhoods
-      .slice(0, 3)
-      .join(", ")} and nearby. Typical closing ~${city.medianDaysToClose} days. Call ${state.phoneDisplay}.`,
+    title: calibratedTitle,
+    description: city.metaDescription || defaultDesc,
     alternates: { canonical: `/${state.slug}/${city.slug}` },
   };
 }

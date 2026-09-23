@@ -5,9 +5,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Where We Buy Houses — DC, Maryland, Virginia & Delaware",
+  title: "We Buy Houses Locations | DC, MD, VA & DE Buyers",
   description:
-    "Full directory of the markets where we buy houses for cash: Washington DC, Baltimore, Silver Spring, Arlington, Richmond, Wilmington, Dover, and more.",
+    "Explore every city where we buy houses for cash across Washington DC, Maryland, Virginia, and Delaware. Fast as-is sales with zero commissions or fees.",
   alternates: { canonical: "/locations" },
 };
 

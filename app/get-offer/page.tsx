@@ -4,9 +4,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Get Your Cash Offer",
+  title: "Get Fair Cash Offer On Your House Fast | No Fees",
   description:
-    "Start your no-obligation cash offer. Answer four quick questions and a local buyer for your zip code will call you back — usually within the hour.",
+    "Request your no-obligation cash offer today. Answer 4 quick questions and connect directly with a local buyer in your zip code. Zero fees, fast response.",
   alternates: { canonical: "/get-offer" },
 };
 

@@ -8,8 +8,12 @@ export const delaware: StateData = {
   phoneDisplay: "(571) 276-0986",
   image: "/images/region-delaware.png",
   imageAlt: "A sandy beach-town street lined with shingled cottages leading down to the Delaware shore",
+  targetKeyword: "we buy houses in delaware",
+  metaTitle: "We Buy Houses in Delaware | Cash For Homes",
+  metaDescription:
+    "We buy houses in Delaware for cash. Sell your house fast as-is in Wilmington, Dover, Newark & Rehoboth Beach. No commissions, closing on your schedule.",
   heroBlurb:
-    "From Wilmington rowhomes to Sussex County beach cottages, our Delaware buyers know the state's judicial foreclosure timeline and its no-sales-tax closing math inside out.",
+    "From Wilmington rowhomes to Sussex County beach cottages, our Delaware cash buyers know the state's judicial foreclosure timeline and closing math inside out.",
   intro:
     "Delaware may be small, but its three counties are three different markets: Wilmington's urban rowhome blocks, Dover's commuter and base-adjacent neighborhoods, and the Sussex County beach towns where cottages meet development pressure. We buy houses in all three — and because Delaware uses judicial foreclosure with mandatory mediation, sellers behind on payments here usually have a real window to sell with equity intact, if they move before judgment.",
   regulationNote: {
@@ -28,6 +32,10 @@ export const delaware: StateData = {
       lat: 39.7391,
       lng: -75.5398,
       medianDaysToClose: 18,
+      targetKeyword: "cash home buyers in wilmington delaware",
+      metaTitle: "Sell My House Fast in Wilmington DE | Cash",
+      metaDescription:
+        "Sell your house fast in Wilmington, DE. We buy houses cash as-is in Trolley Square, Hilltop & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Wilmington's brick rowhome stock ranges from renovated Trolley Square blocks to Riverside houses that have sat vacant for a decade. We buy across that entire spectrum: inherited rowhomes with tangled titles, rentals with non-paying tenants, and properties carrying L&I violations the owner can't afford to cure.",
       localAngle:
@@ -51,6 +59,10 @@ export const delaware: StateData = {
       lat: 39.6837,
       lng: -75.7497,
       medianDaysToClose: 21,
+      targetKeyword: "sell my house fast newark de",
+      metaTitle: "Sell My House Fast in Newark DE | Cash Offer",
+      metaDescription:
+        "Sell your house fast in Newark, DE. We buy houses cash as-is in College Square, Brookside & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Newark's mix of student rentals and 1960s family subdivisions creates two very different reasons to sell fast: landlords exiting the student-housing business, and longtime Brookside owners facing a whole-house update they don't want to fund. We buy both — leases in place or vacant, updated or untouched since the Nixon administration.",
       localAngle:
@@ -74,6 +86,10 @@ export const delaware: StateData = {
       lat: 39.1582,
       lng: -75.5244,
       medianDaysToClose: 20,
+      targetKeyword: "sell my house fast dover de",
+      metaTitle: "Sell My House Fast in Dover DE | Cash Offer",
+      metaDescription:
+        "Sell your house fast in Dover, DE. We buy houses cash as-is in Rodney Village, Capitol Park & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Dover moves on two clocks: state government and Dover Air Force Base. PCS orders, retirements, and estate sales drive most of our Kent County purchases, and our closings flex to match — we've settled in as few as twelve days for airmen on short-notice orders and held closings open for months for estates working through Register of Wills.",
       localAngle:
@@ -97,6 +113,10 @@ export const delaware: StateData = {
       lat: 38.9126,
       lng: -75.4277,
       medianDaysToClose: 22,
+      targetKeyword: "sell my house fast milford de",
+      metaTitle: "Sell My House Fast in Milford DE | Cash Offer",
+      metaDescription:
+        "Sell your house fast in Milford, DE. We buy houses cash as-is in Lincoln, Ellendale & nearby. Zero repairs, no agent fees, and fast closing dates.",
       intro:
         "Straddling the Kent–Sussex line, Milford mixes historic downtown Victorians with rural properties on well and septic. Homes like these are hard to sell conventionally when systems age out — a failed septic inspection alone can end a financed deal. We buy Milford-area properties as-is, septic problems, aging wells, outbuildings and all.",
       localAngle:
@@ -120,6 +140,10 @@ export const delaware: StateData = {
       lat: 38.7168,
       lng: -75.0768,
       medianDaysToClose: 24,
+      targetKeyword: "sell my house fast rehoboth beach de",
+      metaTitle: "Sell My House Fast in Rehoboth Beach DE | Cash",
+      metaDescription:
+        "Sell your house fast in Rehoboth Beach, DE. We buy houses cash as-is in Dewey Beach & Lewes. Zero repairs, no fees, and fast closing dates. Call.",
       intro:
         "Beach-area properties come with beach-area problems: salt-air deterioration, aging cottages on valuable lots, leasehold land arrangements, and family co-ownership disputes that surface when it's time to sell. We buy Rehoboth, Lewes, and Long Neck properties for cash — including inherited cottages split among siblings and homes on leased land that traditional buyers can't finance.",
       localAngle:

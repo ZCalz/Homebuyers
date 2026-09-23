@@ -8,8 +8,12 @@ export const maryland: StateData = {
   phoneDisplay: "(571) 276-0986",
   image: "/images/region-maryland.png",
   imageAlt: "Brick and painted rowhomes along a Baltimore street at sunset",
+  targetKeyword: "sell my house fast maryland",
+  metaTitle: "Sell My House Fast Maryland | Cash Buyers",
+  metaDescription:
+    "Sell your house fast in Maryland. We buy houses for cash as-is across Baltimore, Silver Spring & Annapolis. No realtor fees or repairs. Call for cash offer.",
   heroBlurb:
-    "From Baltimore rowhomes to Prince George's County split-levels, our Maryland buyers close fast and know the state's foreclosure and ground rent rules cold.",
+    "From Baltimore rowhomes to Prince George's County split-levels, our Maryland cash buyers close fast and know the state's foreclosure and ground rent rules cold.",
   intro:
     "Maryland sellers deal with a few things most states never see: ground rent on older Baltimore properties, one of the more structured judicial foreclosure processes in the region, and county-by-county transfer taxes that can change your net by thousands. We buy houses across the state — Baltimore City, the DC suburbs, and everywhere between — with cash offers that account for all of it upfront, so the number we quote is the number you walk away with.",
   regulationNote: {
@@ -28,6 +32,10 @@ export const maryland: StateData = {
       lat: 39.2904,
       lng: -76.6122,
       medianDaysToClose: 18,
+      targetKeyword: "sell my house fast baltimore",
+      metaTitle: "Sell My House Fast in Baltimore MD | Cash",
+      metaDescription:
+        "Sell your house fast in Baltimore, MD. We buy houses cash as-is in Highlandtown, Pigtown & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Baltimore has tens of thousands of brick rowhomes, and a lot of them need more than paint. Whether you own a formstone-front shell in Belair-Edison, an inherited rowhome in Park Heights, or a rental in Highlandtown you're ready to be done with, we buy Baltimore houses in absolutely any condition — including vacant, fire-damaged, and code-violation properties.",
       localAngle:
@@ -51,6 +59,10 @@ export const maryland: StateData = {
       lat: 38.9907,
       lng: -77.0261,
       medianDaysToClose: 24,
+      targetKeyword: "sell my house fast silver spring md",
+      metaTitle: "Sell My House Fast in Silver Spring MD | Cash",
+      metaDescription:
+        "Sell your house fast in Silver Spring, MD. We buy houses cash as-is in Wheaton, White Oak & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Montgomery County homes sell fast when they're turnkey — and sit when they're not. If your Silver Spring or Wheaton house has an aging roof, an unfinished basement project, or thirty years of a family's life inside it, we'll make a cash offer that skips the staging, the showings, and the buyer's inspection punch list entirely.",
       localAngle:
@@ -74,6 +86,10 @@ export const maryland: StateData = {
       lat: 38.9559,
       lng: -76.9455,
       medianDaysToClose: 20,
+      targetKeyword: "sell my house fast hyattsville md",
+      metaTitle: "Sell My House Fast in Hyattsville MD | Cash",
+      metaDescription:
+        "Sell your house fast in Hyattsville, MD. We buy houses cash as-is in Riverdale Park, Mount Rainier. Zero repairs, no fees, fast closing dates.",
       intro:
         "Prince George's County homeowners come to us for straightforward reasons: an inherited split-level in Landover, a rental in Bladensburg with tenants who've stopped paying, or a mortgage that fell behind after a job change. We buy houses throughout Hyattsville, Riverdale Park, and the inner-Beltway PG suburbs with fast, no-obligation cash offers.",
       localAngle:
@@ -97,6 +113,10 @@ export const maryland: StateData = {
       lat: 38.6246,
       lng: -76.9391,
       medianDaysToClose: 25,
+      targetKeyword: "sell my house fast waldorf md",
+      metaTitle: "Sell My House Fast in Waldorf MD | Cash Offer",
+      metaDescription:
+        "Sell your house fast in Waldorf, MD. We buy houses cash as-is in St. Charles, Bensville & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Southern Maryland's commuter towns grew fast in the 2000s, and many Waldorf and St. Charles homes bought at the peak carry deferred maintenance their owners can't fund. If you're facing a relocation, a divorce, or a mortgage that no longer fits, we buy Charles County houses as-is and close on your schedule — in weeks, not months.",
       localAngle:
@@ -120,6 +140,10 @@ export const maryland: StateData = {
       lat: 39.2507,
       lng: -76.5205,
       medianDaysToClose: 19,
+      targetKeyword: "sell my house fast dundalk md",
+      metaTitle: "Sell My House Fast in Dundalk MD | Cash Offer",
+      metaDescription:
+        "Sell your house fast in Dundalk, MD. We buy houses cash as-is in Turner Station, Edgemere & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Dundalk's steelworker-era homes are solid but aging, and many have been in the same family since Bethlehem Steel was running. When it's time to settle an estate, walk away from a flood-prone property near the water, or sell a house that needs a full systems overhaul, we make direct cash offers on Dundalk and Edgemere homes in any state of repair.",
       localAngle:

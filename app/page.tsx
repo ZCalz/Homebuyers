@@ -12,9 +12,9 @@ import { SITE, states } from "@/lib/data";
 import { situations } from "@/lib/data/situations";
 
 export const metadata: Metadata = {
-  title: `Sell Your House Fast in DC, Maryland, Virginia & Delaware | ${SITE.name}`,
+  title: "Sell My House Fast For Cash Near Me | As-Is",
   description:
-    "USHomeBuy (US Home Buy) is your local US home buying company for the DMV and Delaware. Sell as-is with no repairs, no commissions, and a closing date you choose. Get a no-obligation offer today.",
+    "Need to sell your house fast for cash near you? We buy homes as-is in DC, Maryland, Virginia & Delaware with zero fees, no repairs, and fast closing dates.",
 };
 
 export default function HomePage() {
@@ -35,8 +35,11 @@ export default function HomePage() {
                 Serving DC · Maryland · Virginia · Delaware
               </p>
               <h1 className="mt-4 font-display text-4xl sm:text-5xl leading-[1.08] text-pine-950">
-                Sell your house as-is — on your timeline.
+                Sell your house fast for cash — 100% as-is.
               </h1>
+              <p className="mt-3 text-sm sm:text-base text-pine-800 leading-relaxed">
+                We buy homes for cash near you across Washington DC, Maryland, Virginia, and Delaware. Zero repairs, no agent commissions, close on your schedule.
+              </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {["No repairs", "No commissions", "You pick the closing date"].map(
                   (tag) => (

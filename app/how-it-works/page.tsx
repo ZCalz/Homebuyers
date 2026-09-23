@@ -4,9 +4,9 @@ import CtaBand from "@/components/CtaBand";
 import ProcessSteps from "@/components/ProcessSteps";
 
 export const metadata: Metadata = {
-  title: "How It Works — From Zip Code to Settlement",
+  title: "How Cash Home Buyers Work | Fair As-Is Offer",
   description:
-    "See exactly how our as-is cash purchase process works: the walkthrough, how we calculate the offer, the three-day review window, and closing on your date.",
+    "Learn how cash home buyers work: our transparent 4-step as-is buying process across DC, MD, VA & DE. Walkthrough, offer formula, and settlement on your date.",
   alternates: { canonical: "/how-it-works" },
 };
 

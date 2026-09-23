@@ -4,9 +4,9 @@ import CtaBand from "@/components/CtaBand";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `About Us — Regional Buyers, Local Teams | ${SITE.name}`,
+  title: "Local Cash Home Buyers | Meet Our DMV & DE Team",
   description:
-    "USHomeBuy (US Home Buy) is a direct US home buying company built for the DMV and Delaware, with one dedicated acquisition team per state and a transparent-offer policy.",
+    "Meet our local cash home buyers serving DC, Maryland, Virginia, and Delaware. Dedicated regional acquisition teams with transparent, zero-commission offers.",
   alternates: { canonical: "/about" },
 };
 

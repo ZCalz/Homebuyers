@@ -5,9 +5,9 @@ import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions",
+  title: "Cash Home Buyer FAQs | Common Seller Questions",
   description:
-    "Answers about selling your house for cash in DC, Maryland, Virginia, and Delaware: fees, timelines, as-is condition, tenants, probate, and how offers are priced.",
+    "Get clear answers to cash home buyer questions in DC, MD, VA & DE: timelines, as-is conditions, probate, and how cash offers are priced. Call with questions.",
   alternates: { canonical: "/faq" },
 };
 

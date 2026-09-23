@@ -4,8 +4,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions",
-  description: `The terms that govern your use of ${SITE.name} and any offer you request through our site.`,
+  title: "Terms and Conditions | Cash Offer Policy",
+  description:
+    "Read our terms and conditions governing property cash offer requests, our 3-day review policy, and direct home buying guidelines across DC, MD, VA & DE.",
   alternates: { canonical: "/terms-and-conditions" },
 };
 

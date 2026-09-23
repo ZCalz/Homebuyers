@@ -7,11 +7,11 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} | Sell Your House As-Is in DC, MD, VA & DE`,
+    default: "Sell My House Fast For Cash Near Me | As-Is | USHomeBuy",
     template: `%s | ${SITE.name}`,
   },
   description:
-    "USHomeBuy — also known as US Home Buy — is a US home buying company serving Washington DC, Maryland, Virginia, and Delaware. Fair as-is offers, no repairs, no commissions, closings on your schedule.",
+    "Need to sell your house fast for cash near you? We buy homes as-is in DC, Maryland, Virginia & Delaware with zero fees, no repairs, and fast closing dates.",
 };
 
 export default function RootLayout({
