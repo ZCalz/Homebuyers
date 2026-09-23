@@ -15,13 +15,18 @@ export const metadata: Metadata = {
   },
   description:
     "Need to sell your house fast for cash near you? We buy homes as-is in DC, Maryland, Virginia & Delaware with zero fees, no repairs, and fast closing dates.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: SITE.name,
+  },
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en-US">
       <body className="min-h-screen flex flex-col">
         <JsonLd data={productSchema()} />
         <Header />
