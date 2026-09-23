@@ -145,29 +145,77 @@ export default function GetOfferPage() {
 
           {/* Detailed Seller Protection & FAQ Section */}
           <div className="mt-16 rounded-3xl bg-pine-950 text-sand-50 p-6 sm:p-10">
-            <h3 className="font-display text-2xl text-sand-50">
+            <h3 className="font-display text-2xl sm:text-3xl text-sand-50 font-bold">
               Everything You Need to Know Before Requesting a Cash Offer
             </h3>
             <div className="mt-6 space-y-4 text-sm sm:text-base text-sand-100/85 leading-relaxed">
               <p>
-                Requesting a cash offer from USHomeBuy is 100% confidential and free. Here is what you should expect from our regional team:
+                Requesting a cash offer from USHomeBuy is 100% confidential, free, and puts you under zero legal obligation. Here is what you should expect from our regional acquisition teams:
               </p>
-              <h4 className="font-bold text-sand-100 pt-2">1. Your Privacy is Strictly Protected</h4>
+              <h4 className="font-bold text-sand-100 text-lg pt-2">1. Your Privacy is Strictly Protected</h4>
               <p>
                 Unlike generic national referral websites that auction your property address and phone number to dozens of independent real estate wholesalers, your information submitted here is delivered directly to our regional acquisition specialist in DC, Maryland, Virginia, or Delaware. We never resell or distribute your data.
               </p>
-              <h4 className="font-bold text-sand-100 pt-2">2. Realistic, Written Valuation Math</h4>
+              <h4 className="font-bold text-sand-100 text-lg pt-2">2. Realistic, Written Valuation Math</h4>
               <p>
                 We do not give misleading automated estimates or lowball sight-unseen bids. When we present our written purchase contract, we walk you through the nearby neighborhood comparable sales, our contractor budget breakdown, and our holding costs. You receive an accurate, verified net cash figure with zero hidden fees.
               </p>
-              <h4 className="font-bold text-sand-100 pt-2">3. Three-Business-Day Unconditional Right to Cancel</h4>
+              <h4 className="font-bold text-sand-100 text-lg pt-2">3. Three-Business-Day Unconditional Right to Cancel</h4>
               <p>
                 Even after signing our agreement, you have three full business days to review the contract with your attorney, compare alternative offers, or change your mind for any reason. If you cancel within this window in writing, the contract is completely void with zero cost or obligation.
               </p>
-              <h4 className="font-bold text-sand-100 pt-2">4. Licensed Title Company Closing</h4>
+              <h4 className="font-bold text-sand-100 text-lg pt-2">4. Licensed Title Company Closing &amp; Direct Wire</h4>
               <p>
                 All closings are conducted by licensed, reputable title companies and settlement attorneys in your local county. The title company holds earnest money in escrow, prepares deed documents, satisfies existing mortgages or tax liens from proceeds, and wires your funds directly on closing day.
               </p>
+              <h4 className="font-bold text-sand-100 text-lg pt-2">5. Transparent As-Is Purchase Formula</h4>
+              <p>
+                Our cash offers follow a straightforward valuation formula: We take the After Repair Value (ARV) based on recent renovated neighborhood comps, subtract the estimated cost of repairs needed to modernize the home, subtract standard holding and transfer expenses, and include our modest operating margin. We show you the exact numbers so you know you are receiving an honest deal.
+              </p>
+            </div>
+          </div>
+
+          {/* Frequently Asked Questions for Offer Requests */}
+          <div className="mt-16 rounded-3xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-10 space-y-6">
+            <h3 className="font-display text-2xl sm:text-3xl text-pine-950 font-bold">
+              Frequently Asked Questions About Our Cash Offer Process
+            </h3>
+            <div className="space-y-4 text-sm text-pine-800/85">
+              <div className="rounded-2xl bg-sand-50/60 p-5 ring-1 ring-pine-900/10">
+                <h4 className="font-semibold text-pine-950 text-base mb-1">
+                  How long does it take to receive my cash offer?
+                </h4>
+                <p className="leading-relaxed">
+                  After you submit your property address and basic details, our regional acquisition coordinator begins analyzing local county records and MLS comparable sales immediately. In most cases, we provide a preliminary valuation within 24 hours. Following a brief 15-minute walkthrough, we provide a formal written cash offer.
+                </p>
+              </div>
+
+              <div className="rounded-2xl bg-sand-50/60 p-5 ring-1 ring-pine-900/10">
+                <h4 className="font-semibold text-pine-950 text-base mb-1">
+                  Am I obligated to accept the cash offer once it is presented?
+                </h4>
+                <p className="leading-relaxed">
+                  You are under zero obligation to accept our offer. You can review the contract, consult with family members, financial planners, or legal counsel, and compare our net cash payout to listing with a real estate agent. If our offer doesn&apos;t fit your needs, you can simply decline with no questions asked and zero pressure.
+                </p>
+              </div>
+
+              <div className="rounded-2xl bg-sand-50/60 p-5 ring-1 ring-pine-900/10">
+                <h4 className="font-semibold text-pine-950 text-base mb-1">
+                  What if my home has open code violations, tax liens, or an active mortgage?
+                </h4>
+                <p className="leading-relaxed">
+                  We routinely purchase properties with complex encumbrances. Our settlement attorneys coordinate with county municipal departments and your mortgage servicer to obtain official payoff statements. All existing liens and mortgage balances are satisfied directly from sale proceeds at settlement, and the remaining net cash balance is wired to you.
+                </p>
+              </div>
+
+              <div className="rounded-2xl bg-sand-50/60 p-5 ring-1 ring-pine-900/10">
+                <h4 className="font-semibold text-pine-950 text-base mb-1">
+                  Can I choose when we close and when I move out?
+                </h4>
+                <p className="leading-relaxed">
+                  Yes. You have total control over the closing date. Whether you need an expedited closing in as few as 7 to 14 days to resolve an urgent financial timeline, or need 30 to 60 days to coordinate your move, pack belongings, or transition into a new home, we accommodate your exact schedule.
+                </p>
+              </div>
             </div>
           </div>
         </div>
