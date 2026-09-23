@@ -25,6 +25,7 @@ export interface City {
   targetKeyword?: string;
   metaTitle?: string;
   metaDescription?: string;
+  h1?: string;
 }
 
 export interface RegulationNote {

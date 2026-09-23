@@ -107,20 +107,27 @@ export const maryland: StateData = {
       name: "Waldorf",
       county: "Charles",
       stateSlug: "maryland",
-      neighborhoods: ["St. Charles", "Bensville", "Bryans Road", "White Plains"],
+      neighborhoods: [
+        "St. Charles",
+        "Bensville",
+        "Bensville Crossing by Stanley Martin Homes",
+        "Bryans Road",
+        "White Plains",
+      ],
       landmark: "the St. Charles Towne Center",
       zips: ["20601", "20602", "20603"],
       lat: 38.6246,
       lng: -76.9391,
       medianDaysToClose: 25,
       targetKeyword: "sell my house fast waldorf md",
-      metaTitle: "Sell My House Fast in Waldorf MD | Cash Offer",
+      metaTitle: "Rent to Own Homes Waldorf MD Alternatives | Sell My House Fast",
+      h1: "Sell My House Fast Waldorf MD | Rent to Own Homes Waldorf MD Alternatives",
       metaDescription:
-        "Sell your house fast in Waldorf, MD. We buy houses cash as-is in St. Charles, Bensville & nearby. Zero repairs, no fees, fast closing dates.",
+        "Sell your house fast in Waldorf, MD. Better than rent to own homes waldorf md — get a cash offer in Bensville Crossing by Stanley Martin Homes & 20602 as-is.",
       intro:
-        "Southern Maryland's commuter towns grew fast in the 2000s, and many Waldorf and St. Charles homes bought at the peak carry deferred maintenance their owners can't fund. If you're facing a relocation, a divorce, or a mortgage that no longer fits, we buy Charles County houses as-is and close on your schedule — in weeks, not months.",
+        "Southern Maryland's commuter towns grew fast. Many homeowners in St. Charles and Bensville Crossing by Stanley Martin Homes need a clean sale. If you have been looking into rent to own homes waldorf md as an option, or need to sell a home near 9 Jay Gould Court Waldorf MD 20602, our local team provides a faster, guaranteed cash buyout without landlord risks.",
       localAngle:
-        "Waldorf has a high share of VA and FHA-financed homes, and those government-backed buyers bring strict appraisal condition standards a dated house often can't meet. Selling to a cash buyer sidesteps appraisal repairs entirely — no lender, no required fixes, no re-inspection delays.",
+        "Waldorf has a high share of VA and FHA-financed homes. When a property needs work, traditional buyers or rent to own homes waldorf md lease agreements often fall through. Selling directly to USHomeBuy removes appraisal hurdles. Whether your property is near Bensville Crossing by Stanley Martin Homes, in Dorchester, or along 9 Jay Gould Court Waldorf MD 20602, we buy 100% as-is with cash.",
       testimonial: {
         quote:
           "Orders came through and we had six weeks to be in Texas. They closed on our St. Charles townhouse in twenty-two days.",
