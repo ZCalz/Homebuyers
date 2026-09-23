@@ -5,9 +5,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Situations We Help With — Inherited Homes, Foreclosure, Repairs & More",
+  title: "Sell House Fast Situations | As-Is Solutions",
   description:
-    "Guides for every reason DMV and Delaware homeowners sell fast: inherited property, foreclosure, major repairs, tenant problems, relocation, divorce, and downsizing.",
+    "Explore as-is cash home sale solutions for foreclosure, probate, fire damage, major repairs, tired landlords, divorce, and job relocation in DC, MD, VA & DE.",
   alternates: { canonical: "/situations" },
 };
 

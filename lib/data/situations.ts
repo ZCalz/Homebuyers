@@ -12,10 +12,10 @@ export interface Situation {
 export const situations: Situation[] = [
   {
     slug: "inherited-house",
-    title: "Sell an Inherited House in the DMV & Delaware",
+    title: "Sell Inherited House Fast | Probate Cash Buyers",
     shortTitle: "Inherited House",
     metaDescription:
-      "Inherited a house in DC, Maryland, Virginia, or Delaware? Learn how probate works in each jurisdiction and how to sell an inherited property as-is for cash.",
+      "Inherited a house in DC, MD, VA, or DE? We buy inherited & probate homes as-is for cash. No cleanouts, no agent fees, and closings timed to court orders.",
     heading: "Selling an inherited house without the overwhelm",
     lede: "An inherited property usually arrives with three problems at once: a house full of belongings, a legal process you've never navigated, and co-heirs who may not agree on anything. We buy inherited homes across DC, Maryland, Virginia, and Delaware exactly as they stand — furniture, deferred maintenance, and all.",
     sections: [
@@ -49,10 +49,10 @@ export const situations: Situation[] = [
   },
   {
     slug: "avoid-foreclosure",
-    title: "Avoid Foreclosure in DC, Maryland, Virginia & Delaware",
+    title: "Stop Foreclosure Fast | Pre-Foreclosure Cash",
     shortTitle: "Avoiding Foreclosure",
     metaDescription:
-      "Behind on your mortgage? Foreclosure timelines differ sharply between DC, MD, VA, and DE. See your options and how a fast cash sale can protect your equity.",
+      "Facing foreclosure? Stop foreclosure fast in DC, MD, VA & DE. Sell your house for cash before auction, protect your equity and credit. Call for fair offer.",
     heading: "Behind on payments? Your timeline depends on your state.",
     lede: "The single most important fact about foreclosure in our region: Virginia can move from default to auction in about two months, while Maryland, Delaware, and DC give homeowners considerably longer. Knowing which clock you're on determines which options are still open.",
     sections: [
@@ -86,10 +86,10 @@ export const situations: Situation[] = [
   },
   {
     slug: "house-needs-repairs",
-    title: "Sell a House That Needs Major Repairs",
+    title: "Sell House As-Is Fast | Cash For Damaged Homes",
     shortTitle: "House Needs Repairs",
     metaDescription:
-      "Foundation issues, old wiring, failed septic, fire damage — sell your DC, Maryland, Virginia, or Delaware house as-is for cash without fixing anything.",
+      "Sell your house as-is with zero repairs needed in DC, MD, VA & DE. We buy ugly, damaged, foundation-flawed properties for cash. No fees or inspections.",
     heading: "Sell it exactly as it stands — we mean that literally",
     lede: "The regional housing stock we work in is old: DC and Baltimore rowhouses from the 1900s, post-war NoVA ramblers, Delaware farmhouses on original septic. When the repair list outgrows the budget, we buy the house as-is and price the work into a transparent offer.",
     sections: [
@@ -108,7 +108,7 @@ export const situations: Situation[] = [
     ],
     faq: [
       {
-        q: "Do you buy houses with fire or water damage?",
+        q: "Do you buy houses with major structural or water damage?",
         a: "Yes, including houses that are not safe to enter. We can often assess from the exterior plus photos and public records.",
       },
       {
@@ -122,11 +122,48 @@ export const situations: Situation[] = [
     ],
   },
   {
+    slug: "fire-damaged-house",
+    title: "Sell Fire Damaged House Fast | Cash Buyers",
+    shortTitle: "Fire Damaged House",
+    metaDescription:
+      "Sell your fire damaged house as-is for cash in Delaware, Maryland & Virginia. Zero repairs or cleanup needed. We buy burnt homes and close on your schedule.",
+    heading: "Sell a fire-damaged house without cleaning or rebuilding",
+    lede: "A residential fire leaves homeowners overwhelmed by insurance paperwork, structural condemnation orders, and mounting municipal fines. Whether your home suffered minor smoke damage in Maryland, electrical fire in Richmond, or total loss in Delaware, we buy fire-damaged properties for cash in 100% as-is condition.",
+    sections: [
+      {
+        heading: "Why selling a burnt home for cash makes financial sense",
+        body: "Restoration costs routinely exceed insurance payouts, and finding licensed contractors willing to rebuild fire-gutted framing can take months. Meanwhile, mortgage payments, taxes, and vacant-property registry fees continue to accumulate. Selling directly to USHomeBuy allows you to cash out your equity immediately, transfer all demolition liability to us, and move forward without touching a shovel.",
+      },
+      {
+        heading: "We handle city code violations and condemnation notices",
+        body: "Municipal building inspectors in Baltimore, Richmond, DC, and Wilmington issue emergency board-up orders and escalating fines on fire-damaged structures. Our team assumes full legal responsibility for all open citations, working directly with local housing code enforcement agencies upon settlement.",
+      },
+      {
+        heading: "Insurance claims and settlement coordination",
+        body: "You can sell your fire-damaged property even if your insurance claim is still pending or already settled. Keep your insurance payout for personal property and structure loss, and sell the underlying property and land to us for cash at closing.",
+      },
+    ],
+    faq: [
+      {
+        q: "Can I sell my house if it is condemned or unsafe to enter?",
+        a: "Yes. Our acquisition specialists and structural engineers routinely evaluate fire-damaged homes from exterior walk-arounds, drone imaging, and architectural records without requiring interior entry.",
+      },
+      {
+        q: "Do I have to clean out smoke-damaged furniture or debris?",
+        a: "No. Leave everything behind. We handle total property remediation, hazmat debris clearance, and structural cleanouts at our own expense after closing.",
+      },
+      {
+        q: "Can I keep the insurance check if I sell to you?",
+        a: "Yes. In most situations, you retain your insurance settlement proceeds and receive our cash offer for the real estate. Consult your adjuster and our team for precise coordination.",
+      },
+    ],
+  },
+  {
     slug: "tired-landlord",
-    title: "Sell a Rental Property — Even With Tenants In Place",
+    title: "Sell Rental Property Fast | Houses With Tenants",
     shortTitle: "Tired Landlord",
     metaDescription:
-      "Done being a landlord in DC, Maryland, Virginia, or Delaware? Sell your rental tenant-occupied, with arrears, or mid-eviction. We handle TOPA and local licensing.",
+      "Tired of non-paying tenants and evictions? Sell your rental property as-is for cash in DC, MD, VA & DE. Leases transferred, no repairs or agent fees.",
     heading: "Exit the landlord business without evicting anyone",
     lede: "Landlord-tenant law in this region is some of the most tenant-protective in the country — DC especially. If you're done with 2 a.m. maintenance calls, non-paying tenants, or escalating license requirements, we buy rentals with leases in place and take over the landlord role at settlement.",
     sections: [
@@ -160,10 +197,10 @@ export const situations: Situation[] = [
   },
   {
     slug: "relocating",
-    title: "Selling Fast for a Relocation or PCS Move",
+    title: "Sell House Fast Relocating | Quick Cash Closing",
     shortTitle: "Relocation & PCS",
     metaDescription:
-      "New job, new orders, new city. Sell your DC-area or Delaware home on your exact timeline — including military PCS closings coordinated to your report date.",
+      "Need to relocate fast for work or military PCS orders? Sell your house as-is for cash in DC, MD, VA & DE. Pick your closing date and skip all showings.",
     heading: "When the move date is fixed, the sale has to flex",
     lede: "The DMV runs on transfers: military PCS orders, federal reassignments, and private-sector relocations. When you have a report date, a 60-to-90-day listing process with financing contingencies is a risk you can't price. A cash closing dated to your calendar is.",
     sections: [
@@ -197,10 +234,10 @@ export const situations: Situation[] = [
   },
   {
     slug: "divorce",
-    title: "Selling a House During Divorce",
+    title: "Sell House During Divorce Fast | Cash Home Sale",
     shortTitle: "Divorce",
     metaDescription:
-      "Selling the marital home in DC, Maryland, Virginia, or Delaware? A neutral, fast cash sale gives both parties one clean number and a firm date.",
+      "Selling a house during a divorce in DC, MD, VA, or DE? Get a fair as-is cash offer, split equity cleanly without agent commissions, and close quickly.",
     heading: "One number, one date, and both parties can move forward",
     lede: "In most divorces the house is the largest shared asset and the biggest point of friction. Months of showings, staging, and price-drop debates keep two people tied together long after they've decided not to be. A direct sale replaces all of it with a single verifiable offer and a settlement date the attorneys can put in the agreement.",
     sections: [
@@ -234,10 +271,10 @@ export const situations: Situation[] = [
   },
   {
     slug: "downsizing",
-    title: "Downsizing or Transitioning to Senior Living",
+    title: "Sell Parents House Fast | Senior Downsizing",
     shortTitle: "Downsizing",
     metaDescription:
-      "Moving to a smaller home or senior community? Sell your longtime DMV or Delaware home as-is, on your schedule, without renovating or emptying it first.",
+      "Downsizing or transitioning a parent to assisted living? Sell the home as-is for cash in DC, MD, VA & DE. Leave unwanted furniture behind; zero fees.",
     heading: "Forty years of home, sold without forty weeks of work",
     lede: "The houses we buy from downsizing sellers are usually well-loved and long-held — and 'well-loved and long-held' is exactly what today's financed buyers renovate away. Rather than fund a kitchen remodel to satisfy strangers, many longtime owners choose one as-is offer and a moving date they control.",
     sections: [

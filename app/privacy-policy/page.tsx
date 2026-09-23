@@ -4,8 +4,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: `How ${SITE.name} collects, uses, and protects the information you share with us.`,
+  title: "Privacy Policy | Consumer Data Protection",
+  description:
+    "Read the USHomeBuy privacy policy: how we collect, use, and protect your personal information when requesting a cash offer. No data selling, 100% secure.",
   alternates: { canonical: "/privacy-policy" },
 };
 

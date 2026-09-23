@@ -4,9 +4,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Get Your Cash Offer",
+  title: "Get Fair Cash Offer On Your House Fast | No Fees",
   description:
-    "Start your no-obligation cash offer. Answer four quick questions and a local buyer for your zip code will call you back — usually within the hour.",
+    "Request your no-obligation cash offer today. Answer 4 quick questions and connect directly with a local buyer in your zip code. Zero fees, fast response.",
   alternates: { canonical: "/get-offer" },
 };
 
@@ -74,6 +74,41 @@ export default function GetOfferPage() {
             </p>
           </div>
           <LeadForm />
+        </div>
+      </section>
+
+      {/* What Happens Next Guide */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-20">
+        <div className="border-t border-pine-900/10 pt-16">
+          <h2 className="font-display text-3xl text-pine-950">
+            What happens after submitting your property details
+          </h2>
+          <p className="mt-3 text-pine-800/80 max-w-3xl leading-relaxed">
+            We understand that requesting an offer on your home is an important decision. We keep every interaction confidential, pressure-free, and straightforward:
+          </p>
+          <div className="mt-8 grid md:grid-cols-3 gap-6">
+            <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+              <span className="text-xs font-bold text-pine-600 uppercase tracking-wider">Phase 1</span>
+              <h3 className="mt-2 font-display text-lg text-pine-950 font-bold">Local Market Analysis</h3>
+              <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+                Your zip code routes to our designated regional acquisition desk in DC, MD, VA, or DE. We examine recent neighborhood comp sales and historical tax assessments.
+              </p>
+            </div>
+            <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+              <span className="text-xs font-bold text-pine-600 uppercase tracking-wider">Phase 2</span>
+              <h3 className="mt-2 font-display text-lg text-pine-950 font-bold">15-Minute As-Is Walkthrough</h3>
+              <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+                We coordinate a quick private visit at your convenience to verify major mechanical systems, roof age, and foundation. You never clean or repair anything beforehand.
+              </p>
+            </div>
+            <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+              <span className="text-xs font-bold text-pine-600 uppercase tracking-wider">Phase 3</span>
+              <h3 className="mt-2 font-display text-lg text-pine-950 font-bold">Firm Cash Offer &amp; Closing</h3>
+              <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+                We present an all-cash agreement with zero financing contingencies. If you accept, you choose the closing date and settlement takes place at an established local title company.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>

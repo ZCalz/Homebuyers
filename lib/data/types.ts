@@ -22,6 +22,9 @@ export interface City {
   testimonial: Testimonial;
   /** Slugs of nearby cities in the same state, used for internal linking. */
   nearby: string[];
+  targetKeyword?: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }
 
 export interface RegulationNote {
@@ -43,4 +46,7 @@ export interface StateData {
   intro: string;
   regulationNote: RegulationNote;
   cities: City[];
+  targetKeyword?: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }

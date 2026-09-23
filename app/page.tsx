@@ -12,9 +12,9 @@ import { SITE, states } from "@/lib/data";
 import { situations } from "@/lib/data/situations";
 
 export const metadata: Metadata = {
-  title: `Sell Your House Fast in DC, Maryland, Virginia & Delaware | ${SITE.name}`,
+  title: "Sell My House Fast For Cash Near Me | As-Is",
   description:
-    "USHomeBuy (US Home Buy) is your local US home buying company for the DMV and Delaware. Sell as-is with no repairs, no commissions, and a closing date you choose. Get a no-obligation offer today.",
+    "Need to sell your house fast for cash near you? We buy homes as-is in DC, Maryland, Virginia & Delaware with zero fees, no repairs, and fast closing dates.",
 };
 
 export default function HomePage() {
@@ -35,8 +35,11 @@ export default function HomePage() {
                 Serving DC · Maryland · Virginia · Delaware
               </p>
               <h1 className="mt-4 font-display text-4xl sm:text-5xl leading-[1.08] text-pine-950">
-                Sell your house as-is — on your timeline.
+                Sell your house fast for cash — 100% as-is.
               </h1>
+              <p className="mt-3 text-sm sm:text-base text-pine-800 leading-relaxed">
+                We buy homes for cash near you across Washington DC, Maryland, Virginia, and Delaware. Zero repairs, no agent commissions, close on your schedule.
+              </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {["No repairs", "No commissions", "You pick the closing date"].map(
                   (tag) => (
@@ -181,6 +184,104 @@ export default function HomePage() {
               </p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Comparison Section */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-20">
+        <div className="max-w-3xl">
+          <h2 className="font-display text-3xl text-pine-950">
+            Compare selling directly to USHomeBuy vs. listing with a realtor
+          </h2>
+          <p className="mt-3 text-pine-800/80 leading-relaxed">
+            Listing on the MLS works well for fully renovated homes in pristine condition whose owners have months to spare. If you want speed, privacy, and zero out-of-pocket expenses, see how a direct cash sale compares.
+          </p>
+        </div>
+        <div className="mt-8 grid md:grid-cols-2 gap-8">
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-8">
+            <h3 className="font-display text-xl text-pine-950 font-bold">Traditional MLS Listing</h3>
+            <ul className="mt-5 space-y-3.5 text-sm text-pine-800/80">
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>6% Realtor Commissions:</strong> Averages $24,000 on a $400,000 property deducted at closing.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>Seller Closing Costs:</strong> 2% to 3% in title, settlement, and transfer taxes paid by the seller.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>Mandatory Repair Credits:</strong> Buyers demand expensive roof, HVAC, or structural repairs after inspections.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>60 to 90+ Days Waiting:</strong> Continuous mortgage payments, insurance, and utilities while waiting for a buyer.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>Financing Risk:</strong> Up to 20% of retail mortgage approvals fall through before settlement.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="rounded-2xl bg-pine-950 text-sand-50 p-6 sm:p-8 ring-2 ring-pine-800 shadow-xl">
+            <h3 className="font-display text-xl text-sand-50 font-bold">Selling to USHomeBuy</h3>
+            <ul className="mt-5 space-y-3.5 text-sm text-sand-100/85">
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>Zero Commissions:</strong> No agent commissions, broker fees, or listing expenses whatsoever.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>100% Closing Costs Covered:</strong> We pay standard title search, settlement attorney, and recording fees.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>Strictly 100% As-Is:</strong> No repairs, cleaning, painting, or contractor estimates. Take what you want and leave the rest.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>Close in 7 to 14 Days:</strong> Guaranteed closing date of your choice with verified private capital funds.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>Zero Financing Contingencies:</strong> Reliable cash transaction with no appraisal or mortgage underwriting delays.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Homepage FAQ Section */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-20">
+        <h2 className="font-display text-3xl text-pine-950">
+          Frequently asked questions about selling for cash
+        </h2>
+        <div className="mt-8 grid md:grid-cols-2 gap-6">
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-semibold text-pine-950">How quickly can I get an offer on my house?</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              Once you submit your property address, our local acquisitions specialist reviews neighborhood comps and conducts a brief walkthrough. You typically receive a written cash offer within 24 to 48 hours.
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-semibold text-pine-950">Do I have to pay any closing fees or agent commissions?</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              None at all. We are direct property buyers, not listing brokers. There are zero real estate commissions, and USHomeBuy covers standard seller closing costs, title search, and deed recording fees.
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-semibold text-pine-950">What if my property requires major repairs or has trash left inside?</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              We purchase properties strictly 100% as-is. Whether your home needs a new roof, has foundation damage, or has unwanted furniture and personal belongings, you do not have to clean or fix anything.
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-semibold text-pine-950">How do you calculate your cash offer price?</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              We start with the after-repair market value (ARV) based on recent sales of renovated homes nearby, deduct the realistic contractor budget required to update the home, and subtract our standard operating margin.
+            </p>
+          </div>
         </div>
       </section>
 

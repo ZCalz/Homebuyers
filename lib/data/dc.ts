@@ -8,8 +8,12 @@ export const dc: StateData = {
   phoneDisplay: "(571) 276-0986",
   image: "/images/region-dc.png",
   imageAlt: "A row of colorful historic rowhouses on a tree-lined DC street with the Capitol dome visible in the distance",
+  targetKeyword: "cash home buyers in washington dc",
+  metaTitle: "Cash Home Buyers in Washington DC | As-Is",
+  metaDescription:
+    "Trusted cash home buyers in Washington DC. We buy houses as-is in Capitol Hill, Anacostia & Petworth. Handle TOPA tenant rights & probate with zero hassle.",
   heroBlurb:
-    "From rowhouses east of the river to condos in NoMa, our DC team makes fair cash offers on properties in any condition — and we know how to navigate TOPA.",
+    "From rowhouses east of the river to condos in NoMa, our DC cash home buyers make fair as-is offers on properties in any condition — navigating TOPA seamlessly.",
   intro:
     "Selling a house in the District comes with rules that don't exist anywhere else in the country. The Tenant Opportunity to Purchase Act (TOPA) can add months to a sale if your property has tenants, and many DC rowhouses carry decades of deferred maintenance that scare off conventional buyers. We buy DC properties directly, handle the paperwork, and time the closing around your situation — not the other way around.",
   regulationNote: {
@@ -28,6 +32,10 @@ export const dc: StateData = {
       lat: 38.8866,
       lng: -76.9962,
       medianDaysToClose: 21,
+      targetKeyword: "sell house fast capitol hill dc",
+      metaTitle: "Sell My House Fast in Capitol Hill DC | Cash",
+      metaDescription:
+        "Sell your house fast in Capitol Hill, DC. We buy houses cash as-is in Eastern Market, Hill East & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "Capitol Hill's Victorian rowhouses are beautiful — and expensive to keep standing. Hundred-year-old brick, knob-and-tube wiring, and shared party walls mean repair bills that routinely hit six figures. If your Hill East or Eastern Market rowhouse needs more work than you can take on, we'll buy it exactly as it sits.",
       localAngle:
@@ -51,6 +59,10 @@ export const dc: StateData = {
       lat: 38.8623,
       lng: -76.9857,
       medianDaysToClose: 19,
+      targetKeyword: "sell house fast anacostia dc",
+      metaTitle: "Sell My House Fast in Anacostia DC | Cash",
+      metaDescription:
+        "Sell your house fast in Anacostia, DC. We buy houses cash as-is in Historic Anacostia, Fairlawn & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
         "East of the river, homeowners often sit on properties that have been in the family for generations — and sorting out heirs' property, back taxes, or a house that's been vacant for years can feel impossible. We buy houses across Anacostia, Congress Heights, and Fairlawn in any condition, including properties with title complications that need to be untangled before closing.",
       localAngle:
@@ -74,6 +86,10 @@ export const dc: StateData = {
       lat: 38.9422,
       lng: -77.0242,
       medianDaysToClose: 22,
+      targetKeyword: "sell house fast petworth dc",
+      metaTitle: "Sell My House Fast in Petworth DC | Cash Offer",
+      metaDescription:
+        "Sell your house fast in Petworth, DC. We buy houses cash as-is in Park View, Brightwood & nearby. Zero repairs, no agent fees, fast closing dates.",
       intro:
         "Petworth's porch-front rowhouses have appreciated fast, but appreciation doesn't fix a cracked foundation or a basement that floods every summer. Whether you're a longtime owner cashing out, a landlord done with the DC rental market, or an heir managing a property from out of state, we make direct offers on Petworth houses in any condition.",
       localAngle:
@@ -97,6 +113,10 @@ export const dc: StateData = {
       lat: 38.9339,
       lng: -76.9894,
       medianDaysToClose: 23,
+      targetKeyword: "sell house fast brookland dc",
+      metaTitle: "Sell My House Fast in Brookland DC | Cash",
+      metaDescription:
+        "Sell your house fast in Brookland, DC. We buy houses cash as-is in Edgewood, Woodridge & nearby. Zero repairs, no fees, and fast closing dates.",
       intro:
         "Brookland's detached homes and bungalows are rare for DC, and many have been held by the same families since the 1960s. When it's time to sell — because of retirement, a move closer to family, or an estate to settle — a full renovation to satisfy today's buyers can cost more than it returns. We buy Brookland and Woodridge homes as-is, with no showings and no contingencies.",
       localAngle:

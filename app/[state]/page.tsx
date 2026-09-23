@@ -29,11 +29,13 @@ export async function generateMetadata({
   const state = getState(stateSlug);
   if (!state) return {};
   return {
-    title: `We Buy Houses in ${state.name} — Sell Fast for Cash`,
-    description: `Sell your ${state.name} house as-is for cash. Local buyers in ${state.cities
-      .map((c) => c.name)
-      .slice(0, 3)
-      .join(", ")} and beyond. No repairs, no commissions. Call ${state.phoneDisplay}.`,
+    title: state.metaTitle || `Sell My House Fast in ${state.name} | Cash`,
+    description:
+      state.metaDescription ||
+      `Sell your house fast in ${state.name}. We buy houses cash as-is across ${state.cities
+        .slice(0, 2)
+        .map((c) => c.name)
+        .join(", ")}. Zero repairs, no fees, fast closing dates.`,
     alternates: { canonical: `/${state.slug}` },
   };
 }
@@ -124,6 +126,61 @@ export default async function StatePage({
               </p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Comparison: Cash Sale vs Agent Listing in State */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
+        <h2 className="font-display text-3xl text-pine-950">
+          Selling directly to USHomeBuy vs. listing with a {state.name} real estate agent
+        </h2>
+        <p className="mt-3 text-pine-800/80 max-w-3xl leading-relaxed">
+          Selling a home through traditional MLS brokerages across {state.name} requires months of patience, staging, cleaning, continuous open houses, and paying 5% to 6% in commissions plus closing costs. Discover how a direct cash sale provides certainty and speed.
+        </p>
+        <div className="mt-8 grid md:grid-cols-2 gap-8">
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-8">
+            <h3 className="font-display text-xl text-pine-950 font-bold">Traditional Real Estate Listing</h3>
+            <ul className="mt-5 space-y-3 text-sm text-pine-800/80">
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>5%–6% Agent Commissions:</strong> Averages $20,000 to $30,000 deducted directly from your sale proceeds.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>Seller Paid Closing Fees:</strong> Sellers in {state.name} typically cover title fees, transfer taxes, and doc stamps.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>Mandatory Inspection Credits:</strong> Buyers frequently demand roof replacements, plumbing repairs, or price concessions.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-rose-500 font-bold text-base leading-none">✕</span>
+                <span><strong>Financing &amp; Appraisal Delays:</strong> Retail buyers require bank underwriting, which can fall through weeks into escrow.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="rounded-2xl bg-pine-950 text-sand-50 p-6 sm:p-8 ring-2 ring-pine-800 shadow-xl">
+            <h3 className="font-display text-xl text-sand-50 font-bold">Direct Cash Sale to USHomeBuy</h3>
+            <ul className="mt-5 space-y-3 text-sm text-sand-100/85">
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>$0 Commissions &amp; Fees:</strong> No listing fees, broker administrative fees, or marketing expenses.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>100% Closing Costs Paid:</strong> We pay standard title search, settlement attorney, and transfer recording fees.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>Zero Repair Requests:</strong> Buy completely as-is. Leave behind furniture, debris, or broken appliances.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="text-emerald-400 font-bold text-base leading-none">✓</span>
+                <span><strong>Guaranteed Private Cash:</strong> No bank delays or appraisal contingencies. You choose your closing date.</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
