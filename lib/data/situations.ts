@@ -31,6 +31,10 @@ export const situations: Situation[] = [
         heading: "Multiple heirs, one clean number",
         body: "When a property is split among siblings, a single as-is cash offer is often the fastest path to agreement: one number, divided per the will or intestacy shares, with no arguments about renovation budgets or which agent to hire. If one heir lives in the property, we can structure extended possession after closing to give them time to relocate.",
       },
+      {
+        heading: "Managing estate taxes, liens, and reverse mortgages",
+        body: "Many inherited homes come with complex title clouds, overdue county property taxes, municipal utility liens, or reverse mortgages with 30-day notice letters from servicers. Our experienced title settlement partners work directly with lenders and estate attorneys to calculate exact payoff amounts and ensure clean transfer.",
+      },
     ],
     faq: [
       {
@@ -44,6 +48,14 @@ export const situations: Situation[] = [
       {
         q: "Do all heirs have to agree?",
         a: "Everyone with an ownership interest must sign. If an heir can't be located or won't engage, a partition action may be needed — we can point you to local attorneys who handle them.",
+      },
+      {
+        q: "What if the house has years of accumulated clutter or trash?",
+        a: "Take only the personal keepsakes, heirlooms, and legal records you want. Everything else — old furniture, appliances, clothing, yard debris — can be left behind at zero charge to you.",
+      },
+      {
+        q: "Are there capital gains taxes when selling an inherited house?",
+        a: "Inherited properties usually benefit from a 'step-up in basis' to the fair market value on the date of death. This often minimizes or eliminates capital gains taxes upon sale. Consult an estate tax advisor for specifics.",
       },
     ],
   },
@@ -68,6 +80,10 @@ export const situations: Situation[] = [
         heading: "A sale beats an auction in almost every case",
         body: "At auction, your home typically sells below market, the costs of the foreclosure come out first, and the credit damage follows you for seven years. A pre-foreclosure sale pays the loan in full, stops the process, avoids a deficiency, and puts whatever equity remains in your pocket. We coordinate directly with servicers and trustees to get payoff letters and, when needed, short postponements.",
       },
+      {
+        heading: "Preventing severe long-term credit damage",
+        body: "A completed foreclosure remains on your credit report for seven years and can prevent you from qualifying for conventional, FHA, or VA mortgage financing for three to seven years. In contrast, selling prior to auction allows your loan balance to be reported as 'paid in full / satisfied', protecting your future borrowing power.",
+      },
     ],
     faq: [
       {
@@ -81,6 +97,10 @@ export const situations: Situation[] = [
       {
         q: "Will you talk to my lender for me?",
         a: "With your written authorization, yes. We request payoff statements, confirm per-diem interest, and keep the servicer informed of the closing date so the file gets flagged correctly.",
+      },
+      {
+        q: "Can I stay in the home after settlement while looking for a new place?",
+        a: "Yes. We frequently offer leasebacks or post-settlement occupancy agreements so you receive cash proceeds at closing and have time to transition peacefully to your next residence.",
       },
     ],
   },
@@ -105,6 +125,10 @@ export const situations: Situation[] = [
         heading: "No inspections used against you",
         body: "A traditional buyer's inspection is a renegotiation tool. Ours isn't: we do one walkthrough before we make the offer, and the number we give you is the number on the settlement statement. No repair credits, no re-trades the week of closing.",
       },
+      {
+        heading: "Major structural, plumbing, and roof issues",
+        body: "Whether the house has cracked basement cinder blocks, active termites, black mold behind drywall, sagging joists, or severe water penetration from an ancient roof, we buy the home in its exact present state. You never need to hire contractors, pull county permits, or spend tens of thousands out of pocket.",
+      },
     ],
     faq: [
       {
@@ -118,6 +142,14 @@ export const situations: Situation[] = [
       {
         q: "What if the house is fine and just dated?",
         a: "We buy those too — 'as-is' includes 1987 oak cabinets. You'll simply see a higher offer because the work is cosmetic.",
+      },
+      {
+        q: "Do I need to clean out trash or abandoned furniture?",
+        a: "No. Leave behind whatever you don't want. We manage all debris removal, hazmat clearance, and cleanup post-closing.",
+      },
+      {
+        q: "Are there any hidden inspection or appraisal fees?",
+        a: "Never. We do not charge application fees, appraisal fees, or inspection surcharges. We cover all typical seller closing costs.",
       },
     ],
   },
@@ -142,6 +174,10 @@ export const situations: Situation[] = [
         heading: "Insurance claims and settlement coordination",
         body: "You can sell your fire-damaged property even if your insurance claim is still pending or already settled. Keep your insurance payout for personal property and structure loss, and sell the underlying property and land to us for cash at closing.",
       },
+      {
+        heading: "Complete structural and demolition solutions",
+        body: "Rebuilding a burnt property requires specialized architectural permits, structural truss replacements, and hazmat soot remediation. Our construction teams handle all engineering sign-offs, city tear-down approvals, and rebuilds after title transfers.",
+      },
     ],
     faq: [
       {
@@ -155,6 +191,10 @@ export const situations: Situation[] = [
       {
         q: "Can I keep the insurance check if I sell to you?",
         a: "Yes. In most situations, you retain your insurance settlement proceeds and receive our cash offer for the real estate. Consult your adjuster and our team for precise coordination.",
+      },
+      {
+        q: "How fast can we close on a burnt house?",
+        a: "We can close in as few as 10 to 14 days once clear title is established with our local settlement attorney.",
       },
     ],
   },
@@ -179,6 +219,10 @@ export const situations: Situation[] = [
         heading: "Non-paying tenants and mid-eviction sales",
         body: "A property mid-eviction is nearly impossible to sell on the open market, but it's routine for us. We price the property with the occupancy situation factored in, take assignment of the existing lease or court case, and you stop accruing losses on the day we close.",
       },
+      {
+        heading: "Selling rental property with damaged interiors",
+        body: "Tenants often cause significant wear and tear: ruined carpet, broken drywall, unauthorized pets, or abandoned furniture. When you sell to USHomeBuy, you don't have to hire painters, replace appliances, or clean trash. We take over the property in 100% as-is condition.",
+      },
     ],
     faq: [
       {
@@ -192,6 +236,14 @@ export const situations: Situation[] = [
       {
         q: "Can you buy my whole portfolio?",
         a: "Yes — we regularly purchase multi-property portfolios across the four states in a single coordinated closing.",
+      },
+      {
+        q: "What happens to the tenant security deposits?",
+        a: "Security deposits and prorated rents are accounted for on the final settlement statement and transferred smoothly at closing.",
+      },
+      {
+        q: "Do I need to stage or show the home to multiple buyers?",
+        a: "No. We perform a single discreet walkthrough without disturbing your tenants or placing unsightly for-sale signs on the lawn.",
       },
     ],
   },
@@ -216,6 +268,10 @@ export const situations: Situation[] = [
         heading: "Leave what you can't take",
         body: "Movers charge by weight. Anything that isn't worth shipping — furniture, the garage shelving, the half-used paint cans — stays behind, and we deal with it after closing.",
       },
+      {
+        heading: "Seamless digital and remote mail-away closings",
+        body: "If you have already departed for your new assignment or out-of-state job, our settlement attorneys arrange remote electronic notary closings or overnight FedEx document packages so you never need to travel back for settlement.",
+      },
     ],
     faq: [
       {
@@ -229,6 +285,10 @@ export const situations: Situation[] = [
       {
         q: "Is a cash offer lower than what I'd get listing?",
         a: "Usually, yes — our offers trade some price for speed and certainty. We'll give you an honest comparison so you can weigh the carrying costs and risk of a traditional listing against the net of a dated cash closing.",
+      },
+      {
+        q: "Can I restore my VA loan entitlement quickly?",
+        a: "Yes. As soon as our cash closing funds and your existing VA mortgage is paid off, the title company issues a payoff confirmation letter so your lender can restore your VA certificate of eligibility.",
       },
     ],
   },
@@ -253,6 +313,10 @@ export const situations: Situation[] = [
         heading: "When one spouse still lives in the house",
         body: "We can schedule closing around a move-out date, or structure a short post-settlement occupancy so the resident spouse has time to relocate after the sale funds. What we can't do is buy a house with only one owner's signature — both names on the deed must sign, or a court order must authorize the sale.",
       },
+      {
+        heading: "Eliminating mortgage liability and marital debt disputes",
+        body: "Joint mortgage obligations carry ongoing financial risk for both spouses if one party defaults. A cash sale completely satisfies the joint note, cancels the deed of trust, and provides clean financial separation so both parties can purchase new homes independently.",
+      },
     ],
     faq: [
       {
@@ -266,6 +330,10 @@ export const situations: Situation[] = [
       {
         q: "Who pays the mortgage until closing?",
         a: "That's between you and your agreement — but a fast closing shrinks the number of payments in dispute, which is often the point.",
+      },
+      {
+        q: "Do both spouses need to attend the closing together?",
+        a: "No. Separate closing appointments, mobile notaries, and digital signing options are available so neither party has to be in the same room.",
       },
     ],
   },
@@ -290,6 +358,10 @@ export const situations: Situation[] = [
         heading: "For adult children helping from a distance",
         body: "Roughly half our downsizing purchases are coordinated by adult children, often out of state, holding power of attorney. We're comfortable working with POAs, elder-law attorneys, and fiduciaries, and we'll keep every sibling on the email chain so no one wonders what happened.",
       },
+      {
+        heading: "Zero staging, cleaning, or open houses",
+        body: "Traditional listings require frequent open houses, spotless kitchens, and constant disruptions that can be stressful for senior homeowners. With USHomeBuy, you receive a direct cash offer with only one quiet visit and zero strangers touring the bedrooms.",
+      },
     ],
     faq: [
       {
@@ -303,6 +375,10 @@ export const situations: Situation[] = [
       {
         q: "Will the offer account for the house being dated?",
         a: "Cosmetically dated homes in good structural shape receive our strongest offers — the gap between our price and a renovated sale is smallest in exactly this situation.",
+      },
+      {
+        q: "Can sale proceeds be used directly for assisted living community entrance fees?",
+        a: "Yes. Settlement proceeds can be wired directly into designated trust or escrow accounts on the date of your choosing.",
       },
     ],
   },
