@@ -109,15 +109,28 @@ export default function LocationsPage() {
       <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
         <div className="rounded-2xl bg-pine-100/70 ring-1 ring-pine-300/50 p-6 sm:p-8">
           <h2 className="font-display text-2xl text-pine-900">
-            Local legal requirements we manage on your behalf
+            Local legal requirements we handle for you
           </h2>
-          <div className="mt-4 grid md:grid-cols-2 gap-6 text-sm text-pine-900/85 leading-relaxed">
-            <p>
-              In Washington DC, we handle compliance with the Tenant Opportunity to Purchase Act (TOPA) and historic preservation district guidelines. In Maryland, we resolve colonial-era ground rent redemption filings with the State Department of Assessments and Taxation (SDAT).
-            </p>
-            <p>
-              In Virginia, our closing attorneys navigate expedited trustee deed of trust foreclosures and HOA resale disclosure requirements. In Delaware, we manage Sussex County septic inspection compliance and Kent/New Castle transfer requirements.
-            </p>
+          <p className="mt-2 text-sm text-pine-800/85">
+            Every state has different real estate rules. We take care of the paperwork, liens, and disclosures:
+          </p>
+          <div className="mt-4 grid sm:grid-cols-2 gap-4 text-sm text-pine-900/90">
+            <div className="rounded-xl bg-white/80 p-4 border border-pine-200">
+              <strong className="block text-pine-950 font-semibold mb-1">Washington, DC</strong>
+              We handle TOPA tenant notices, tenant buyout agreements, and historic district permits.
+            </div>
+            <div className="rounded-xl bg-white/80 p-4 border border-pine-200">
+              <strong className="block text-pine-950 font-semibold mb-1">Maryland</strong>
+              We resolve old ground rent claims with SDAT, clear municipal liens, and manage pre-foreclosure files.
+            </div>
+            <div className="rounded-xl bg-white/80 p-4 border border-pine-200">
+              <strong className="block text-pine-950 font-semibold mb-1">Virginia</strong>
+              We expedite trustee sales to stop auctions and coordinate directly with local title attorneys.
+            </div>
+            <div className="rounded-xl bg-white/80 p-4 border border-pine-200">
+              <strong className="block text-pine-950 font-semibold mb-1">Delaware</strong>
+              We manage mandatory septic checks (Class H) and coordinate estate filings with the Register of Wills.
+            </div>
           </div>
         </div>
       </section>
@@ -125,37 +138,65 @@ export default function LocationsPage() {
       {/* Comprehensive Regional Cash Home Buying Directory Guide */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
         <div className="rounded-3xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-10">
-          <h2 className="font-display text-2xl sm:text-3xl text-pine-950">
-            Mid-Atlantic Cash Home Buyer Directory: Local Insights by State &amp; County
+          <h2 className="font-display text-2xl sm:text-3xl text-pine-950 font-bold">
+            Mid-Atlantic Cash Home Buyer Directory &amp; State Breakdown
           </h2>
-          <div className="mt-6 space-y-5 text-pine-800/85 text-sm sm:text-base leading-relaxed">
-            <p>
-              When evaluating companies that purchase houses for cash across the Mid-Atlantic, working with localized acquisition teams makes an enormous financial difference. National real estate tech platforms rely on algorithmic automated valuation models (AVMs) that cannot account for hyper-local quirks: block-by-block historic rowhome variations in Baltimore, strict zoning and tenant laws in Washington DC, septic transfer certifications in Delaware, or county tax assessment cycles in Virginia.
-            </p>
-            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
-              Washington, DC Market Dynamics
-            </h3>
-            <p>
-              Properties in the District of Columbia frequently involve historic district architectural preservation review, multi-family flat conversions, and complex tenant occupancy laws under TOPA. USHomeBuy maintains dedicated legal resources in DC to resolve tenant waivers, manage Superior Court probate filings, and execute title conveyances cleanly at established DC settlement offices.
-            </p>
-            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
-              Maryland Metropolitan &amp; Suburban Markets
-            </h3>
-            <p>
-              From historic rowhomes in Baltimore City (Pigtown, Highlandtown, Canton) to single-family colonials across Montgomery and Prince George&apos;s counties, Maryland sellers face distinct closing customs. Our acquisitions team resolves historic ground rents, handles pre-foreclosure mediation requirements, and coordinates directly with Maryland title attorneys to satisfy municipal water and tax liens prior to closing.
-            </p>
-            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
-              Virginia Northern &amp; Coastal Markets
-            </h3>
-            <p>
-              Virginia is a non-judicial foreclosure state where trustee auctions can occur in as few as 60 days following loan default. Our Virginia specialists in Fairfax, Arlington, Richmond, Norfolk, and Virginia Beach operate with urgent speed, frequently closing transactions in 10 to 14 days to preserve seller equity before auction dates.
-            </p>
-            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
-              Delaware Statewide Coverage
-            </h3>
-            <p>
-              Covering New Castle, Kent, and Sussex counties, we purchase suburban subdivisions, older Wilmington townhomes, rural farmhouses, and coastal beach cottages. We navigate Delaware Register of Wills probate administration and coordinate mandatory Class H septic inspections so you don&apos;t have to manage them yourself.
-            </p>
+          <p className="mt-3 text-pine-800/85 text-sm sm:text-base leading-relaxed">
+            National iBuyers often give automated offers that change after an inspection. We work differently. Our local buyers live in these communities, know market values by street, and guarantee fair cash offers with zero surprise fees.
+          </p>
+
+          <div className="mt-8 grid md:grid-cols-2 gap-6">
+            {/* Washington DC */}
+            <div className="rounded-2xl bg-sand-50/70 ring-1 ring-sand-300/60 p-6">
+              <h3 className="font-display text-lg text-pine-950 font-bold flex items-center gap-2">
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
+                Washington, DC
+              </h3>
+              <ul className="mt-3 space-y-2 text-sm text-pine-800/85 list-disc pl-5">
+                <li><strong>All 8 Wards:</strong> From Capitol Hill rowhomes to Anacostia single-family houses.</li>
+                <li><strong>Tenant Issues:</strong> We handle full TOPA compliance and tenant transitions.</li>
+                <li><strong>Probate:</strong> We work directly with the DC Superior Court Probate Division.</li>
+              </ul>
+            </div>
+
+            {/* Maryland */}
+            <div className="rounded-2xl bg-sand-50/70 ring-1 ring-sand-300/60 p-6">
+              <h3 className="font-display text-lg text-pine-950 font-bold flex items-center gap-2">
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
+                Maryland
+              </h3>
+              <ul className="mt-3 space-y-2 text-sm text-pine-800/85 list-disc pl-5">
+                <li><strong>Counties Covered:</strong> Baltimore City/County, Montgomery, Prince George&apos;s, Charles, Anne Arundel, and Frederick.</li>
+                <li><strong>Ground Rent:</strong> We verify and redeem ground rent accounts before closing.</li>
+                <li><strong>As-Is Sales:</strong> No repairs or county inspection work orders required.</li>
+              </ul>
+            </div>
+
+            {/* Virginia */}
+            <div className="rounded-2xl bg-sand-50/70 ring-1 ring-sand-300/60 p-6">
+              <h3 className="font-display text-lg text-pine-950 font-bold flex items-center gap-2">
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
+                Virginia
+              </h3>
+              <ul className="mt-3 space-y-2 text-sm text-pine-800/85 list-disc pl-5">
+                <li><strong>Key Regions:</strong> Northern Virginia (Fairfax, Arlington, Loudoun), Richmond Metro, and Hampton Roads.</li>
+                <li><strong>Fast Closings:</strong> We can close in 10 to 14 days to stop scheduled foreclosure auctions.</li>
+                <li><strong>No Commissions:</strong> Save 6% in agent fees plus standard closing expenses.</li>
+              </ul>
+            </div>
+
+            {/* Delaware */}
+            <div className="rounded-2xl bg-sand-50/70 ring-1 ring-sand-300/60 p-6">
+              <h3 className="font-display text-lg text-pine-950 font-bold flex items-center gap-2">
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
+                Delaware
+              </h3>
+              <ul className="mt-3 space-y-2 text-sm text-pine-800/85 list-disc pl-5">
+                <li><strong>Counties Covered:</strong> New Castle, Kent, and Sussex counties.</li>
+                <li><strong>Property Types:</strong> City rowhomes in Wilmington, suburban split-levels in Newark, and coastal cottages in Rehoboth Beach.</li>
+                <li><strong>Septic &amp; Wells:</strong> We buy homes as-is with aging or failing septic systems.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
