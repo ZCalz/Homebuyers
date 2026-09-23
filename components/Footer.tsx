@@ -112,7 +112,7 @@ export default function Footer() {
             <a
               href="https://daszy.studio"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="text-sand-300 hover:text-sand-200 underline underline-offset-2"
             >
               Daszy Studio

@@ -95,7 +95,7 @@ export default function FloatingContact() {
         <a
           href={`https://wa.me/15712760986?text=${whatsappText}`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           aria-label="Chat with our acquisitions team on WhatsApp"
           className="w-14 h-14 sm:w-15 sm:h-15 rounded-full bg-[#25D366] active:bg-[#1faa53] text-white flex items-center justify-center shadow-[0_8px_25px_rgba(37,211,102,0.45)] ring-2 ring-white/95 hover:ring-emerald-300 hover:scale-110 active:scale-95 transition-all duration-200"
         >
