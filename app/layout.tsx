@@ -3,6 +3,7 @@ import "./globals.css";
 import { SITE } from "@/lib/data";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingContact from "@/components/FloatingContact";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -19,10 +20,11 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col pb-16 md:pb-0">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <FloatingContact />
       </body>
     </html>
   );
