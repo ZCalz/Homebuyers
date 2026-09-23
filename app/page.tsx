@@ -35,10 +35,10 @@ export default function HomePage() {
                 Serving DC · Maryland · Virginia · Delaware
               </p>
               <h1 className="mt-4 font-display text-4xl sm:text-5xl leading-[1.08] text-pine-950">
-                Sell your house fast for cash — 100% as-is.
+                Sell My House Fast For Cash | Local Cash Home Buyers — We Buy Houses As-Is
               </h1>
               <p className="mt-3 text-sm sm:text-base text-pine-800 leading-relaxed">
-                We buy homes for cash near you across Washington DC, Maryland, Virginia, and Delaware. Zero repairs, no agent commissions, close on your schedule.
+                When you need to <strong>sell your house fast for cash</strong> or work with reputable <strong>companies that buy homes as is</strong>, USHomeBuy provides fair balance-sheet cash offers across Washington DC, Maryland, Virginia, and Delaware. <strong>We buy homes in any condition</strong> with zero realtor commissions, zero fees, and closings on your exact timeline.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {["No repairs", "No commissions", "You pick the closing date"].map(
@@ -281,6 +281,33 @@ export default function HomePage() {
             <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
               We start with the after-repair market value (ARV) based on recent sales of renovated homes nearby, deduct the realistic contractor budget required to update the home, and subtract our standard operating margin.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Informative Guide: Why Sell to Cash Home Buyers */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-20">
+        <div className="rounded-3xl bg-pine-950 text-sand-50 p-8 sm:p-12">
+          <h2 className="font-display text-3xl sm:text-4xl text-sand-50 max-w-2xl">
+            Why Homeowners Choose Companies That Buy Houses For Cash
+          </h2>
+          <div className="mt-6 grid md:grid-cols-2 gap-8 text-sm sm:text-base text-sand-100/85 leading-relaxed">
+            <div>
+              <p>
+                When searching for <strong>cash buyers for houses</strong> or exploring how to <strong>sell houses for cash</strong>, homeowners are usually looking to avoid the delays and uncertainties of the traditional retail market. In an open market listing, a buyer’s mortgage lender requires strict home appraisals, radon checks, termite certifications, and lead paint disclosures. If repairs exceed minor cosmetic fixes, loan officers can cancel the buyer’s financing days before closing.
+              </p>
+              <p className="mt-4">
+                At USHomeBuy, <strong>we buy homes in any condition</strong>. Because we use direct balance-sheet capital, we never ask for repair credits, home warranty fees, or inspection renegotiations. You receive a guaranteed cash sale on your schedule.
+              </p>
+            </div>
+            <div>
+              <p>
+                Whether you need to <strong>cash buy house</strong> solutions for an inherited probate property, avoid foreclosure auctions, or sell a rental with delinquent tenants, our regional specialists throughout Washington DC, Maryland, Virginia, and Delaware handle every detail.
+              </p>
+              <p className="mt-4">
+                We coordinate directly with established local settlement attorneys and title companies to order municipal lien certificates, prepare deed conveyances, and wire funds directly into your account on the closing day you choose.
+              </p>
+            </div>
           </div>
         </div>
       </section>

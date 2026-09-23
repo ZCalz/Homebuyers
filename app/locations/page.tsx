@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "We Buy Houses Locations | DC, MD, VA & DE Buyers",
+  title: "We Buy Houses Locations | Cash Home Buyers",
   description:
     "Explore every city where we buy houses for cash across Washington DC, Maryland, Virginia, and Delaware. Fast as-is sales with zero commissions or fees.",
   alternates: { canonical: "/locations" },
@@ -20,13 +20,10 @@ export default function LocationsPage() {
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pt-8">
         <h1 className="font-display text-4xl text-pine-950">
-          Where we buy houses
+          We Buy Houses Locations | Cash Home Buyers Near You
         </h1>
-        <p className="mt-4 text-lg text-pine-800/85 max-w-2xl leading-relaxed">
-          Four states, one standard: a local buyer who knows the market, a
-          transparent offer, and a closing on your schedule. Find your market
-          below — every page covers the neighborhoods, zip codes, and local
-          rules that affect your sale.
+        <p className="mt-4 text-lg text-pine-800/85 max-w-3xl leading-relaxed">
+          When you need reputable <strong>cash home buyers</strong> who purchase properties for cash across Washington DC, Maryland, Virginia, and Delaware, our local teams are ready. Every regional office understands local zoning, historical disclosure requirements, and county transfer tax rules to ensure a seamless, as-is cash sale on your schedule.
         </p>
       </section>
 

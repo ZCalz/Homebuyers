@@ -36,13 +36,10 @@ export default function GetOfferPage() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <h1 className="font-display text-4xl leading-[1.1] text-pine-950">
-              Four questions. One transparent offer.
+              Get A Fair Cash Offer On Your House Fast — 100% As-Is, No Fees
             </h1>
             <p className="mt-5 text-lg text-pine-800/85 leading-relaxed">
-              Tell us where the property is, what shape it&apos;s in, and
-              what&apos;s prompting the sale. The team that covers your zip
-              code will call to schedule a single walkthrough — and you&apos;ll
-              have a written offer within about 48 hours of the visit.
+              When you need to <strong>sell your house fast for cash</strong> or work with reputable <strong>companies that buy homes as is</strong>, we make the process simple. Answer four quick questions about your property location and current condition. Our local acquisitions specialist covering your county will provide a firm, no-obligation written cash offer with zero commissions or hidden deductions.
             </p>
             <div className="mt-8 space-y-4">
               {reassurance.map((r) => (
@@ -107,6 +104,42 @@ export default function GetOfferPage() {
               <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
                 We present an all-cash agreement with zero financing contingencies. If you accept, you choose the closing date and settlement takes place at an established local title company.
               </p>
+            </div>
+          </div>
+
+          {/* Additional Informative Content: Conditions We Buy */}
+          <div className="mt-16 rounded-2xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-10">
+            <h3 className="font-display text-2xl text-pine-950">
+              We Buy Homes in Any Condition Across DC, MD, VA &amp; DE
+            </h3>
+            <p className="mt-3 text-pine-800/80 text-sm sm:text-base leading-relaxed max-w-4xl">
+              Unlike traditional retail buyers who require home inspection repair credits and bank underwriting appraisals, <strong>we buy distressed properties</strong> and homes requiring significant capital improvements. You can sell to us regardless of the physical, financial, or legal hurdles facing the property:
+            </p>
+            <div className="mt-6 grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm text-pine-900/85">
+              <div className="rounded-xl bg-pine-50/60 p-4 border border-pine-900/5">
+                <p className="font-semibold text-pine-950">Structural &amp; Foundation Damage</p>
+                <p className="mt-1 text-xs text-pine-800/80">Cracked brickwork, bowing basement walls, and sagging floor joists.</p>
+              </div>
+              <div className="rounded-xl bg-pine-50/60 p-4 border border-pine-900/5">
+                <p className="font-semibold text-pine-950">Major Water or Storm Leaks</p>
+                <p className="mt-1 text-xs text-pine-800/80">Roof failure, basement flooding, plumbing bursts, and mold remediation.</p>
+              </div>
+              <div className="rounded-xl bg-pine-50/60 p-4 border border-pine-900/5">
+                <p className="font-semibold text-pine-950">Severe Hoarder Cleanouts</p>
+                <p className="mt-1 text-xs text-pine-800/80">Leave unwanted furniture, trash, and heavy clutter behind for our crews.</p>
+              </div>
+              <div className="rounded-xl bg-pine-50/60 p-4 border border-pine-900/5">
+                <p className="font-semibold text-pine-950">Pre-Foreclosure &amp; Tax Liens</p>
+                <p className="mt-1 text-xs text-pine-800/80">Stop auction dates and satisfy delinquent municipal or mortgage debts.</p>
+              </div>
+              <div className="rounded-xl bg-pine-50/60 p-4 border border-pine-900/5">
+                <p className="font-semibold text-pine-950">Inherited &amp; Probate Estates</p>
+                <p className="mt-1 text-xs text-pine-800/80">Navigate estate administration and court approvals with zero out-of-pocket costs.</p>
+              </div>
+              <div className="rounded-xl bg-pine-50/60 p-4 border border-pine-900/5">
+                <p className="font-semibold text-pine-950">Problem Rental Tenants</p>
+                <p className="mt-1 text-xs text-pine-800/80">Sell houses with non-paying tenants or active leases without eviction delays.</p>
+              </div>
             </div>
           </div>
         </div>

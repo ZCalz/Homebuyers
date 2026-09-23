@@ -64,10 +64,10 @@ export default async function StatePage({
               {state.name} · Local team
             </p>
             <h1 className="mt-3 font-display text-4xl leading-[1.1] text-pine-950">
-              We buy houses across {state.name} — in any condition
+              Sell My House Fast in {state.name} | Cash Home Buyers — We Buy Houses As-Is
             </h1>
             <p className="mt-5 text-lg text-pine-800/85 leading-relaxed">
-              {state.intro}
+              When you need to <strong>sell your house fast in {state.name}</strong> or seek trusted <strong>cash home buyers</strong> who buy houses in any condition, USHomeBuy provides a direct, transparent cash solution. {state.intro}
             </p>
             <p className="mt-5 text-sm text-pine-700">
               Prefer to talk it through? Call our {state.abbr} team directly at{" "}

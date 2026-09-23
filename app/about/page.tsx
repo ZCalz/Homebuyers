@@ -4,7 +4,7 @@ import CtaBand from "@/components/CtaBand";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Local Cash Home Buyers | Meet Our DMV & DE Team",
+  title: "Local Cash Home Buyers | Meet Our Regional Team",
   description:
     "Meet our local cash home buyers serving DC, Maryland, Virginia, and Delaware. Dedicated regional acquisition teams with transparent, zero-commission offers.",
   alternates: { canonical: "/about" },
@@ -38,24 +38,14 @@ export default function AboutPage() {
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pt-8">
         <h1 className="font-display text-4xl text-pine-950">
-          Built for one region, staffed like it
+          Local Cash Home Buyers | Meet USHomeBuy — As-Is House Buyers
         </h1>
         <div className="mt-5 max-w-3xl space-y-4 text-lg text-pine-800/85 leading-relaxed">
           <p>
-            National home-buying brands treat the Chesapeake region as one
-            market. It isn&apos;t. A rowhouse in Baltimore with a colonial-era
-            ground rent, a tenanted condo in DC subject to TOPA, a Norfolk
-            bungalow in a flood zone, and a Sussex County farmhouse on a
-            failing septic system are four completely different transactions —
-            and pricing them from a call center in another time zone is how
-            sellers get lowballed.
+            When you need reputable <strong>local cash home buyers</strong> who purchase properties as-is across Washington DC, Maryland, Virginia, and Delaware, you deserve direct access to the actual decision-makers. National home-buying franchises treat our diverse Mid-Atlantic region as one monolithic market from distant call centers. We do the exact opposite.
           </p>
           <p>
-            So we organized the company the other way around: four states,
-            four dedicated acquisition teams, each responsible for knowing its
-            territory&apos;s regulations, housing stock, and closing quirks.
-            The person who walks your property is the person whose name is on
-            the offer.
+            As direct <strong>cash buyers for houses</strong>, we maintain dedicated regional acquisition specialists in every market we serve. A historic rowhome in Baltimore with ground rent, a tenanted rental property in Washington DC subject to TOPA, a damaged colonial in Northern Virginia, or a coastal home in Delaware require nuanced legal and local understanding. The local specialist who evaluates your property is the exact person whose signature appears on your purchase agreement.
           </p>
         </div>
       </section>
@@ -120,6 +110,44 @@ export default function AboutPage() {
           <p className="mt-3 text-pine-900/85 text-sm leading-relaxed">
             At USHomeBuy, we purchase properties directly with our own verified capital. We sign the purchase agreement as the buyer, hold earnest money in escrow with a reputable local title company, and close on schedule.
           </p>
+        </div>
+      </section>
+
+      {/* 5-Point Homeowner Bill of Rights */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
+        <h2 className="font-display text-3xl text-pine-950">
+          Our Homeowner Bill of Rights: How Companies That Buy Homes As-Is Should Operate
+        </h2>
+        <div className="mt-6 max-w-4xl space-y-4 text-pine-800/85 leading-relaxed text-sm sm:text-base">
+          <p>
+            Selling a property is one of the most significant financial transactions of your life. Whether you are seeking <strong>companies that buy distressed properties</strong>, selling an inherited estate, or looking to <strong>buy home for cash</strong> without agent commissions, here are the standards we hold ourselves to on every transaction:
+          </p>
+        </div>
+        <div className="mt-8 grid md:grid-cols-2 gap-6">
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-display text-lg text-pine-950 font-bold">1. Written Valuation Transparency</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              We never give random or deceptive ballpark estimates. Every offer includes actual MLS neighborhood comparable sales, our detailed repair itemization, and our holding cost calculations so you see exactly how your number was derived.
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-display text-lg text-pine-950 font-bold">2. Zero Hidden Fees or Retrading</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              Predatory buyers lock houses up under contract, then demand $30,000 price drops days before closing. At USHomeBuy, our single walkthrough sets the price. The cash offer on your contract is the exact amount wired at settlement.
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-display text-lg text-pine-950 font-bold">3. Verifiable Proof of Funds</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              Before you sign any purchase agreement, we provide bank statements verifying available liquidity to close. You never have to worry about whether a lender will approve your buyer’s loan or whether an appraisal will come in short.
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-display text-lg text-pine-950 font-bold">4. Flexible Timeline On Your Terms</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              Need to close in 14 days to stop a foreclosure auction or settle court obligations? We can expedite. Need 60 days to find your next residence, coordinate estate items, or arrange senior living? We schedule closing around your exact life needs.
+            </p>
+          </div>
         </div>
       </section>
 

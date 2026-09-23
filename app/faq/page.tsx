@@ -124,7 +124,7 @@ export default function FaqPage() {
 
       <section className="mx-auto max-w-4xl px-4 sm:px-6 pt-8 pb-12">
         <h1 className="font-display text-4xl sm:text-5xl text-pine-950">
-          Frequently asked questions about selling your house fast
+          Cash Home Buyer FAQs | Frequently Asked Questions About Selling Your House Fast For Cash
         </h1>
         <p className="mt-4 text-lg text-pine-800/85 leading-relaxed">
           Clear, transparent answers about cash home buyers, selling without a realtor, closing costs, timelines, and as-is property purchases across DC, Maryland, Virginia, and Delaware.

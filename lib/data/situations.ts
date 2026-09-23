@@ -16,7 +16,7 @@ export const situations: Situation[] = [
     shortTitle: "Inherited House",
     metaDescription:
       "Inherited a house in DC, MD, VA, or DE? We buy inherited & probate homes as-is for cash. No cleanouts, no agent fees, and closings timed to court orders.",
-    heading: "Selling an inherited house without the overwhelm",
+    heading: "Sell Inherited House Fast | Probate Cash Home Buyers — As-Is Sale",
     lede: "An inherited property usually arrives with three problems at once: a house full of belongings, a legal process you've never navigated, and co-heirs who may not agree on anything. We buy inherited homes across DC, Maryland, Virginia, and Delaware exactly as they stand — furniture, deferred maintenance, and all.",
     sections: [
       {
@@ -53,7 +53,7 @@ export const situations: Situation[] = [
     shortTitle: "Avoiding Foreclosure",
     metaDescription:
       "Facing foreclosure? Stop foreclosure fast in DC, MD, VA & DE. Sell your house for cash before auction, protect your equity and credit. Call for fair offer.",
-    heading: "Behind on payments? Your timeline depends on your state.",
+    heading: "Stop Foreclosure Fast | Pre-Foreclosure Cash Home Buyers",
     lede: "The single most important fact about foreclosure in our region: Virginia can move from default to auction in about two months, while Maryland, Delaware, and DC give homeowners considerably longer. Knowing which clock you're on determines which options are still open.",
     sections: [
       {
@@ -90,7 +90,7 @@ export const situations: Situation[] = [
     shortTitle: "House Needs Repairs",
     metaDescription:
       "Sell your house as-is with zero repairs needed in DC, MD, VA & DE. We buy ugly, damaged, foundation-flawed properties for cash. No fees or inspections.",
-    heading: "Sell it exactly as it stands — we mean that literally",
+    heading: "Sell House As-Is Fast | Cash Buyers For Damaged Houses In Any Condition",
     lede: "The regional housing stock we work in is old: DC and Baltimore rowhouses from the 1900s, post-war NoVA ramblers, Delaware farmhouses on original septic. When the repair list outgrows the budget, we buy the house as-is and price the work into a transparent offer.",
     sections: [
       {
@@ -127,7 +127,7 @@ export const situations: Situation[] = [
     shortTitle: "Fire Damaged House",
     metaDescription:
       "Sell your fire damaged house as-is for cash in Delaware, Maryland & Virginia. Zero repairs or cleanup needed. We buy burnt homes and close on your schedule.",
-    heading: "Sell a fire-damaged house without cleaning or rebuilding",
+    heading: "Sell Fire Damaged House Fast | Burnt Home Cash Buyers — 100% As-Is",
     lede: "A residential fire leaves homeowners overwhelmed by insurance paperwork, structural condemnation orders, and mounting municipal fines. Whether your home suffered minor smoke damage in Maryland, electrical fire in Richmond, or total loss in Delaware, we buy fire-damaged properties for cash in 100% as-is condition.",
     sections: [
       {
@@ -164,7 +164,7 @@ export const situations: Situation[] = [
     shortTitle: "Tired Landlord",
     metaDescription:
       "Tired of non-paying tenants and evictions? Sell your rental property as-is for cash in DC, MD, VA & DE. Leases transferred, no repairs or agent fees.",
-    heading: "Exit the landlord business without evicting anyone",
+    heading: "Sell Rental Property Fast | Cash Buyers For Houses With Tenants",
     lede: "Landlord-tenant law in this region is some of the most tenant-protective in the country — DC especially. If you're done with 2 a.m. maintenance calls, non-paying tenants, or escalating license requirements, we buy rentals with leases in place and take over the landlord role at settlement.",
     sections: [
       {
@@ -201,7 +201,7 @@ export const situations: Situation[] = [
     shortTitle: "Relocation & PCS",
     metaDescription:
       "Need to relocate fast for work or military PCS orders? Sell your house as-is for cash in DC, MD, VA & DE. Pick your closing date and skip all showings.",
-    heading: "When the move date is fixed, the sale has to flex",
+    heading: "Sell House Fast Relocating | Quick Cash Closing For Relocating Homeowners",
     lede: "The DMV runs on transfers: military PCS orders, federal reassignments, and private-sector relocations. When you have a report date, a 60-to-90-day listing process with financing contingencies is a risk you can't price. A cash closing dated to your calendar is.",
     sections: [
       {
@@ -238,7 +238,7 @@ export const situations: Situation[] = [
     shortTitle: "Divorce",
     metaDescription:
       "Selling a house during a divorce in DC, MD, VA, or DE? Get a fair as-is cash offer, split equity cleanly without agent commissions, and close quickly.",
-    heading: "One number, one date, and both parties can move forward",
+    heading: "Sell House During Divorce Fast | Cash Home Buyers For Quick Settlement",
     lede: "In most divorces the house is the largest shared asset and the biggest point of friction. Months of showings, staging, and price-drop debates keep two people tied together long after they've decided not to be. A direct sale replaces all of it with a single verifiable offer and a settlement date the attorneys can put in the agreement.",
     sections: [
       {
@@ -275,7 +275,7 @@ export const situations: Situation[] = [
     shortTitle: "Downsizing",
     metaDescription:
       "Downsizing or transitioning a parent to assisted living? Sell the home as-is for cash in DC, MD, VA & DE. Leave unwanted furniture behind; zero fees.",
-    heading: "Forty years of home, sold without forty weeks of work",
+    heading: "Sell Parents House Fast | Senior Downsizing & Estate Cash Home Buyers",
     lede: "The houses we buy from downsizing sellers are usually well-loved and long-held — and 'well-loved and long-held' is exactly what today's financed buyers renovate away. Rather than fund a kitchen remodel to satisfy strangers, many longtime owners choose one as-is offer and a moving date they control.",
     sections: [
       {

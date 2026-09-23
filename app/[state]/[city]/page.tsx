@@ -112,10 +112,10 @@ export default async function CityPage({
               {city.medianDaysToClose} days
             </p>
             <h1 className="mt-3 font-display text-4xl leading-[1.1] text-pine-950">
-              Sell your house fast in {city.name}, {state.abbr}
+              Sell My House Fast in {city.name}, {state.abbr} | Cash Home Buyers — We Buy Houses
             </h1>
             <p className="mt-5 text-lg text-pine-800/85 leading-relaxed">
-              {city.intro}
+              When you need to <strong>sell your house fast in {city.name}, {state.abbr}</strong> for cash, work with local <strong>cash home buyers</strong> who purchase properties 100% as-is. {city.intro}
             </p>
             <p className="mt-4 text-sm text-pine-700">
               We buy throughout {city.neighborhoods.join(", ")}, and the

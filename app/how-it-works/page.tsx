@@ -6,7 +6,7 @@ import ProcessSteps from "@/components/ProcessSteps";
 export const metadata: Metadata = {
   title: "How Cash Home Buyers Work | Fair As-Is Offer",
   description:
-    "Learn how cash home buyers work: our transparent 4-step as-is buying process across DC, MD, VA & DE. Walkthrough, offer formula, and settlement on your date.",
+    "Learn how cash home buyers work: our 4-step as-is buying process in DC, MD, VA & DE. Free walkthrough, fair offer formula, and closing on your exact date.",
   alternates: { canonical: "/how-it-works" },
 };
 
@@ -42,12 +42,10 @@ export default function HowItWorksPage() {
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pt-8">
         <h1 className="font-display text-4xl text-pine-950">
-          How selling to us actually works
+          How Cash Home Buyers Work | Sell Your House Fast For Cash
         </h1>
-        <p className="mt-4 text-lg text-pine-800/85 max-w-2xl leading-relaxed">
-          Most &quot;we buy houses&quot; companies keep the process vague on
-          purpose. We do the opposite — here&apos;s every step, including the
-          math behind the offer and the protections you keep along the way.
+        <p className="mt-4 text-lg text-pine-800/85 max-w-3xl leading-relaxed">
+          Understanding how local cash home buyers operate shouldn&apos;t be a mystery. When you need to sell your house fast for cash or buy homes for cash without realtors, we provide complete transparency: our exact pricing formula, no-commission contract terms, and how companies that buy homes as-is complete closings in as few as 14 days.
         </p>
       </section>
 
@@ -167,6 +165,60 @@ export default function HowItWorksPage() {
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Informative Deep-Dive: Cash Buy House vs Listing */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
+        <h2 className="font-display text-3xl text-pine-950">
+          Why Homeowners Choose Companies That Buy Homes As-Is
+        </h2>
+        <div className="mt-6 max-w-4xl space-y-5 text-pine-800/85 leading-relaxed text-sm sm:text-base">
+          <p>
+            When homeowners search for <strong>companies that buy houses for cash</strong> or need to <strong>sell houses for cash</strong>, they are usually balancing speed, certainty, and out-of-pocket costs. Traditional MLS listings require deep pockets: modern buyers demand upgraded granite countertops, modern HVAC units, passed municipal occupancy inspections, and pristine staging. If a house requires major structural, roofing, or plumbing overhauls, traditional mortgage lenders will flatly deny loan approval.
+          </p>
+          <p>
+            As direct <strong>cash buyers for houses</strong>, we bypass banks, appraisals, and retail financing contingencies entirely. Because we purchase with internal capital, <strong>we buy homes in any condition</strong> — including storm damage, foundation settlement, code violations, termite damage, and unfinished additions. You do not need to spend thousands fixing up the property or waiting months hoping an open house buyer’s mortgage is approved.
+          </p>
+        </div>
+
+        <div className="mt-8 overflow-x-auto rounded-2xl border border-pine-900/10 bg-white">
+          <table className="w-full text-left text-sm">
+            <thead className="bg-pine-50 border-b border-pine-900/10 text-pine-950 font-semibold">
+              <tr>
+                <th className="p-4">Key Factor</th>
+                <th className="p-4 text-emerald-800">USHomeBuy Direct Cash Offer</th>
+                <th className="p-4 text-pine-700">Traditional Realtor / MLS Listing</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-pine-900/5 text-pine-800/85">
+              <tr>
+                <td className="p-4 font-semibold">Realtor Commissions</td>
+                <td className="p-4 text-emerald-700 font-medium">0% — Zero commissions or agent fees</td>
+                <td className="p-4">5% to 6% of sales price ($20,000–$30,000)</td>
+              </tr>
+              <tr>
+                <td className="p-4 font-semibold">Repairs &amp; Cleanout</td>
+                <td className="p-4 text-emerald-700 font-medium">None required — Buy houses in any condition</td>
+                <td className="p-4">Required by buyers and mortgage underwriters</td>
+              </tr>
+              <tr>
+                <td className="p-4 font-semibold">Closing Timeline</td>
+                <td className="p-4 text-emerald-700 font-medium">14 to 30 days (You choose the date)</td>
+                <td className="p-4">60 to 90+ days after finding an approved buyer</td>
+              </tr>
+              <tr>
+                <td className="p-4 font-semibold">Financing Contingency</td>
+                <td className="p-4 text-emerald-700 font-medium">None — Guaranteed balance-sheet cash</td>
+                <td className="p-4">High risk of deal falling through if loan denied</td>
+              </tr>
+              <tr>
+                <td className="p-4 font-semibold">Closing Costs &amp; Fees</td>
+                <td className="p-4 text-emerald-700 font-medium">We pay standard seller closing costs</td>
+                <td className="p-4">Seller pays 2% to 4% in title &amp; transfer taxes</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
 
