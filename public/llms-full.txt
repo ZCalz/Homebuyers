@@ -1,0 +1,47 @@
+# USHomeBuy — Full AI Reference & Information
+
+> USHomeBuy (US Home Buy) is a direct, regional cash home buyer operating across Washington DC, Maryland, Virginia, and Delaware. We purchase residential properties directly from homeowners in as-is condition without commissions, fees, or financing contingencies.
+
+## How the Offer Math Works
+Offers are calculated transparently using local comparable sales and contractor-estimated repairs:
+- Renovated Value (After Repair Value / ARV) based on 6-month recent comps.
+- Less: Realistic repair budget (inspected by internal crews).
+- Less: Operating margin and carrying costs.
+- The resulting cash offer is the exact net figure on the settlement statement. Standard closing costs are covered by USHomeBuy.
+
+## Jurisdiction Regulations Handled
+- **Washington, DC:** Compliance with Tenant Opportunity to Purchase Act (TOPA), historic district HPRB guidelines, and DC Superior Court probate.
+- **Maryland:** Ground rent redemption through SDAT, 120-day foreclosure delinquency mediation rules, and FEMA flood zone underwriting.
+- **Virginia:** Fast non-judicial deed of trust trustee sale timeline postponements and payoffs, military PCS orders, and HOA assessment arrears.
+- **Delaware:** Superior Court mortgage foreclosure mediation programs, Sussex County transfer septic inspection rules, and leased-land/manufactured homes.
+
+## All City Landing Pages
+- Washington DC: https://www.ushomebuy.com/washington-dc
+  - Capitol Hill: https://www.ushomebuy.com/washington-dc/capitol-hill
+  - Anacostia: https://www.ushomebuy.com/washington-dc/anacostia
+  - Petworth: https://www.ushomebuy.com/washington-dc/petworth
+  - Brookland: https://www.ushomebuy.com/washington-dc/brookland
+- Maryland: https://www.ushomebuy.com/maryland
+  - Baltimore: https://www.ushomebuy.com/maryland/baltimore
+  - Silver Spring: https://www.ushomebuy.com/maryland/silver-spring
+  - Hyattsville: https://www.ushomebuy.com/maryland/hyattsville
+  - Waldorf: https://www.ushomebuy.com/maryland/waldorf
+  - Dundalk: https://www.ushomebuy.com/maryland/dundalk
+- Virginia: https://www.ushomebuy.com/virginia
+  - Richmond: https://www.ushomebuy.com/virginia/richmond
+  - Virginia Beach: https://www.ushomebuy.com/virginia/virginia-beach
+  - Arlington: https://www.ushomebuy.com/virginia/arlington
+  - Fairfax: https://www.ushomebuy.com/virginia/fairfax
+  - Norfolk: https://www.ushomebuy.com/virginia/norfolk
+  - Woodbridge: https://www.ushomebuy.com/virginia/woodbridge
+- Delaware: https://www.ushomebuy.com/delaware
+  - Wilmington: https://www.ushomebuy.com/delaware/wilmington
+  - Dover: https://www.ushomebuy.com/delaware/dover
+  - Newark: https://www.ushomebuy.com/delaware/newark
+  - Milford: https://www.ushomebuy.com/delaware/milford
+  - Rehoboth Beach: https://www.ushomebuy.com/delaware/rehoboth-beach
+
+## Contact Information
+- Phone: +1 (571) 276-0986
+- SMS: +1 (571) 276-0986
+- Email: kirillYSC@gmail.com
