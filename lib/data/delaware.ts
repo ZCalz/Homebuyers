@@ -9,16 +9,17 @@ export const delaware: StateData = {
   image: "/images/region-delaware.png",
   imageAlt: "A sandy beach-town street lined with shingled cottages leading down to the Delaware shore",
   targetKeyword: "we buy houses in delaware",
-  metaTitle: "We Buy Houses in Delaware | Cash For Homes",
+  metaTitle: "1209 Barley Mill Rd Wilmington DE 19807 | Cash Buyers",
   metaDescription:
-    "We buy houses in Delaware for cash. Sell your house fast as-is in Wilmington, Dover, Newark & Rehoboth Beach. No commissions, closing on your schedule.",
+    "Sell your house fast in Delaware. We buy houses cash as-is from 1209 Barley Mill Rd Wilmington DE 19807 to Dover. Zero repairs, no fees, fast closing dates.",
+  h1: "Sell My House Fast in Delaware | Cash Home Buyers for 1209 Barley Mill Rd Wilmington DE 19807",
   heroBlurb:
-    "From Wilmington rowhomes to Sussex County beach cottages, our Delaware cash buyers know the state's judicial foreclosure timeline and closing math inside out.",
+    "We buy houses for cash across Delaware. Sell your home fast in Wilmington, Dover, Newark, or Sussex County with zero fees and no repairs.",
   intro:
-    "Delaware may be small, but its three counties are three different markets: Wilmington's urban rowhome blocks, Dover's commuter and base-adjacent neighborhoods, and the Sussex County beach towns where cottages meet development pressure. We buy houses in all three — and because Delaware uses judicial foreclosure with mandatory mediation, sellers behind on payments here usually have a real window to sell with equity intact, if they move before judgment.",
+    "Delaware has three distinct housing markets across its three counties. We buy brick rowhomes in Wilmington. We buy single-family homes in Dover. We also buy beach cottages in Sussex County. We buy houses across all three counties. This includes homes from 1209 Barley Mill Rd Wilmington DE 19807 down to the coast. Delaware law requires lenders to use court mediation for foreclosures. If you fall behind on payments, you have time to act. You can sell for cash and protect your equity before a judge rules.",
   regulationNote: {
-    title: "Delaware foreclosure runs through the courts — use that time.",
-    body: "Delaware lenders must sue in Superior Court to foreclose, and homeowners can request the state's Residential Mortgage Foreclosure Mediation Program before judgment. From first filing to sheriff's sale commonly takes many months. That's often enough time to complete a cash sale, pay the loan in full, and keep the deficiency and credit damage off your record entirely — we'll help you map the court timeline against a realistic closing date.",
+    title: "Delaware Foreclosure Runs Through Court: You Have Time",
+    body: "Delaware lenders must file a lawsuit in Superior Court before auctioning a house. Homeowners can ask for the state mediation program before a judge issues a ruling. This court process often takes many months. That gives you time to sell for cash and pay off your mortgage in full. You can protect your credit score. We help you choose a closing date that fits your court schedule.",
   },
   cities: [
     {
@@ -37,9 +38,9 @@ export const delaware: StateData = {
       metaDescription:
         "Sell your house fast in Wilmington, DE. We buy houses cash as-is in Trolley Square, Hilltop & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
-        "Wilmington's brick rowhome stock ranges from renovated Trolley Square blocks to Riverside houses that have sat vacant for a decade. We buy across that entire spectrum: inherited rowhomes with tangled titles, rentals with non-paying tenants, and properties carrying L&I violations the owner can't afford to cure.",
+        "Wilmington has a wide range of homes. We buy historic brick rowhomes in Trolley Square, estate properties near Barley Mill, and vacant houses in Riverside. We purchase inherited homes, rentals with late tenants, and houses with city code violations.",
       localAngle:
-        "Wilmington enforces a vacant property registration fee that escalates every year a house sits empty — it can reach thousands annually. If registry fees and code liens are stacking up on a property you can't maintain, a direct sale transfers those obligations to us at closing and stops the escalation immediately.",
+        "Wilmington charges a vacant home fee that rises each year a house stays empty. The fee can quickly reach thousands of dollars. Selling directly to us transfers all fees and liens to our team at closing. This stops extra penalties right away.",
       testimonial: {
         quote:
           "The vacant property fees on my mother's Riverside house were growing faster than the house was worth. They bought it liens and all.",
@@ -64,9 +65,9 @@ export const delaware: StateData = {
       metaDescription:
         "Sell your house fast in Newark, DE. We buy houses cash as-is in College Square, Brookside & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
-        "Newark's mix of student rentals and 1960s family subdivisions creates two very different reasons to sell fast: landlords exiting the student-housing business, and longtime Brookside owners facing a whole-house update they don't want to fund. We buy both — leases in place or vacant, updated or untouched since the Nixon administration.",
+        "Newark has many student rentals and classic family homes. We buy from landlords ready to exit the rental market and longtime owners facing major updates. We purchase homes vacant or with tenants in place.",
       localAngle:
-        "The City of Newark requires rental permits and regular inspections for student rentals, and losing a permit can zero out a property's income overnight. We purchase rental properties with or without active permits, and existing leases transfer to us at settlement so tenants' school years aren't disrupted.",
+        "Newark requires regular inspections and rental permits for student housing. Losing a permit stops rental income fast. We buy rental properties with or without active permits. Current leases transfer smoothly to us at closing.",
       testimonial: {
         quote:
           "Fifteen years of student tenants was enough. They took over the leases mid-semester and I was out before spring break.",
@@ -91,9 +92,9 @@ export const delaware: StateData = {
       metaDescription:
         "Sell your house fast in Dover, DE. We buy houses cash as-is in Rodney Village, Capitol Park & nearby. Zero repairs, no fees, fast closing dates.",
       intro:
-        "Dover moves on two clocks: state government and Dover Air Force Base. PCS orders, retirements, and estate sales drive most of our Kent County purchases, and our closings flex to match — we've settled in as few as twelve days for airmen on short-notice orders and held closings open for months for estates working through Register of Wills.",
+        "Dover home sales often involve military transfers and state workers. We work with airmen from Dover Air Force Base who need to move quickly. We also assist families settling local estates. We can close in two weeks or wait until you are ready.",
       localAngle:
-        "Kent County has a large share of manufactured and modular homes, which many banks won't finance on resale — sharply shrinking the buyer pool for owners who need out. We buy manufactured homes on owned land for cash, where conventional listings routinely stall for lack of financeable buyers.",
+        "Kent County has many manufactured and mobile homes. Many banks refuse to lend on these properties. We buy manufactured homes on private land for cash, giving sellers a fast way out when bank buyers fall through.",
       testimonial: {
         quote:
           "Every financed buyer fell through because of the home's classification. These folks paid cash and closed at the Kent County courthouse three weeks later.",
@@ -118,9 +119,9 @@ export const delaware: StateData = {
       metaDescription:
         "Sell your house fast in Milford, DE. We buy houses cash as-is in Lincoln, Ellendale & nearby. Zero repairs, no agent fees, and fast closing dates.",
       intro:
-        "Straddling the Kent–Sussex line, Milford mixes historic downtown Victorians with rural properties on well and septic. Homes like these are hard to sell conventionally when systems age out — a failed septic inspection alone can end a financed deal. We buy Milford-area properties as-is, septic problems, aging wells, outbuildings and all.",
+        "Milford blends historic downtown homes with rural country houses on well and septic systems. Older systems can make traditional sales difficult. A failed septic system often kills bank financing. We buy Milford properties as-is, septic issues included.",
       localAngle:
-        "Sussex County requires septic inspections at transfer, and a failed system can mean a five-figure replacement before a conventional sale can close. We buy properties with failing or unpermitted septic systems outright and manage the DNREC permitting and replacement after settlement — it's priced into our offer, not billed to you.",
+        "Sussex County mandates septic inspections during property transfers. A failed system can cost over $20,000 to replace. We purchase homes with failed septic systems for cash. We handle all state DNREC permits and replacements after closing.",
       testimonial: {
         quote:
           "The septic quote was $28,000 and the buyer walked. This team bought the farmhouse as-is and handled the system replacement themselves.",
@@ -145,9 +146,9 @@ export const delaware: StateData = {
       metaDescription:
         "Sell your house fast in Rehoboth Beach, DE. We buy houses cash as-is in Dewey Beach & Lewes. Zero repairs, no fees, and fast closing dates. Call.",
       intro:
-        "Beach-area properties come with beach-area problems: salt-air deterioration, aging cottages on valuable lots, leasehold land arrangements, and family co-ownership disputes that surface when it's time to sell. We buy Rehoboth, Lewes, and Long Neck properties for cash — including inherited cottages split among siblings and homes on leased land that traditional buyers can't finance.",
+        "Coastal Delaware homes often face salt air wear, aging structures, and family ownership disputes. We buy beach cottages and year-round homes in Rehoboth Beach, Lewes, and Long Neck. We make direct cash offers for inherited family homes and as-is properties.",
       localAngle:
-        "Much of the Long Neck and inland Sussex resort area sits on leased land, where the home is owned but the ground is rented from a community operator. Most lenders won't touch these on resale, leaving sellers stuck. We purchase leasehold properties for cash and work directly with the community operator on the lease transfer.",
+        "Many homes in the Long Neck area sit on leased land. Most mortgage lenders will not finance leased-land homes. We buy leased-land properties for cash and handle the community lease transfer directly.",
       testimonial: {
         quote:
           "Four siblings, one inherited cottage, zero agreement — until a clean cash offer gave us a number we could split and be done.",

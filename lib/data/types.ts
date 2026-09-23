@@ -50,4 +50,5 @@ export interface StateData {
   targetKeyword?: string;
   metaTitle?: string;
   metaDescription?: string;
+  h1?: string;
 }
