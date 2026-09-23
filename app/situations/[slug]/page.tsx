@@ -204,11 +204,20 @@ export default async function SituationPage({
                   Each jurisdiction in our region governs property transfers with distinct statutes:
                 </p>
                 <ul className="list-disc pl-5 space-y-2 text-sm text-pine-800/85">
-                  <li><strong>Washington, DC:</strong> We coordinate compliance with the Tenant Opportunity to Purchase Act (TOPA) and Superior Court probate decrees to ensure legally ironclad deed transfers.</li>
+                  <li><strong>Washington, DC:</strong> We coordinate compliance with the Tenant Opportunity to Purchase Act (TOPA) and Superior Court probate decrees to ensure legally ironclad deed transfers without unexpected municipal delays.</li>
                   <li><strong>Maryland:</strong> We resolve century-old ground rent claims with the State Department of Assessments and Taxation (SDAT) and help homeowners navigate the 120-day pre-foreclosure window.</li>
-                  <li><strong>Virginia:</strong> Our closing attorneys navigate non-judicial trustee sales with expedited closings in as few as 10 to 14 days before an auction date.</li>
+                  <li><strong>Virginia:</strong> Our closing attorneys navigate non-judicial trustee sales with expedited closings in as few as 10 to 14 days before an auction date to protect homeowner equity.</li>
                   <li><strong>Delaware:</strong> We coordinate with the Register of Wills across New Castle, Kent, and Sussex counties, managing mandatory Class H septic inspection requirements upon transfer.</li>
                 </ul>
+                <h3 className="font-display text-lg text-pine-950 font-bold pt-2">
+                  How We Protect You Throughout the Settlement Process
+                </h3>
+                <p>
+                  Every transaction is conducted through licensed, insured title settlement companies and real estate attorneys in your local jurisdiction. All funds are deposited into verified escrow accounts and disbursed according to approved closing statements. You receive proof of payoff for all existing mortgages, tax liens, and municipal obligations, ensuring complete legal and financial closure.
+                </p>
+                <p>
+                  Whether you need immediate cash settlement to stop an auction, flexible post-occupancy to pack your belongings, or remote closing capabilities because you live out of state, our acquisition coordinators tailor the purchase agreement to your exact timeline.
+                </p>
               </div>
             </div>
 
