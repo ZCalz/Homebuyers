@@ -142,7 +142,7 @@ export default function LocationsPage() {
             Mid-Atlantic Cash Home Buyer Directory &amp; State Breakdown
           </h2>
           <p className="mt-3 text-pine-800/85 text-sm sm:text-base leading-relaxed">
-            National iBuyers often give automated offers that change after an inspection. We work differently. Our local buyers live in these communities, know market values by street, and guarantee fair cash offers with zero surprise fees.
+            National iBuyers and out-of-state real estate investors often make automated, algorithm-based offers that change dramatically after a physical walkthrough. Our approach is straightforward and transparent. We have dedicated local acquisition teams living and working directly in Washington DC, Maryland, Virginia, and Delaware. We understand local neighborhood property values, historic building requirements, zoning laws, and county transfer tax structures. When we make a cash offer, it is backed by our own liquid reserves and guaranteed not to change at settlement.
           </p>
 
           <div className="mt-8 grid md:grid-cols-2 gap-6">
@@ -150,12 +150,15 @@ export default function LocationsPage() {
             <div className="rounded-2xl bg-sand-50/70 ring-1 ring-sand-300/60 p-6">
               <h3 className="font-display text-lg text-pine-950 font-bold flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
-                Washington, DC
+                Washington, DC Real Estate Buying
               </h3>
+              <p className="mt-2 text-sm text-pine-800/85 leading-relaxed">
+                Selling a residential property in the District requires specialized knowledge of local statutes, historic preservation guidelines, and municipal transfer requirements.
+              </p>
               <ul className="mt-3 space-y-2 text-sm text-pine-800/85 list-disc pl-5">
-                <li><strong>All 8 Wards:</strong> From Capitol Hill rowhomes to Anacostia single-family houses.</li>
-                <li><strong>Tenant Issues:</strong> We handle full TOPA compliance and tenant transitions.</li>
-                <li><strong>Probate:</strong> We work directly with the DC Superior Court Probate Division.</li>
+                <li><strong>All 8 Wards Covered:</strong> From historic brick rowhomes in Capitol Hill, Georgetown, and Petworth to single-family colonials and duplexes in Anacostia, Brookland, and Deanwood.</li>
+                <li><strong>Tenant Rights &amp; TOPA:</strong> We manage full statutory compliance with the Tenant Opportunity to Purchase Act (TOPA), tenant notices, buyout agreements, and lease assignments.</li>
+                <li><strong>Probate &amp; Estates:</strong> We work directly with the DC Superior Court Probate Division to purchase inherited homes smoothly without requiring heirs to conduct estate cleanouts.</li>
               </ul>
             </div>
 
@@ -163,12 +166,15 @@ export default function LocationsPage() {
             <div className="rounded-2xl bg-sand-50/70 ring-1 ring-sand-300/60 p-6">
               <h3 className="font-display text-lg text-pine-950 font-bold flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
-                Maryland
+                Maryland Cash Home Sales
               </h3>
+              <p className="mt-2 text-sm text-pine-800/85 leading-relaxed">
+                From Baltimore City rowhomes to suburban neighborhoods across Montgomery and Prince George&apos;s counties, our Maryland desk resolves complex title clouds and property hurdles.
+              </p>
               <ul className="mt-3 space-y-2 text-sm text-pine-800/85 list-disc pl-5">
-                <li><strong>Counties Covered:</strong> Baltimore City/County, Montgomery, Prince George&apos;s, Charles, Anne Arundel, and Frederick.</li>
-                <li><strong>Ground Rent:</strong> We verify and redeem ground rent accounts before closing.</li>
-                <li><strong>As-Is Sales:</strong> No repairs or county inspection work orders required.</li>
+                <li><strong>Counties Covered:</strong> Baltimore City, Baltimore County, Montgomery, Prince George&apos;s, Anne Arundel, Charles, Howard, and Frederick counties.</li>
+                <li><strong>Historic Ground Rent Redemption:</strong> We locate ground rent owners, coordinate verification filings with SDAT, and satisfy redemptions directly at settlement.</li>
+                <li><strong>As-Is Property Purchases:</strong> Zero repairs required for aging roofs, wet basements, plumbing problems, or municipal code inspection violation notices.</li>
               </ul>
             </div>
 
@@ -176,12 +182,15 @@ export default function LocationsPage() {
             <div className="rounded-2xl bg-sand-50/70 ring-1 ring-sand-300/60 p-6">
               <h3 className="font-display text-lg text-pine-950 font-bold flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
-                Virginia
+                Virginia Direct Property Purchases
               </h3>
+              <p className="mt-2 text-sm text-pine-800/85 leading-relaxed">
+                Virginia operates under non-judicial foreclosure rules with rapid trustee sale timelines. Our Virginia team provides urgent closing capabilities to preserve homeowner equity.
+              </p>
               <ul className="mt-3 space-y-2 text-sm text-pine-800/85 list-disc pl-5">
-                <li><strong>Key Regions:</strong> Northern Virginia (Fairfax, Arlington, Loudoun), Richmond Metro, and Hampton Roads.</li>
-                <li><strong>Fast Closings:</strong> We can close in 10 to 14 days to stop scheduled foreclosure auctions.</li>
-                <li><strong>No Commissions:</strong> Save 6% in agent fees plus standard closing expenses.</li>
+                <li><strong>Key Regional Hubs:</strong> Northern Virginia (Fairfax, Arlington, Alexandria, Loudoun, Prince William), Richmond Metro (Chesterfield, Henrico), and Hampton Roads (Norfolk, Virginia Beach).</li>
+                <li><strong>Expedited Closings:</strong> We can close sales in as few as 10 to 14 days to pay off delinquent mortgages and stop scheduled trustee foreclosure auctions.</li>
+                <li><strong>Zero Agent Fees:</strong> Save 5% to 6% in real estate agent commissions and avoid standard seller closing costs.</li>
               </ul>
             </div>
 
@@ -189,13 +198,60 @@ export default function LocationsPage() {
             <div className="rounded-2xl bg-sand-50/70 ring-1 ring-sand-300/60 p-6">
               <h3 className="font-display text-lg text-pine-950 font-bold flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
-                Delaware
+                Delaware Statewide Home Buying
               </h3>
+              <p className="mt-2 text-sm text-pine-800/85 leading-relaxed">
+                Covering all three counties in Delaware, we purchase properties ranging from historic townhomes in Wilmington to coastal beach homes and rural farmhouses on septic.
+              </p>
               <ul className="mt-3 space-y-2 text-sm text-pine-800/85 list-disc pl-5">
-                <li><strong>Counties Covered:</strong> New Castle, Kent, and Sussex counties.</li>
-                <li><strong>Property Types:</strong> City rowhomes in Wilmington, suburban split-levels in Newark, and coastal cottages in Rehoboth Beach.</li>
-                <li><strong>Septic &amp; Wells:</strong> We buy homes as-is with aging or failing septic systems.</li>
+                <li><strong>Counties Covered:</strong> New Castle County (Wilmington, Newark), Kent County (Dover, Smyrna), and Sussex County (Milford, Seaford, Georgetown, Rehoboth Beach).</li>
+                <li><strong>Septic &amp; Well Transfers:</strong> We acquire properties with failing or non-compliant Class H septic systems without requiring expensive engineered replacements prior to sale.</li>
+                <li><strong>Estate Administration:</strong> We coordinate with the Delaware Register of Wills to purchase estate properties with clear title.</li>
               </ul>
+            </div>
+          </div>
+
+          {/* Additional Guidance & FAQs for Locations */}
+          <div className="mt-12 pt-8 border-t border-pine-900/10 space-y-6">
+            <h3 className="font-display text-xl sm:text-2xl text-pine-950 font-bold">
+              Frequently Asked Questions About Selling Across Our Coverage Areas
+            </h3>
+            <div className="space-y-4 text-sm text-pine-800/85">
+              <div className="rounded-xl bg-sand-50/60 p-4 ring-1 ring-pine-900/10">
+                <h4 className="font-semibold text-pine-950 mb-1">
+                  How does selling to USHomeBuy compare to listing with a traditional real estate agent?
+                </h4>
+                <p className="leading-relaxed">
+                  When listing with a realtor, homeowners typically spend thousands of dollars on cosmetic repairs, painting, deep cleaning, and staging. The home is subjected to weeks of public showings and open houses. Once an offer is accepted, buyers require 45 to 60 days for mortgage underwriting and home inspection negotiations. If the appraisal comes in low or inspection issues arise, the deal can collapse. In contrast, selling to USHomeBuy gives you a firm, guaranteed cash offer in 24 hours, zero commissions, zero repair requirements, and a closing scheduled on the exact date of your choice.
+                </p>
+              </div>
+
+              <div className="rounded-xl bg-sand-50/60 p-4 ring-1 ring-pine-900/10">
+                <h4 className="font-semibold text-pine-950 mb-1">
+                  Are there any fees, commissions, or closing costs when I sell my home?
+                </h4>
+                <p className="leading-relaxed">
+                  None whatsoever. We charge zero real estate commissions, zero listing fees, zero administration charges, and zero hidden inspection costs. Furthermore, USHomeBuy covers standard seller closing costs, transfer charges, and settlement fees. The net cash figure agreed upon in your purchase agreement is the exact amount delivered to you via wire transfer or cashier&apos;s check at settlement.
+                </p>
+              </div>
+
+              <div className="rounded-xl bg-sand-50/60 p-4 ring-1 ring-pine-900/10">
+                <h4 className="font-semibold text-pine-950 mb-1">
+                  What condition does the property need to be in for an offer?
+                </h4>
+                <p className="leading-relaxed">
+                  We purchase homes in 100% as-is condition. You do not need to clean out old furniture, paint walls, fix plumbing leaks, replace broken HVAC units, or repair damaged roofs. Even if the property has suffered fire damage, flood damage, foundation shifting, termite infestation, or has open municipal building code violations, our acquisition team will evaluate the property and provide a fair cash offer.
+                </p>
+              </div>
+
+              <div className="rounded-xl bg-sand-50/60 p-4 ring-1 ring-pine-900/10">
+                <h4 className="font-semibold text-pine-950 mb-1">
+                  How fast can we complete the sale and receive funds?
+                </h4>
+                <p className="leading-relaxed">
+                  Because we purchase properties directly with our own funds without relying on bank mortgages or mortgage underwriters, we can close in as few as 7 to 14 days once title search verification is complete. Alternatively, if you need 30, 60, or 90 days to arrange your move, pack personal belongings, or transition into senior living, we will set the settlement date according to your exact preferred timeline.
+                </p>
+              </div>
             </div>
           </div>
         </div>
