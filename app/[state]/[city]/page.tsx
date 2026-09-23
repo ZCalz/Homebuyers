@@ -449,7 +449,7 @@ export default async function CityPage({
               Cash Sale vs. Rent-to-Own in {city.name}
             </h3>
             <p>
-              Some homeowners consider rent-to-own or lease options when they cannot find a buyer right away. While rent-to-own sounds easy, it carries high risks for sellers:
+              Some homeowners consider lease options when they struggle to collect rent in {city.name}, {state.abbr}. While trying to rent in {city.name}, {state.abbr} or structure a lease-purchase agreement sounds easy, it carries high risks for property owners:
             </p>
             <div className="grid sm:grid-cols-2 gap-4 text-sm pt-2">
               <div className="rounded-2xl bg-rose-50/70 border border-rose-200 p-5">
