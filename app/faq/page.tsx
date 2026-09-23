@@ -52,6 +52,30 @@ const faqs = [
     q: "What happens after I submit the form?",
     a: "Your zip code routes your request to the local team that covers your market. They'll call to ask a few questions and schedule a walkthrough — usually within one business day. You'll typically have a written offer within 48 hours of the visit.",
   },
+  {
+    q: "What if there are back taxes, code violations, or liens against the property?",
+    a: "We purchase properties with existing mechanics liens, second mortgages, HOA delinquency, and municipal code citations. Our closing title company calculates the exact payoffs and resolves them out of the sale proceeds at settlement so you walk away with clean relief.",
+  },
+  {
+    q: "How does the closing process work at the title company?",
+    a: "Settlement takes place with an established, licensed local title company or real estate attorney in your county. The title company acts as a neutral third party, oversees deed execution, verifies clear title, and wires your cash proceeds directly to your bank account.",
+  },
+  {
+    q: "Can I sell an inherited home if probate is still in progress?",
+    a: "Yes. We frequently purchase homes in probate across DC, Maryland, Virginia, and Delaware. We coordinate directly with your estate attorney and personal representative to ensure all probate court approvals, heir consents, and Letters of Administration are properly addressed.",
+  },
+  {
+    q: "Do I have to remove unwanted furniture, trash, or old vehicles?",
+    a: "Not at all. You take whatever personal items, keepsakes, and valuables you wish to keep, and leave everything else behind. Whether it's old furniture, broken appliances, clothes, or basement junk, our post-closing crews handle full disposal at our expense.",
+  },
+  {
+    q: "Do you buy mobile or manufactured homes?",
+    a: "Yes, we purchase manufactured and modular homes provided the home is situated on privately-owned land (deeded real property) rather than a leased community lot. We buy these as-is across rural and suburban areas in MD, VA, and DE.",
+  },
+  {
+    q: "How does selling to USHomeBuy protect my privacy compared to listing?",
+    a: "When you list with a broker, interior photos of your bedrooms, bathrooms, and living spaces are published across Zillow, Redfin, and the MLS for thousands of people to see. With USHomeBuy, the entire transaction is 100% confidential — no yard signs, no lockboxes, and no public listings.",
+  },
 ];
 
 export default function FaqPage() {

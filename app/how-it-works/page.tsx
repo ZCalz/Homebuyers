@@ -111,6 +111,65 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
+      {/* The Closing Process: Contract to Settlement */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
+        <h2 className="font-display text-3xl text-pine-950">
+          From contract to cash in hand: the title &amp; escrow process
+        </h2>
+        <p className="mt-3 text-pine-800/80 max-w-3xl leading-relaxed">
+          Selling a property involves legal title transfers, municipal lien verifications, and formal deed recording. Here is how our closing attorneys handle every detail on your behalf with zero stress:
+        </p>
+        <div className="mt-8 grid md:grid-cols-3 gap-6">
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-display text-lg text-pine-950 font-bold">1. Independent Title Search</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              We send the executed agreement to a reputable local title company or real estate attorney in your county. They conduct a standard title search to verify ownership and uncover any outstanding mortgages, tax liens, or judgments.
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-display text-lg text-pine-950 font-bold">2. Payoff Coordination</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              If you have an active mortgage balance, second loan, or property tax arrears, the title company requests formal payoff statements directly from your lenders. These debts are paid directly out of the sale proceeds at closing.
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-pine-900/10 p-6">
+            <h3 className="font-display text-lg text-pine-950 font-bold">3. Settlement &amp; Disbursement</h3>
+            <p className="mt-2 text-sm text-pine-800/80 leading-relaxed">
+              On closing day, you sign the deed transfer documents in person or via mobile notary at your kitchen table. Your net cash proceeds are wired directly to your bank account or issued via bank cashier&apos;s check immediately.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Seller Checklist */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
+        <div className="rounded-2xl bg-pine-950 text-sand-50 p-6 sm:p-10">
+          <h2 className="font-display text-2xl sm:text-3xl text-sand-50">
+            What you need to provide (and what you can completely ignore)
+          </h2>
+          <div className="mt-6 grid sm:grid-cols-2 gap-8 text-sm">
+            <div>
+              <p className="font-bold text-emerald-400 uppercase tracking-wider text-xs">What We Need From You</p>
+              <ul className="mt-3 space-y-2.5 text-sand-100/85">
+                <li className="flex items-start gap-2">✓ Valid government-issued photo ID (driver&apos;s license or passport)</li>
+                <li className="flex items-start gap-2">✓ Mortgage account information (if you have an existing loan balance)</li>
+                <li className="flex items-start gap-2">✓ HOA contact information (if applicable to your community)</li>
+                <li className="flex items-start gap-2">✓ Your preferred closing date and bank wiring instructions</li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-bold text-rose-400 uppercase tracking-wider text-xs">What You Can Completely Forget About</p>
+              <ul className="mt-3 space-y-2.5 text-sand-100/85">
+                <li className="flex items-start gap-2">✕ Zero cleaning, scrubbing, vacuuming, or trash removal</li>
+                <li className="flex items-start gap-2">✕ Zero painting, cosmetic touch-ups, or staging furniture</li>
+                <li className="flex items-start gap-2">✕ Zero plumbing, electrical, HVAC, or roof repairs</li>
+                <li className="flex items-start gap-2">✕ Zero paying for inspections, appraisals, or closing attorney fees</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
         <CtaBand />
       </section>
