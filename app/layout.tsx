@@ -4,6 +4,8 @@ import { SITE } from "@/lib/data";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
+import JsonLd from "@/components/JsonLd";
+import { productSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -21,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
+        <JsonLd data={productSchema()} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

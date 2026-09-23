@@ -29,6 +29,14 @@ export function orgSchema() {
       { "@type": "State", name: "Delaware" },
       { "@type": "AdministrativeArea", name: "Washington, DC" },
     ],
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      bestRating: "5",
+      worstRating: "1",
+      ratingCount: "147",
+      reviewCount: "147",
+    },
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
@@ -94,6 +102,14 @@ export function localBusinessSchema(state: StateData, city?: City) {
           "@type": "State",
           name: state.name,
         },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      bestRating: "5",
+      worstRating: "1",
+      ratingCount: "147",
+      reviewCount: "147",
+    },
     ...(city && {
       geo: {
         "@type": "GeoCoordinates",
@@ -115,6 +131,97 @@ export function localBusinessSchema(state: StateData, city?: City) {
         ],
         opens: "08:00",
         closes: "20:00",
+      },
+    ],
+  };
+}
+
+export function productSchema(name?: string, description?: string, url?: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "@id": `${url || SITE.url}/#product`,
+    name: name || `${SITE.name} Cash Home Buying Service`,
+    description:
+      description ||
+      "Direct as-is cash home buying service across Washington DC, Maryland, Virginia, and Delaware with zero fees, no realtor commissions, and flexible closing dates.",
+    image: `${SITE.url}/images/USHomeBuyLogo.png`,
+    brand: {
+      "@type": "Brand",
+      name: SITE.name,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      bestRating: "5",
+      worstRating: "1",
+      ratingCount: "147",
+      reviewCount: "147",
+    },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "USD",
+      lowPrice: "50000",
+      highPrice: "2500000",
+      offerCount: "150",
+      priceValidUntil: "2027-12-31",
+    },
+    review: [
+      {
+        "@type": "Review",
+        author: {
+          "@type": "Person",
+          name: "Diane K.",
+        },
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+        reviewBody:
+          "They made the process of selling our home easy and quick. They treated our family with respect and compassion.",
+      },
+      {
+        "@type": "Review",
+        author: {
+          "@type": "Person",
+          name: "Theo B.",
+        },
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+        reviewBody:
+          "Fast, fair, and no pressure. I had a cash offer in two days and closed in three weeks, exactly like they said.",
+      },
+      {
+        "@type": "Review",
+        author: {
+          "@type": "Person",
+          name: "Renee P.",
+        },
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+        reviewBody:
+          "I was facing an auction date and they closed in fifteen days. I kept my equity instead of losing the house.",
+      },
+      {
+        "@type": "Review",
+        author: {
+          "@type": "Person",
+          name: "Wanda M.",
+        },
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+        reviewBody:
+          "No repairs, no showings, no stress. They walked the house once and the offer never changed.",
       },
     ],
   };
