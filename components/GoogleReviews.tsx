@@ -51,12 +51,8 @@ function GoogleLogo() {
 
 function Stars() {
   return (
-    <div className="flex gap-0.5" aria-label="5 out of 5 stars">
-      {Array.from({ length: 5 }).map((_, i) => (
-        <svg key={i} viewBox="0 0 20 20" className="h-4 w-4 fill-amber-400" aria-hidden>
-          <polygon points="10,1 12.6,7 19,7.6 14.2,11.9 15.6,18.2 10,14.9 4.4,18.2 5.8,11.9 1,7.6 7.4,7" />
-        </svg>
-      ))}
+    <div className="text-amber-400 text-sm tracking-wider font-bold" aria-label="5 out of 5 stars">
+      ★★★★★
     </div>
   );
 }

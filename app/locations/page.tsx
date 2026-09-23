@@ -122,6 +122,44 @@ export default function LocationsPage() {
         </div>
       </section>
 
+      {/* Comprehensive Regional Cash Home Buying Directory Guide */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
+        <div className="rounded-3xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-10">
+          <h2 className="font-display text-2xl sm:text-3xl text-pine-950">
+            Mid-Atlantic Cash Home Buyer Directory: Local Insights by State &amp; County
+          </h2>
+          <div className="mt-6 space-y-5 text-pine-800/85 text-sm sm:text-base leading-relaxed">
+            <p>
+              When evaluating companies that purchase houses for cash across the Mid-Atlantic, working with localized acquisition teams makes an enormous financial difference. National real estate tech platforms rely on algorithmic automated valuation models (AVMs) that cannot account for hyper-local quirks: block-by-block historic rowhome variations in Baltimore, strict zoning and tenant laws in Washington DC, septic transfer certifications in Delaware, or county tax assessment cycles in Virginia.
+            </p>
+            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
+              Washington, DC Market Dynamics
+            </h3>
+            <p>
+              Properties in the District of Columbia frequently involve historic district architectural preservation review, multi-family flat conversions, and complex tenant occupancy laws under TOPA. USHomeBuy maintains dedicated legal resources in DC to resolve tenant waivers, manage Superior Court probate filings, and execute title conveyances cleanly at established DC settlement offices.
+            </p>
+            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
+              Maryland Metropolitan &amp; Suburban Markets
+            </h3>
+            <p>
+              From historic rowhomes in Baltimore City (Pigtown, Highlandtown, Canton) to single-family colonials across Montgomery and Prince George&apos;s counties, Maryland sellers face distinct closing customs. Our acquisitions team resolves historic ground rents, handles pre-foreclosure mediation requirements, and coordinates directly with Maryland title attorneys to satisfy municipal water and tax liens prior to closing.
+            </p>
+            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
+              Virginia Northern &amp; Coastal Markets
+            </h3>
+            <p>
+              Virginia is a non-judicial foreclosure state where trustee auctions can occur in as few as 60 days following loan default. Our Virginia specialists in Fairfax, Arlington, Richmond, Norfolk, and Virginia Beach operate with urgent speed, frequently closing transactions in 10 to 14 days to preserve seller equity before auction dates.
+            </p>
+            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
+              Delaware Statewide Coverage
+            </h3>
+            <p>
+              Covering New Castle, Kent, and Sussex counties, we purchase suburban subdivisions, older Wilmington townhomes, rural farmhouses, and coastal beach cottages. We navigate Delaware Register of Wills probate administration and coordinate mandatory Class H septic inspections so you don&apos;t have to manage them yourself.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
         <CtaBand heading="Don't see your town? We buy across all four states." sub="Start with your zip code and we'll route you to the closest buying team." />
       </section>

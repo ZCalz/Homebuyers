@@ -108,6 +108,31 @@ const faqCategories = [
       },
     ],
   },
+  {
+    category: "Title Clearance, Liens & Legal Settlement",
+    items: [
+      {
+        q: "How are outstanding tax liens, code violations, and municipal water bills resolved?",
+        a: "All outstanding property encumbrances — including delinquent county real estate taxes, municipal water or sewer bills, mechanic's liens, and municipal building code violation citations — are identified during the title search. At closing, the title company orders official payoff letters and deducts those balances directly from the purchase proceeds. You never have to pay out-of-pocket cash to resolve them beforehand.",
+      },
+      {
+        q: "What is an earnest money deposit and how is my sale protected?",
+        a: "Upon signing our purchase agreement, USHomeBuy deposits legitimate earnest money into an independent escrow account managed by a licensed local title company or settlement attorney. This deposit legally commits us to the transaction under the agreed terms and provides financial security that your closing will occur as scheduled.",
+      },
+      {
+        q: "Can I complete the closing remotely if I live in another state or am deployed?",
+        a: "Yes. Many of our sellers reside out of state, are on active military deployment, or cannot travel to a physical closing office. We coordinate mail-away closing packages or schedule a certified mobile notary to meet you at your home or workplace at your convenience. All closing documents can be executed remotely, and proceeds are wired directly to your domestic bank account.",
+      },
+      {
+        q: "What happens if there are multiple family heirs who own the inherited property?",
+        a: "When multiple siblings or heirs hold title to an inherited estate, every owner on the deed must sign the conveyance documents unless a designated court-appointed executor or personal representative holds full independent power of sale under the probated will. We regularly work with out-of-state family members to coordinate individual document signings so everyone receives their portion of the sale proceeds directly from the title company.",
+      },
+      {
+        q: "How does USHomeBuy provide proof of funds before I enter a contract?",
+        a: "We believe sellers deserve total certainty before entering a contract. Upon request, we provide a formal bank statement or proof of funds letter verifying sufficient liquid balance-sheet capital to complete your purchase. We do not rely on retail bank loan underwriters, hard-money approvals, or third-party syndications.",
+      },
+    ],
+  },
 ];
 
 // Flat list for JSON-LD schema

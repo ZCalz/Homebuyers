@@ -21,17 +21,16 @@ export default function Footer() {
               {SITE.phoneDisplay}
             </a>
             <div className="mt-3 flex items-center gap-2">
-              <div className="flex gap-0.5" aria-label="Rated 4.9 out of 5 stars">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <svg key={i} viewBox="0 0 20 20" className="h-3.5 w-3.5 fill-amber-400" aria-hidden>
-                    <polygon points="10,1 12.6,7 19,7.6 14.2,11.9 15.6,18.2 10,14.9 4.4,18.2 5.8,11.9 1,7.6 7.4,7" />
-                  </svg>
-                ))}
-              </div>
+              <span className="text-amber-400 text-sm tracking-wider font-bold" aria-hidden>
+                ★★★★★
+              </span>
               <span className="text-xs text-sand-300">
-                <strong className="text-sand-100 font-semibold">4.9/5</strong> (147+ reviews)
+                <strong className="text-sand-100 font-semibold">4.9/5</strong> (147+ verified homeowner reviews)
               </span>
             </div>
+            <p className="mt-4 text-xs text-sand-100/60 leading-relaxed">
+              USHomeBuy is a direct cash home buyer purchasing houses as-is with zero realtor commissions, zero repair requirements, and guaranteed closings in 14 to 30 days.
+            </p>
           </div>
 
           <div>

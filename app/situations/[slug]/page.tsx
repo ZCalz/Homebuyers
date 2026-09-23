@@ -179,6 +179,39 @@ export default async function SituationPage({
               </div>
             </div>
 
+            {/* In-Depth Guidance for this Situation */}
+            <div className="mt-12 rounded-3xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-8">
+              <h2 className="font-display text-2xl text-pine-950 font-bold">
+                Detailed Guide: Navigating {situation.shortTitle} in the Mid-Atlantic
+              </h2>
+              <div className="mt-4 space-y-4 text-sm sm:text-base text-pine-800/85 leading-relaxed">
+                <p>
+                  Property owners facing {situation.shortTitle.toLowerCase()} often find themselves under intense emotional and financial pressure. Between tight statutory deadlines, conflicting family demands, and the physical reality of a home requiring major maintenance, standard real estate advice simply doesn&apos;t fit.
+                </p>
+                <h3 className="font-display text-lg text-pine-950 font-bold pt-2">
+                  Why Conventional MLS Listings Often Fail in These Scenarios
+                </h3>
+                <p>
+                  Listing with a real estate agent requires the property to be accessible, staged, and clean for continuous weekend open houses. More importantly, retail purchasers almost universally rely on FHA, VA, or conventional mortgage loans. Bank underwriters enforce strict habitability guidelines: peeling paint on pre-1978 homes, defective plumbing, HVAC failures, roof leaks, or title encumbrances will immediately halt loan funding.
+                </p>
+                <p>
+                  When you work with USHomeBuy, you eliminate third-party financing approvals entirely. Because we purchase properties directly with our own cash reserves, we acquire homes in 100% as-is condition. You never spend money out of pocket on contractors, dumpsters, or repair concessions.
+                </p>
+                <h3 className="font-display text-lg text-pine-950 font-bold pt-2">
+                  Our Jurisdictional Advantage in DC, Maryland, Virginia, and Delaware
+                </h3>
+                <p>
+                  Each jurisdiction in our region governs property transfers with distinct statutes:
+                </p>
+                <ul className="list-disc pl-5 space-y-2 text-sm text-pine-800/85">
+                  <li><strong>Washington, DC:</strong> We coordinate compliance with the Tenant Opportunity to Purchase Act (TOPA) and Superior Court probate decrees to ensure legally ironclad deed transfers.</li>
+                  <li><strong>Maryland:</strong> We resolve century-old ground rent claims with the State Department of Assessments and Taxation (SDAT) and help homeowners navigate the 120-day pre-foreclosure window.</li>
+                  <li><strong>Virginia:</strong> Our closing attorneys navigate non-judicial trustee sales with expedited closings in as few as 10 to 14 days before an auction date.</li>
+                  <li><strong>Delaware:</strong> We coordinate with the Register of Wills across New Castle, Kent, and Sussex counties, managing mandatory Class H septic inspection requirements upon transfer.</li>
+                </ul>
+              </div>
+            </div>
+
             <div className="mt-12">
               <h2 className="font-display text-xl text-pine-950">
                 Where we can help

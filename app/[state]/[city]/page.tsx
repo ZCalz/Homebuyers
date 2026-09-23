@@ -418,6 +418,47 @@ export default async function CityPage({
         </div>
       </section>
 
+      {/* Comprehensive Local Market & Seller Guide */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
+        <div className="rounded-3xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-10">
+          <h2 className="font-display text-2xl sm:text-3xl text-pine-950">
+            Complete Guide to Selling Your House For Cash in {city.name}, {state.abbr}
+          </h2>
+          <div className="mt-6 space-y-5 text-pine-800/85 text-sm sm:text-base leading-relaxed">
+            <p>
+              Selling residential property in {city.name} and across {city.county} County involves navigating distinct local real estate conditions. From older historic housing stock and shifting neighborhood property values to regional transfer tax regulations, sellers face a critical choice: list on the open market with a traditional real estate brokerage or sell directly to an established cash home buyer like USHomeBuy.
+            </p>
+            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
+              Why Homeowners in {city.name} Choose Direct Cash Sales Over MLS Listings
+            </h3>
+            <p>
+              When listing a house on the Multiple Listing Service (MLS), homeowners typically spend weeks preparing the property. Modern retail buyers in {city.neighborhoods.slice(0, 3).join(", ")} expect pristine move-in condition, freshly painted walls, modern kitchens, updated HVAC systems, and passed municipal inspections. Furthermore, retail transactions depend heavily on mortgage financing. If a buyer&apos;s loan underwriter flags foundation settling, roof age, or appraisal gaps, the sale can fall apart days before settlement.
+            </p>
+            <p>
+              When you sell directly to USHomeBuy, you avoid all of these roadblocks. We purchase homes using our own private funds, meaning there are zero bank underwriting approvals, zero financing contingencies, and zero property appraisal hurdles. You do not need to spend thousands of dollars on contractor repairs, hire professional cleaning crews, or host disruptive open house showings for strangers.
+            </p>
+            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
+              How We Determine Our Cash Offer for {city.name} Homes
+            </h3>
+            <p>
+              Our pricing model is completely transparent and grounded in local market data. When our {city.name} acquisitions specialist evaluates your property, we look at four clear factors:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-pine-800/85">
+              <li><strong>After-Repair Market Value (ARV):</strong> We review recent sales of fully renovated, updated homes in your immediate {city.name} neighborhood within the past three to six months.</li>
+              <li><strong>Accurate Contractor Repair Budget:</strong> During our single brief walkthrough, we assess necessary structural, mechanical, cosmetic, and code-compliance updates at wholesale contractor rates.</li>
+              <li><strong>Holding &amp; Resale Costs:</strong> We account for property insurance, county property taxes, utilities, title search expenses, and eventual resale transfer costs while we manage the renovation.</li>
+              <li><strong>Fair Operating Margin:</strong> We add our standard profit margin for taking on the financial risk, and the remaining balance is your exact, net cash offer.</li>
+            </ul>
+            <h3 className="font-display text-xl text-pine-950 font-bold pt-2">
+              The {city.name} Escrow &amp; Closing Process
+            </h3>
+            <p>
+              Once you accept our written cash offer, the purchase contract is forwarded to a licensed, reputable local title company or settlement attorney in {city.county} County. The title attorney conducts a title search, verifies property deed ownership, coordinates any mortgage payoffs, and prepares the deed transfer paperwork. You choose your preferred closing date — whether that is in as little as {city.medianDaysToClose} days or scheduled several weeks out to accommodate your move. On settlement day, proceeds are wired directly to your bank account or provided via certified bank cashier&apos;s check.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-16">
         <CtaBand
           heading={`Get your ${city.name} cash offer`}

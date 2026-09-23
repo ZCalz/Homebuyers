@@ -142,6 +142,34 @@ export default function GetOfferPage() {
               </div>
             </div>
           </div>
+
+          {/* Detailed Seller Protection & FAQ Section */}
+          <div className="mt-16 rounded-3xl bg-pine-950 text-sand-50 p-6 sm:p-10">
+            <h3 className="font-display text-2xl text-sand-50">
+              Everything You Need to Know Before Requesting a Cash Offer
+            </h3>
+            <div className="mt-6 space-y-4 text-sm sm:text-base text-sand-100/85 leading-relaxed">
+              <p>
+                Requesting a cash offer from USHomeBuy is 100% confidential and free. Here is what you should expect from our regional team:
+              </p>
+              <h4 className="font-bold text-sand-100 pt-2">1. Your Privacy is Strictly Protected</h4>
+              <p>
+                Unlike generic national referral websites that auction your property address and phone number to dozens of independent real estate wholesalers, your information submitted here is delivered directly to our regional acquisition specialist in DC, Maryland, Virginia, or Delaware. We never resell or distribute your data.
+              </p>
+              <h4 className="font-bold text-sand-100 pt-2">2. Realistic, Written Valuation Math</h4>
+              <p>
+                We do not give misleading automated estimates or lowball sight-unseen bids. When we present our written purchase contract, we walk you through the nearby neighborhood comparable sales, our contractor budget breakdown, and our holding costs. You receive an accurate, verified net cash figure with zero hidden fees.
+              </p>
+              <h4 className="font-bold text-sand-100 pt-2">3. Three-Business-Day Unconditional Right to Cancel</h4>
+              <p>
+                Even after signing our agreement, you have three full business days to review the contract with your attorney, compare alternative offers, or change your mind for any reason. If you cancel within this window in writing, the contract is completely void with zero cost or obligation.
+              </p>
+              <h4 className="font-bold text-sand-100 pt-2">4. Licensed Title Company Closing</h4>
+              <p>
+                All closings are conducted by licensed, reputable title companies and settlement attorneys in your local county. The title company holds earnest money in escrow, prepares deed documents, satisfies existing mortgages or tax liens from proceeds, and wires your funds directly on closing day.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>

@@ -312,6 +312,38 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Comprehensive Mid-Atlantic Cash Home Buyer Guide */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-20">
+        <div className="rounded-3xl bg-white ring-1 ring-pine-900/10 p-6 sm:p-12">
+          <h2 className="font-display text-3xl sm:text-4xl text-pine-950">
+            Complete Mid-Atlantic Homeowner Guide: Selling Your House For Cash
+          </h2>
+          <div className="mt-8 space-y-6 text-sm sm:text-base text-pine-800/85 leading-relaxed">
+            <h3 className="font-display text-xl sm:text-2xl text-pine-950 font-bold">
+              Comparing Net Proceeds: Selling to USHomeBuy vs. Listing on the MLS
+            </h3>
+            <p>
+              Many homeowners mistakenly assume that a traditional real estate listing will automatically net them more money in their bank account. However, traditional sales come with substantial mandatory deductions that significantly diminish your final check.
+            </p>
+            <p>
+              On a typical $450,000 Mid-Atlantic home, a 6% agent commission consumes $27,000. Seller closing costs and transfer taxes typically total another 2% to 3% ($9,000 to $13,500). If the home inspection uncovers an aging roof, dated electrical panels, or HVAC issues, retail buyers frequently demand $15,000 to $30,000 in repair credits or price reductions. Combined with two to four months of mortgage payments, property taxes, utilities, and homeowner insurance while waiting for buyer loan approval, holding costs can easily exceed $10,000.
+            </p>
+            <p>
+              When you sell to USHomeBuy, there are zero commissions, zero repair costs, zero holding fees, and we pay standard seller closing expenses. What you see on your written agreement is what you receive at the closing table.
+            </p>
+            <h3 className="font-display text-xl sm:text-2xl text-pine-950 font-bold pt-4">
+              Local Market Expertise Across DC, Maryland, Virginia, and Delaware
+            </h3>
+            <p>
+              Real estate is profoundly local. A brick rowhome in Capitol Hill, DC requires specialized understanding of the Tenant Opportunity to Purchase Act (TOPA) and historic preservation district requirements. In Baltimore City, Maryland, ground rent redemption certificates and lead paint registry verifications must be properly satisfied with state agencies. In Virginia, expedited trustee deed-of-trust timelines require rapid closing capabilities within 10 to 14 days to stop foreclosure sales. In Delaware, Sussex and Kent county septic transfer inspections require certified inspectors before deed transfer.
+            </p>
+            <p>
+              Our four dedicated regional acquisition desks manage each of these jurisdictional requirements seamlessly. You never have to worry about missing court filings, municipal liens, or title clouds — our experienced closing teams resolve them prior to settlement.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 mt-20">
         <CtaBand />
