@@ -31,15 +31,23 @@ Offers are calculated transparently using local comparable sales and contractor-
 - [Sell a house in Hyattsville](https://www.ushomebuy.com/maryland/hyattsville): As-is cash sales in Prince George's County / Hyattsville.
 - [Sell a house in Waldorf](https://www.ushomebuy.com/maryland/waldorf): Direct cash home sales in Charles County / Waldorf.
 - [Sell a house in Dundalk](https://www.ushomebuy.com/maryland/dundalk): As-is cash buyers in Dundalk and eastern Baltimore County.
+- [Sell a house in Frederick](https://www.ushomebuy.com/maryland/frederick): Cash home buyers in Frederick County and I-270 corridor.
 
 ### Virginia
 - [Virginia](https://www.ushomebuy.com/virginia): Fast as-is cash home buyers across the Commonwealth of Virginia.
+- [Sell a house in Alexandria](https://www.ushomebuy.com/virginia/alexandria): Direct cash home sales in Alexandria City, Old Town & Del Ray.
 - [Sell a house in Arlington](https://www.ushomebuy.com/virginia/arlington): Direct cash home sales in Arlington County.
 - [Sell a house in Fairfax](https://www.ushomebuy.com/virginia/fairfax): Cash home buyers across Fairfax County and Northern Virginia.
 - [Sell a house in Richmond](https://www.ushomebuy.com/virginia/richmond): As-is cash sales in Richmond City and Chesterfield/Henrico.
 - [Sell a house in Virginia Beach](https://www.ushomebuy.com/virginia/virginia-beach): Direct cash buyers in Virginia Beach and Hampton Roads.
 - [Sell a house in Norfolk](https://www.ushomebuy.com/virginia/norfolk): Cash offers on Norfolk residential properties with fast closing.
+- [Sell a house in Chesapeake](https://www.ushomebuy.com/virginia/chesapeake): Fast cash buyers in Chesapeake, Great Bridge & Greenbrier.
+- [Sell a house in Hampton](https://www.ushomebuy.com/virginia/hampton): Direct cash sales in Hampton, Phoebus & Buckroe Beach.
 - [Sell a house in Woodbridge](https://www.ushomebuy.com/virginia/woodbridge): Cash sales in Prince William County / Woodbridge.
+
+### Tools & Comparisons
+- [Seller Net Proceeds Calculator](https://www.ushomebuy.com/seller-net-proceeds-calculator): Free interactive house sale profit calculator comparing realtor sale vs direct cash sale.
+- [Compare vs iBuyers](https://www.ushomebuy.com/compare/opendoor-offerpad-alternatives): Objective comparison between USHomeBuy, Opendoor, Offerpad, and traditional agents.
 
 ### Delaware
 - [Delaware](https://www.ushomebuy.com/delaware): As-is cash buyers in New Castle, Kent, and Sussex Counties.

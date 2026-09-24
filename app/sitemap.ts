@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE.url}/get-offer`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/how-it-works`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE.url}/seller-net-proceeds-calculator`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${SITE.url}/compare/opendoor-offerpad-alternatives`, lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: `${SITE.url}/locations`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE.url}/situations`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },

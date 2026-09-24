@@ -163,5 +163,32 @@ export const maryland: StateData = {
       },
       nearby: ["baltimore", "waldorf"],
     },
+    {
+      slug: "frederick",
+      name: "Frederick",
+      county: "Frederick",
+      stateSlug: "maryland",
+      neighborhoods: ["Downtown Frederick", "Ballenger Creek", "Spring Ridge", "Clover Hill", "Worman's Mill"],
+      landmark: "Carroll Creek Linear Park",
+      zips: ["21701", "21702", "21703", "21704"],
+      lat: 39.4143,
+      lng: -77.4105,
+      medianDaysToClose: 19,
+      targetKeyword: "sell my house fast frederick md",
+      metaTitle: "Sell My House Fast in Frederick MD | Cash",
+      metaDescription:
+        "Sell your house fast in Frederick, MD. We buy houses cash as-is in Downtown Frederick, Ballenger Creek & nearby. Zero repairs, no fees, fast closing dates.",
+      intro:
+        "Frederick is Maryland's fastest-growing corridor, connecting the DC metro and Baltimore with historic charm. Whether you own a historic brick home in Downtown Frederick, an aging 1980s colonial in Ballenger Creek, or a rental in Spring Ridge, we buy houses for cash across Frederick County in 100% as-is condition.",
+      localAngle:
+        "Historic preservation guidelines in Downtown Frederick can make renovations expensive and complex. Meanwhile, older subdivisions in Ballenger Creek frequently face costly HVAC and roofing replacements. We purchase homes in current condition without requiring contractors, permits, or retail inspections.",
+      testimonial: {
+        quote:
+          "Needed to downsize and relocate out of state. Didn't want to spend months fixing up our 1985 colonial. USHomeBuy bought it as-is with zero hassles.",
+        name: "Arthur & Helen G.",
+        area: "Ballenger Creek",
+      },
+      nearby: ["baltimore", "silver-spring", "hyattsville"],
+    },
   ],
 };

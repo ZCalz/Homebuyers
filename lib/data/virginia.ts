@@ -210,5 +210,59 @@ export const virginia: StateData = {
       },
       nearby: ["fairfax", "arlington", "alexandria"],
     },
+    {
+      slug: "chesapeake",
+      name: "Chesapeake",
+      county: "Chesapeake City",
+      stateSlug: "virginia",
+      neighborhoods: ["Greenbrier", "Great Bridge", "Western Branch", "Deep Creek", "South Norfolk"],
+      landmark: "the Dismal Swamp Canal",
+      zips: ["23320", "23322", "23321", "23323", "23324"],
+      lat: 36.7682,
+      lng: -76.2875,
+      medianDaysToClose: 18,
+      targetKeyword: "sell my house fast chesapeake",
+      metaTitle: "Sell My House Fast in Chesapeake VA | Cash",
+      metaDescription:
+        "Sell your house fast in Chesapeake, VA. We buy houses cash as-is in Greenbrier, Great Bridge & nearby. Zero repairs, no fees, fast closing dates. Call now.",
+      intro:
+        "Chesapeake is one of Virginia's largest and most diverse communities, with rural acreage in Deep Creek, established family subdivisions in Great Bridge, and suburban clusters in Greenbrier. When you need to sell your house fast in Chesapeake without open houses, commissions, or repair delays, USHomeBuy provides fair as-is cash offers with closings in 14 days.",
+      localAngle:
+        "Many older Chesapeake properties in Deep Creek and South Norfolk have aging septic drainfields, foundation settling from high coastal water tables, or dated mechanicals that prevent conventional bank loans from approving. Because we purchase with private cash, there are no bank appraisals or septic repair contingencies required before closing.",
+      testimonial: {
+        quote:
+          "Inherited a family property in Great Bridge that needed $35,000 in roof and foundation repairs. USHomeBuy gave me a transparent cash offer and closed in twelve days.",
+        name: "Brenda K.",
+        area: "Great Bridge",
+      },
+      nearby: ["norfolk", "virginia-beach", "hampton"],
+    },
+    {
+      slug: "hampton",
+      name: "Hampton",
+      county: "Hampton City",
+      stateSlug: "virginia",
+      neighborhoods: ["Phoebus", "Buckroe Beach", "Fox Hill", "Coliseum Central", "Wythe"],
+      landmark: "Fort Monroe National Monument",
+      zips: ["23666", "23669", "23663", "23661"],
+      lat: 37.0299,
+      lng: -76.3452,
+      medianDaysToClose: 19,
+      targetKeyword: "sell my house fast hampton va",
+      metaTitle: "Sell My House Fast in Hampton VA | Cash",
+      metaDescription:
+        "Sell your house fast in Hampton, VA. We buy houses cash as-is in Phoebus, Buckroe Beach & nearby. Zero repairs, no agent fees, fast closing dates. Call today.",
+      intro:
+        "From historic cottages in Phoebus and coastal homes along Buckroe Beach to mid-century ranches in Wythe, we buy houses for cash across Hampton, VA. Whether you are relocating from Langley AFB, settling an estate, or tired of landlord headaches, we purchase properties in 100% as-is condition with zero seller closing costs.",
+      localAngle:
+        "With Langley Air Force Base and NASA Langley nearby, military orders (PCS moves) and rapid federal reassignments drive many Hampton home sales. If you have tight reporting deadlines, we structure settlements to your exact calendar — and coordinate VA mortgage payoffs directly with your lender.",
+      testimonial: {
+        quote:
+          "Had orders to transfer out of Langley with three weeks to spare. They inspected once, made a firm cash offer, and paid off my mortgage before my report date.",
+        name: "Tech Sgt. M. Collins",
+        area: "Coliseum Central",
+      },
+      nearby: ["norfolk", "virginia-beach", "chesapeake"],
+    },
   ],
 };

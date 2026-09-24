@@ -8,12 +8,12 @@ export const dc: StateData = {
   phoneDisplay: "(571) 276-0986",
   image: "/images/region-dc.png",
   imageAlt: "A row of colorful historic rowhouses on a tree-lined DC street with the Capitol dome visible in the distance",
-  targetKeyword: "cash home buyers in washington dc",
-  metaTitle: "Cash Home Buyers in Washington DC | As-Is",
+  targetKeyword: "we buy houses washington dc",
+  metaTitle: "We Buy Houses Washington DC | Cash Home Buyers As-Is",
   metaDescription:
-    "Trusted cash home buyers in Washington DC. We buy houses as-is in Capitol Hill, Anacostia & Petworth. Handle TOPA tenant rights & probate with zero hassle.",
+    "We buy houses in Washington DC for cash as-is. Capitol Hill, Anacostia, Petworth & Brookland. Zero repairs, no fees, navigate TOPA fast. Get your cash offer.",
   heroBlurb:
-    "From rowhouses east of the river to condos in NoMa, our DC cash home buyers make fair as-is offers on properties in any condition — navigating TOPA seamlessly.",
+    "We buy houses for cash across Washington DC. Sell your District home fast in Capitol Hill, Anacostia, or Petworth with zero realtor fees, no repairs, and seamless TOPA navigation.",
   intro:
     "Selling a house in the District comes with rules that don't exist anywhere else in the country. The Tenant Opportunity to Purchase Act (TOPA) can add months to a sale if your property has tenants, and many DC rowhouses carry decades of deferred maintenance that scare off conventional buyers. We buy DC properties directly, handle the paperwork, and time the closing around your situation — not the other way around.",
   regulationNote: {

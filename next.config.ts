@@ -6,6 +6,30 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/house-sale-calculator",
+        destination: "/seller-net-proceeds-calculator",
+        permanent: true,
+      },
+      {
+        source: "/home-sale-profit-calculator",
+        destination: "/seller-net-proceeds-calculator",
+        permanent: true,
+      },
+      {
+        source: "/house-selling-calculator",
+        destination: "/seller-net-proceeds-calculator",
+        permanent: true,
+      },
+      {
+        source: "/compare",
+        destination: "/compare/opendoor-offerpad-alternatives",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

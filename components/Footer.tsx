@@ -39,6 +39,8 @@ export default function Footer() {
             </p>
             <ul className="space-y-2 text-sm">
               <li><Link href="/how-it-works" className="hover:text-sand-200">How It Works</Link></li>
+              <li><Link href="/seller-net-proceeds-calculator" className="hover:text-sand-200">Net Proceeds Calculator</Link></li>
+              <li><Link href="/compare/opendoor-offerpad-alternatives" className="hover:text-sand-200">Compare vs iBuyers</Link></li>
               <li><Link href="/about" className="hover:text-sand-200">About Us</Link></li>
               <li><Link href="/faq" className="hover:text-sand-200">FAQ</Link></li>
               <li><Link href="/get-offer" className="hover:text-sand-200">Get an Offer</Link></li>
