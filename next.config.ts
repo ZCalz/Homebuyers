@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/calculator",
+        destination: "/seller-net-proceeds-calculator",
+        permanent: true,
+      },
+      {
         source: "/house-sale-calculator",
         destination: "/seller-net-proceeds-calculator",
         permanent: true,
