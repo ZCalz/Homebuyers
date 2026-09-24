@@ -9,14 +9,14 @@ export const delaware: StateData = {
   image: "/images/region-delaware.png",
   imageAlt: "A sandy beach-town street lined with shingled cottages leading down to the Delaware shore",
   targetKeyword: "we buy houses in delaware",
-  metaTitle: "1209 Barley Mill Rd Wilmington DE 19807 | Cash Buyers",
+  metaTitle: "We Buy Houses in Delaware | Sell My House Fast Cash As-Is",
   metaDescription:
-    "Sell your house fast in Delaware. We buy houses cash as-is from 1209 Barley Mill Rd Wilmington DE 19807 to Dover. Zero repairs, no fees, fast closing dates.",
-  h1: "Sell My House Fast in Delaware | Cash Home Buyers for 1209 Barley Mill Rd Wilmington DE 19807",
+    "Sell your house fast in Delaware. We buy houses cash as-is across Wilmington, Dover, Newark & Sussex County. Zero repairs, no fees, fast closing dates.",
+  h1: "We Buy Houses in Delaware | Sell My House Fast Cash Home Buyers",
   heroBlurb:
     "We buy houses for cash across Delaware. Sell your home fast in Wilmington, Dover, Newark, or Sussex County with zero fees and no repairs.",
   intro:
-    "Delaware has three distinct housing markets across its three counties. We buy brick rowhomes in Wilmington. We buy single-family homes in Dover. We also buy beach cottages in Sussex County. We buy houses across all three counties. This includes homes from 1209 Barley Mill Rd Wilmington DE 19807 down to the coast. Delaware law requires lenders to use court mediation for foreclosures. If you fall behind on payments, you have time to act. You can sell for cash and protect your equity before a judge rules.",
+    "Delaware has three distinct housing markets across its three counties. We buy brick rowhomes in Wilmington. We buy single-family homes in Dover. We also buy beach cottages in Sussex County. We buy houses across all three counties in 100% as-is condition. Delaware law requires lenders to use court mediation for foreclosures. If you fall behind on payments, you have time to act. You can sell for cash and protect your equity before a judge rules.",
   regulationNote: {
     title: "Delaware Foreclosure Runs Through Court: You Have Time",
     body: "Delaware lenders must file a lawsuit in Superior Court before auctioning a house. Homeowners can ask for the state mediation program before a judge issues a ruling. This court process often takes many months. That gives you time to sell for cash and pay off your mortgage in full. You can protect your credit score. We help you choose a closing date that fits your court schedule.",
@@ -34,9 +34,9 @@ export const delaware: StateData = {
       lng: -75.5398,
       medianDaysToClose: 18,
       targetKeyword: "cash home buyers in wilmington delaware",
-      metaTitle: "Sell My House Fast in Wilmington DE | Cash",
+      metaTitle: "Cash Home Buyers in Wilmington Delaware | We Buy Houses",
       metaDescription:
-        "Sell your house fast in Wilmington, DE. We buy houses cash as-is in Trolley Square, Hilltop & nearby. Zero repairs, no fees, fast closing dates.",
+        "Cash home buyers in Wilmington, Delaware. We buy houses cash as-is in Trolley Square, Hilltop & Riverside. Zero repairs, no realtor fees, fast cash closing.",
       intro:
         "Wilmington has a wide range of homes. We buy historic brick rowhomes in Trolley Square, estate properties near Barley Mill, and vacant houses in Riverside. We purchase inherited homes, rentals with late tenants, and houses with city code violations.",
       localAngle:

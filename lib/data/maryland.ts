@@ -32,12 +32,12 @@ export const maryland: StateData = {
       lat: 39.2904,
       lng: -76.6122,
       medianDaysToClose: 18,
-      targetKeyword: "sell my house fast baltimore",
-      metaTitle: "Sell My House Fast in Baltimore MD | Cash",
+      targetKeyword: "we buy houses baltimore md",
+      metaTitle: "We Buy Houses Baltimore MD | Cash Home Buyers As-Is",
       metaDescription:
-        "Sell your house fast in Baltimore, MD. We buy houses cash as-is in Highlandtown, Pigtown & nearby. Zero repairs, no fees, fast closing dates.",
+        "We buy houses in Baltimore, MD for cash as-is. Highlandtown, Pigtown, Hampden & nearby. Zero repairs, no realtor fees, 14-day closing. Get your cash offer.",
       intro:
-        "Baltimore has tens of thousands of brick rowhomes, and a lot of them need more than paint. Whether you own a formstone-front shell in Belair-Edison, an inherited rowhome in Park Heights, or a rental in Highlandtown you're ready to be done with, we buy Baltimore houses in absolutely any condition — including vacant, fire-damaged, and code-violation properties.",
+        "Looking for reliable cash home buyers in Baltimore? Baltimore has tens of thousands of brick rowhomes, and a lot of them need more than paint. Whether you own a formstone-front shell in Belair-Edison, an inherited rowhome in Park Heights, or a rental in Highlandtown you're ready to be done with, we buy Baltimore houses for cash in any condition — including vacant, fire-damaged, and code-violation properties.",
       localAngle:
         "Many Baltimore rowhomes still carry ground rent — a colonial-era arrangement where you own the house but lease the land for a small annual fee. Unredeemed ground rent complicates traditional sales and has even led to ejectment actions over trivial sums. We buy ground-rent properties routinely and handle redemption through the SDAT process at closing, at our expense.",
       testimonial: {

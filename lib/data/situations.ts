@@ -87,6 +87,10 @@ export const situations: Situation[] = [
     ],
     faq: [
       {
+        q: "Can I sell my house while in foreclosure?",
+        a: "Yes. In Virginia, Maryland, Delaware, and Washington DC, you retain legal ownership of your home until the gavel falls at the foreclosure auction. Selling to a cash home buyer before the auction date allows your existing mortgage to be paid off in full, cancels the foreclosure auction, protects your remaining equity, and shields your credit report from a seven-year foreclosure mark.",
+      },
+      {
         q: "The auction is two weeks away. Is it too late?",
         a: "Maybe not. We've closed pre-auction purchases in as few as 10 days, and trustees will sometimes grant brief postponements when a bona fide payoff is imminent. Call us before assuming it's over.",
       },
@@ -175,11 +179,15 @@ export const situations: Situation[] = [
         body: "You can sell your fire-damaged property even if your insurance claim is still pending or already settled. Keep your insurance payout for personal property and structure loss, and sell the underlying property and land to us for cash at closing.",
       },
       {
-        heading: "Complete structural and demolition solutions",
-        body: "Rebuilding a burnt property requires specialized architectural permits, structural truss replacements, and hazmat soot remediation. Our construction teams handle all engineering sign-offs, city tear-down approvals, and rebuilds after title transfers.",
+        heading: "Sell Fire Damaged House in Delaware, Maryland & Virginia",
+        body: "Local municipal building and safety regulations vary sharply across our region. In Delaware (New Castle, Kent, and Sussex counties), fire-damaged residences face strict structural engineering certifications before any new occupancy certificate is approved. In Maryland (including Baltimore City and Prince George's County), properties with fire damage trigger rapid vacant-building registration requirements and court-ordered citation notices. In Virginia (including Richmond, Norfolk, and Northern Virginia), structural truss failures require licensed contractors to pull complex remediation permits. We buy fire-damaged houses in Delaware, Maryland, and Virginia directly for cash as-is, assuming all municipal violation and repair responsibilities.",
       },
     ],
     faq: [
+      {
+        q: "Can I sell a fire damaged house in Delaware, Maryland, or Virginia without rebuilding?",
+        a: "Yes. We buy fire damaged homes across Delaware, Maryland, and Virginia completely as-is. You do not have to rebuild, hire general contractors, replace burnt framing, or clean out soot-damaged belongings. We purchase the property directly with cash and handle all permits, demolitions, and engineering inspections after closing.",
+      },
       {
         q: "Can I sell my house if it is condemned or unsafe to enter?",
         a: "Yes. Our acquisition specialists and structural engineers routinely evaluate fire-damaged homes from exterior walk-arounds, drone imaging, and architectural records without requiring interior entry.",

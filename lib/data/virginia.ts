@@ -32,10 +32,10 @@ export const virginia: StateData = {
       lat: 38.8816,
       lng: -77.091,
       medianDaysToClose: 22,
-      targetKeyword: "sell my house fast arlington va",
-      metaTitle: "Sell My House Fast in Arlington VA | Cash",
+      targetKeyword: "we buy houses arlington",
+      metaTitle: "We Buy Houses Arlington VA | Sell My House Fast Cash",
       metaDescription:
-        "Sell your house fast in Arlington, VA. We buy houses cash as-is in Clarendon, Columbia Pike & nearby. Zero repairs, no fees, fast closing dates.",
+        "We buy houses in Arlington, VA for cash as-is. Clarendon, Columbia Pike & nearby. Zero repairs, no fees, fast closing dates. Call today for cash offer.",
       intro:
         "Arlington land is worth more than most of the houses sitting on it, which means a dated Columbia Pike rambler or an original-condition brick colonial near Clarendon can be worth serious money without a single repair. We make cash offers on Arlington properties as-is — including teardowns, estate homes, and condos with special-assessment problems.",
       localAngle:
@@ -46,7 +46,7 @@ export const virginia: StateData = {
         name: "Capt. J. Alvarez",
         area: "Columbia Pike",
       },
-      nearby: ["fairfax", "woodbridge"],
+      nearby: ["alexandria", "fairfax", "woodbridge"],
     },
     {
       slug: "fairfax",
@@ -76,6 +76,33 @@ export const virginia: StateData = {
       nearby: ["arlington", "woodbridge"],
     },
     {
+      slug: "alexandria",
+      name: "Alexandria",
+      county: "Alexandria City",
+      stateSlug: "virginia",
+      neighborhoods: ["Old Town", "Del Ray", "Rosemont", "Kingstowne", "Seminary Hill"],
+      landmark: "the George Washington Masonic Memorial",
+      zips: ["22301", "22304", "22314", "22302"],
+      lat: 38.8048,
+      lng: -77.0469,
+      medianDaysToClose: 17,
+      targetKeyword: "we buy houses alexandria va",
+      metaTitle: "We Buy Houses Alexandria VA | Cash Offer As-Is",
+      metaDescription:
+        "We buy houses in Alexandria, VA for cash as-is. Old Town, Del Ray, Kingstowne & nearby. Zero repairs, no agent fees, fast closing dates. Call today.",
+      intro:
+        "Whether you own a historic brick townhouse in Old Town with aging plumbing, a 1950s Del Ray bungalow needing major renovations, or a rental condo near Kingstowne, we buy houses cash in Alexandria, VA in 100% as-is condition. You pay zero realtor commissions, zero repair costs, and pick your exact closing date.",
+      localAngle:
+        "Historic district restrictions and strict architectural board oversight in Alexandria can make standard property renovations prohibitively expensive for homeowners. We purchase homes in current condition, absorbing all historical preservation compliance, deferred maintenance, and inspection contingencies ourselves.",
+      testimonial: {
+        quote:
+          "My Del Ray property had deferred maintenance and an old roof. Listing with a broker would have cost thousands in upgrades. USHomeBuy made a direct cash offer and closed in twelve days.",
+        name: "David K.",
+        area: "Del Ray",
+      },
+      nearby: ["arlington", "fairfax", "woodbridge"],
+    },
+    {
       slug: "richmond",
       name: "Richmond",
       county: "Richmond City",
@@ -86,12 +113,12 @@ export const virginia: StateData = {
       lat: 37.5407,
       lng: -77.436,
       medianDaysToClose: 19,
-      targetKeyword: "sell my house fast richmond va",
-      metaTitle: "Sell My House Fast in Richmond VA | Cash",
+      targetKeyword: "cash for houses richmond",
+      metaTitle: "Cash for Houses Richmond | We Buy Houses Fast As-Is",
       metaDescription:
-        "Sell your house fast in Richmond, VA. We buy houses cash as-is in Church Hill, Northside & nearby. Zero repairs, no agent fees, fast closing dates.",
+        "Get cash for houses in Richmond, VA. We buy houses as-is in Church Hill, Northside & Manchester. Zero repairs, no fees, fast cash closing in 10 days.",
       intro:
-        "Richmond's Church Hill and Northside blocks are full of hundred-year-old four-squares and Italianate rowhouses — gorgeous bones, brutal repair costs. We buy Richmond houses in every condition: fire-damaged shells in Fulton, tenant-occupied doubles on the Northside, and inherited family homes that have sat vacant since probate opened.",
+        "Looking for cash for houses in Richmond? From Church Hill Italianate rowhouses and Northside four-squares to rental properties in Manchester, we buy houses cash across Richmond in any condition. Whether your property needs thousands in structural repairs, has code citations, or is tied up in probate, we deliver fair cash offers with no realtor fees.",
       localAngle:
         "The City of Richmond actively enforces its vacant building registry, and fees escalate the longer a property sits empty. If you've received a registry notice or accumulating code citations, a direct sale stops the meter — we take over the property and its compliance obligations the day we close.",
       testimonial: {
@@ -113,10 +140,10 @@ export const virginia: StateData = {
       lat: 36.8529,
       lng: -75.978,
       medianDaysToClose: 18,
-      targetKeyword: "sell my house fast virginia beach",
-      metaTitle: "Sell My House Fast in Virginia Beach VA | Cash",
+      targetKeyword: "we buy houses virginia beach",
+      metaTitle: "We Buy Houses Virginia Beach | Sell My House Fast Cash",
       metaDescription:
-        "Sell your house fast in Virginia Beach, VA. We buy houses cash as-is in Kempsville & Oceanfront. Zero repairs, no agent fees, fast closing dates. Call now.",
+        "We buy houses in Virginia Beach, VA for cash as-is. Kempsville, Oceanfront & nearby. Sell your house fast with zero repairs, no fees, and quick closing.",
       intro:
         "From Oceanfront properties facing coastal wear to Kempsville ranches needing complete modernization, we buy Virginia Beach homes in as-is condition for cash. When you need to sell your house fast in Virginia Beach without open houses, inspection contingencies, or lender delays, our local acquisition specialists provide fair cash offers within 24 hours.",
       localAngle:
@@ -140,12 +167,12 @@ export const virginia: StateData = {
       lat: 36.8508,
       lng: -76.2859,
       medianDaysToClose: 20,
-      targetKeyword: "sell my house fast norfolk va",
-      metaTitle: "Sell My House Fast in Norfolk VA | Cash Offer",
+      targetKeyword: "sell my house norfolk",
+      metaTitle: "Sell My House Norfolk | We Buy Houses Cash As-Is",
       metaDescription:
-        "Sell your house fast in Norfolk, VA. We buy houses cash as-is in Ocean View, Park Place & nearby. Zero repairs, no agent fees, fast closing dates.",
+        "Need to sell my house in Norfolk, VA? We buy houses cash as-is in Ocean View, Park Place & nearby. Zero repairs, no agent fees, fast closing dates.",
       intro:
-        "Norfolk is a Navy town, and Navy timelines don't wait for the spring market. Between PCS moves, deployment schedules, and coastal properties with rising insurance costs, Hampton Roads homeowners often need certainty more than they need top dollar from a six-month listing. We buy Norfolk houses as-is with closings timed to your orders.",
+        "Norfolk is a Navy town, and Navy timelines don't wait for the spring market. When you need to sell your house in Norfolk, VA without open houses or endless inspection delays, USHomeBuy provides direct cash offers. We buy houses across Norfolk — from historic cottages in Ocean View to Park Place rowhomes and tenant-occupied duplexes. We close in as few as 10 days with zero closing costs.",
       localAngle:
         "Recurrent tidal flooding in Ocean View and Berkley has pushed flood insurance premiums up sharply, and financed buyers increasingly walk when they see the quotes. Cash purchases carry no lender insurance requirements — we underwrite the flood risk ourselves and it's reflected transparently in our offer.",
       testimonial: {
@@ -181,7 +208,7 @@ export const virginia: StateData = {
         name: "Sandra L.",
         area: "Dale City",
       },
-      nearby: ["fairfax", "arlington"],
+      nearby: ["fairfax", "arlington", "alexandria"],
     },
   ],
 };
