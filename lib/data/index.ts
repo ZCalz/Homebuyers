@@ -86,7 +86,9 @@ export function routeZip(
 
 export const SITE = {
   name: "USHomeBuy",
-  tagline: "Sell your house as-is across DC, Maryland, Virginia & Delaware",
+  tagline: "Sell your house as-is across DC, Virginia & Nationwide",
+  location: "Fairfax, VA (Washington D.C. Metro)",
+  serving: "Serving D.C., Virginia & Nationwide",
   url: "https://www.ushomebuy.com",
   phone: "+15712760986",
   phoneDisplay: "(571) 276-0986",

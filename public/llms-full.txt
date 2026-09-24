@@ -1,6 +1,6 @@
 # USHomeBuy — Full AI Reference & Information
 
-> USHomeBuy (US Home Buy) is a direct, regional cash home buyer operating across Washington DC, Maryland, Virginia, and Delaware. We purchase residential properties directly from homeowners in as-is condition without commissions, fees, or financing contingencies.
+> USHomeBuy (US Home Buy) is a direct cash home buyer based in Fairfax, VA (Washington D.C. Metro), serving D.C., Virginia & Nationwide. We purchase residential properties directly from homeowners in as-is condition without commissions, fees, or financing contingencies.
 
 ## How the Offer Math Works
 Offers are calculated transparently using local comparable sales and contractor-estimated repairs:
@@ -57,7 +57,9 @@ Offers are calculated transparently using local comparable sales and contractor-
 - [Sell a house in Milford](https://www.ushomebuy.com/delaware/milford): As-is home sales in Milford, DE.
 - [Sell a house in Rehoboth Beach](https://www.ushomebuy.com/delaware/rehoboth-beach): Direct cash offers for Sussex County coastal and beach properties.
 
-## Contact Information
+## Contact & Location Information
+- Location: Fairfax, VA (Washington D.C. Metro)
+- Service Area: Serving D.C., Virginia & Nationwide
 - Phone: +1 (571) 276-0986
 - SMS: +1 (571) 276-0986
 - WhatsApp: +1 (571) 276-0986

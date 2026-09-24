@@ -16,7 +16,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-sand-200/90 max-w-sm">
-              Direct cash home buyers operating across Washington DC, Maryland, Virginia, and Delaware. We purchase residential properties in 100% as-is condition with zero commissions, zero fees, and no repair requests.
+              Direct cash home buyers based in Fairfax, VA (Washington D.C. Metro), serving D.C., Virginia & Nationwide. We purchase residential properties in 100% as-is condition with zero commissions, zero fees, and no repair requests.
             </p>
 
             {/* Rating Badge */}
@@ -50,15 +50,19 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-clay-400 font-bold">Headquarters:</span>
-                <span>1300 I St NW, Washington, DC 20005</span>
+                <span className="text-clay-400 font-bold">Location:</span>
+                <span>Fairfax, VA (Washington D.C. Metro)</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-clay-400 font-bold">Service Area:</span>
+                <span>Serving D.C., Virginia & Nationwide</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-clay-400 font-bold">Operating Hours:</span>
                 <span>Mon – Sun: 8:00 AM – 8:00 PM EST</span>
               </div>
               <p className="text-[11px] text-sand-400/80 pt-1">
-                Operated by {SITE.legalEntity} · Registered in VA, MD, DC & DE
+                Operated by {SITE.legalEntity} · Serving D.C., Virginia & Nationwide
               </p>
             </div>
           </div>
@@ -256,7 +260,7 @@ export default function Footer() {
           </p>
 
           <p className="text-[11px] text-sand-400/50">
-            Site operated by {SITE.legalEntity} · Washington DC, Maryland, Virginia & Delaware.
+            Site operated by {SITE.legalEntity} · Fairfax, VA (Washington D.C. Metro) · Serving D.C., Virginia & Nationwide.
           </p>
         </div>
       </div>

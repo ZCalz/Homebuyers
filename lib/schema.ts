@@ -15,19 +15,19 @@ export function orgSchema() {
     priceRange: "$$$$",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "1300 I St NW",
-      addressLocality: "Washington",
-      addressRegion: "DC",
-      postalCode: "20005",
+      addressLocality: "Fairfax",
+      addressRegion: "VA",
+      postalCode: "22030",
       addressCountry: "US",
     },
     description:
-      "Direct cash home buyers serving Washington DC, Maryland, Virginia, and Delaware. As-is purchases with no commissions or repair requests.",
+      "Direct cash home buyers based in Fairfax, VA (Washington D.C. Metro), serving D.C., Virginia & Nationwide. As-is purchases with no commissions or repair requests.",
     areaServed: [
-      { "@type": "State", name: "Maryland" },
-      { "@type": "State", name: "Virginia" },
-      { "@type": "State", name: "Delaware" },
       { "@type": "AdministrativeArea", name: "Washington, DC" },
+      { "@type": "State", name: "Virginia" },
+      { "@type": "State", name: "Maryland" },
+      { "@type": "State", name: "Delaware" },
+      { "@type": "Country", name: "United States" },
     ],
     aggregateRating: {
       "@type": "AggregateRating",
